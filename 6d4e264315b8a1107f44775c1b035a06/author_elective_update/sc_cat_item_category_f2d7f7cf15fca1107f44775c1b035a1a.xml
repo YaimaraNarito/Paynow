@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Car">b2b737cf15fca1107f44775c1b035a5b</sc_cat_item>
+        <sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 20:37:08</sys_created_on>
+        <sys_id>f2d7f7cf15fca1107f44775c1b035a1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_f2d7f7cf15fca1107f44775c1b035a1a</sys_update_name>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 20:37:08</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_f2d7f7cf15fca1107f44775c1b035a1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Car">b2b737cf15fca1107f44775c1b035a5b</sc_cat_item><sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>aaron.umbaugh</sys_created_by><sys_created_on>2023-02-08 20:37:08</sys_created_on><sys_id>f2d7f7cf15fca1107f44775c1b035a1a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Software.Car</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_f2d7f7cf15fca1107f44775c1b035a1a</sys_update_name><sys_updated_by>aaron.umbaugh</sys_updated_by><sys_updated_on>2023-02-08 20:37:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1058159959</payload_hash>
+        <record_name>Software.Car</record_name>
+        <reverted_from/>
+        <source>3a2b8f0b153ca1107f44775c1b035a76</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 20:37:08</sys_created_on>
+        <sys_id>bed7f7cf15fca1107f44775c1b035a1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18632bf12470000001</sys_recorded_at>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 20:37:08</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>36d7f7cfacfca110e86b865bed5e6c1d</update_guid>
+        <update_guid_history>36d7f7cfacfca110e86b865bed5e6c1d:-1058159959</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Software.Car">b55833031530e1107f44775c1b035aa8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 20:39:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>16a5badc113144119b96cf0ac0a86039</sys_id>
+        <sys_metadata>f2d7f7cf15fca1107f44775c1b035a1a</sys_metadata>
+        <sys_name>Software.Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f2d7f7cf15fca1107f44775c1b035a1a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f2d7f7cf15fca1107f44775c1b035a1a">bed7f7cf15fca1107f44775c1b035a1d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Car">b2b737cf15fca1107f44775c1b035a5b</sc_cat_item>
+        <sc_category display_value="Maintenance and Repair">d2f86388c611227a002209db6966d5ad</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 20:37:08</sys_created_on>
+        <sys_id>7ad7b7cf15fca1107f44775c1b035ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance and Repair.Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_7ad7b7cf15fca1107f44775c1b035ae8</sys_update_name>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 20:37:08</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_7ad7b7cf15fca1107f44775c1b035ae8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Car">b2b737cf15fca1107f44775c1b035a5b</sc_cat_item><sc_category display_value="Maintenance and Repair">d2f86388c611227a002209db6966d5ad</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>aaron.umbaugh</sys_created_by><sys_created_on>2023-02-08 20:37:08</sys_created_on><sys_id>7ad7b7cf15fca1107f44775c1b035ae8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Maintenance and Repair.Car</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_7ad7b7cf15fca1107f44775c1b035ae8</sys_update_name><sys_updated_by>aaron.umbaugh</sys_updated_by><sys_updated_on>2023-02-08 20:37:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>362420021</payload_hash>
+        <record_name>Maintenance and Repair.Car</record_name>
+        <reverted_from/>
+        <source>3a2b8f0b153ca1107f44775c1b035a76</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 20:37:08</sys_created_on>
+        <sys_id>fad7b7cf15fca1107f44775c1b035af8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18632bf114b0000001</sys_recorded_at>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 20:37:08</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>bad7b7cf99fca110f5342f4ca09614eb</update_guid>
+        <update_guid_history>bad7b7cf99fca110f5342f4ca09614eb:362420021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Maintenance and Repair.Car">a15833031530e1107f44775c1b035a5d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 20:39:14</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>b87155f786544272a6356b066d1bfac4</sys_id>
+        <sys_metadata>7ad7b7cf15fca1107f44775c1b035ae8</sys_metadata>
+        <sys_name>Maintenance and Repair.Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7ad7b7cf15fca1107f44775c1b035ae8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7ad7b7cf15fca1107f44775c1b035ae8">fad7b7cf15fca1107f44775c1b035af8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

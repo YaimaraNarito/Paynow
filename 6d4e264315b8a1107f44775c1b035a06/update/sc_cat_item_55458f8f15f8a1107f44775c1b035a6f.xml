@@ -18,7 +18,7 @@
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
-        <icon/>
+        <icon>fd99938b157ca1107f44775c1b035ab6</icon>
         <ignore_price>false</ignore_price>
         <image/>
         <location/>
@@ -52,7 +52,7 @@
         <recurring_price>0</recurring_price>
         <request_method/>
         <roles/>
-        <sc_catalogs>01614f4b15f8a1107f44775c1b035a1f</sc_catalogs>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -116,6 +116,45 @@
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4f993c</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>95907444985bb871c2994f20896c9c727e1fbf7e17e8f7c0631c0bc01fe399f5</hash>
+        <image_height>42</image_height>
+        <image_width>42</image_width>
+        <size_bytes>2538</size_bytes>
+        <size_compressed>2561</size_compressed>
+        <state>available</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 18:24:53</sys_created_on>
+        <sys_id>fd99938b157ca1107f44775c1b035ab6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 18:24:54</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>55458f8f15f8a1107f44775c1b035a6f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="fd99938b157ca1107f44775c1b035ab6">fd99938b157ca1107f44775c1b035ab6</sys_attachment>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 18:24:53</sys_created_on>
+        <sys_id>3199938b157ca1107f44775c1b035ab7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3404</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="fd99938b157ca1107f44775c1b035ab6">fd99938b157ca1107f44775c1b035ab6</sys_attachment>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 18:24:53</sys_created_on>
+        <sys_id>b199938b157ca1107f44775c1b035ab7</sys_id>
+    </sys_attachment_doc>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#aab7a7</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>

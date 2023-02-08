@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Paynow Line Item">771d63c315fca1107f44775c1b035a2f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Paynow Line Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_paynow_paynow_line_item</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_cdltd_paynow.paynow_line_item_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:50:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff1d63c315fca1107f44775c1b035a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paynow Line Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_app_module_ff1d63c315fca1107f44775c1b035a32</sys_update_name>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 19:50:14</sys_updated_on>
+        <timeline_page/>
+        <title>Paynow Line Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sys_app_module_ff1d63c315fca1107f44775c1b035a32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Paynow Line Item">771d63c315fca1107f44775c1b035a2f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Paynow Line Items</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_paynow_paynow_line_item</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_cdltd_paynow.paynow_line_item_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>aaron.umbaugh</sys_created_by><sys_created_on>2023-02-08 19:50:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ff1d63c315fca1107f44775c1b035a32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Paynow Line Items</sys_name><sys_overrides/><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sys_app_module_ff1d63c315fca1107f44775c1b035a32</sys_update_name><sys_updated_by>aaron.umbaugh</sys_updated_by><sys_updated_on>2023-02-08 19:50:14</sys_updated_on><timeline_page/><title>Paynow Line Items</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1808207861</payload_hash>
+        <record_name>Paynow Line Items</record_name>
+        <reverted_from/>
+        <source>3a2b8f0b153ca1107f44775c1b035a76</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:50:14</sys_created_on>
+        <sys_id>331d63c315fca1107f44775c1b035a36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1863294234c0000001</sys_recorded_at>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 19:50:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7b1d63c37efca11044c60b34ad954335</update_guid>
+        <update_guid_history>7b1d63c37efca11044c60b34ad954335:1808207861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Paynow Line Items">dbbe634715fca1107f44775c1b035a0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:57:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2eb1547d905d4d15bfe941fe913e8031</sys_id>
+        <sys_metadata>ff1d63c315fca1107f44775c1b035a32</sys_metadata>
+        <sys_name>Paynow Line Items</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sys_app_module_ff1d63c315fca1107f44775c1b035a32</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ff1d63c315fca1107f44775c1b035a32">331d63c315fca1107f44775c1b035a36</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

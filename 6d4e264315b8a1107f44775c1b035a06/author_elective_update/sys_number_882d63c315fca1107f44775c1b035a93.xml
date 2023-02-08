@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_cdltd_paynow_paynow_line_item">x_cdltd_paynow_paynow_line_item</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PAY</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:50:15</sys_created_on>
+        <sys_id>882d63c315fca1107f44775c1b035a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PAY</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_number_882d63c315fca1107f44775c1b035a93</sys_update_name>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 19:50:15</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sys_number_882d63c315fca1107f44775c1b035a93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_cdltd_paynow_paynow_line_item">x_cdltd_paynow_paynow_line_item</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>PAY</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>aaron.umbaugh</sys_created_by><sys_created_on>2023-02-08 19:50:15</sys_created_on><sys_id>882d63c315fca1107f44775c1b035a93</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PAY</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sys_number_882d63c315fca1107f44775c1b035a93</sys_update_name><sys_updated_by>aaron.umbaugh</sys_updated_by><sys_updated_on>2023-02-08 19:50:15</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-2069707998</payload_hash>
+        <record_name>PAY</record_name>
+        <reverted_from/>
+        <source>3a2b8f0b153ca1107f44775c1b035a76</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:50:16</sys_created_on>
+        <sys_id>dc2d63c315fca1107f44775c1b035aba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18632942a590000001</sys_recorded_at>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-08 19:50:16</sys_updated_on>
+        <type>Number</type>
+        <update_guid>182d63c33dfca11030679f327ee8a1ba</update_guid>
+        <update_guid_history>182d63c33dfca11030679f327ee8a1ba:-2069707998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:57:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>a26aca1dcab6494dbf4a82cd5cf56fe1</sys_id>
+        <sys_metadata>882d63c315fca1107f44775c1b035a93</sys_metadata>
+        <sys_name>PAY</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="">875c678315fca1107f44775c1b035a55</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sys_number_882d63c315fca1107f44775c1b035a93</sys_update_name>
+        <sys_update_version display_value="sys_number_882d63c315fca1107f44775c1b035a93">dc2d63c315fca1107f44775c1b035aba</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

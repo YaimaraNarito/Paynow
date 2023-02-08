@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Travel Expenses ">fab1478b15f8a1107f44775c1b035a4c</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Flight </name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="chan Ib">56582e6a153821107f44775c1b035a03</owner>
+        <picture>f4354f8f15f8a1107f44775c1b035a06</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a524834f15f8a1107f44775c1b035aa6&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>01614f4b15f8a1107f44775c1b035a1f</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:51:21</sys_created_on>
+        <sys_id>a524834f15f8a1107f44775c1b035aa6</sys_id>
+        <sys_name>Flight </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_a524834f15f8a1107f44775c1b035aa6</sys_update_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=a524834f15f8a1107f44775c1b035aa6"/>
+    <fx_price action="delete_multiple" query="id=a524834f15f8a1107f44775c1b035aa6"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a524834f15f8a1107f44775c1b035aa6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:51:21</sys_created_on>
+        <sys_id>1724c74f15f8a1107f44775c1b035ac0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-08 16:51:21</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>a524834f15f8a1107f44775c1b035aa6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:51:21</sys_created_on>
+        <sys_id>9f24c74f15f8a1107f44775c1b035ac0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-08 16:51:21</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#7cbef6</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>9099c9231df8312f3e2de1d5af55ef2691c4e6fdf23bd1d6ae63fb8e715aa56c</hash>
+        <image_height>168</image_height>
+        <image_width>300</image_width>
+        <size_bytes>4097</size_bytes>
+        <size_compressed>3648</size_compressed>
+        <state>available</state>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:55:48</sys_created_on>
+        <sys_id>f4354f8f15f8a1107f44775c1b035a06</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-08 16:55:49</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>a524834f15f8a1107f44775c1b035aa6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="f4354f8f15f8a1107f44775c1b035a06">f4354f8f15f8a1107f44775c1b035a06</sys_attachment>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:55:48</sys_created_on>
+        <sys_id>38354f8f15f8a1107f44775c1b035a06</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4852</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="f4354f8f15f8a1107f44775c1b035a06">f4354f8f15f8a1107f44775c1b035a06</sys_attachment>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:55:48</sys_created_on>
+        <sys_id>b8354f8f15f8a1107f44775c1b035a06</sys_id>
+    </sys_attachment_doc>
+</record_update>

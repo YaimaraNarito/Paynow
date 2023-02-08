@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Food">b6d3834f15f8a1107f44775c1b035a24</sc_cat_item>
+        <sc_category display_value="Travel Expenses ">fab1478b15f8a1107f44775c1b035a4c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:50:05</sys_created_on>
+        <sys_id>b0e3834f15f8a1107f44775c1b035a9a</sys_id>
+        <sys_name>Travel Expenses .Food</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_b0e3834f15f8a1107f44775c1b035a9a</sys_update_name>
+    </sc_cat_item_category>
+</record_update>

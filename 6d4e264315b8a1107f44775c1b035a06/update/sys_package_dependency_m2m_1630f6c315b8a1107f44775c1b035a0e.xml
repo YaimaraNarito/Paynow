@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">2ac154c55c1211107f44347096fdb408</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>judith.nereus</sys_created_by>
+        <sys_created_on>2023-02-08 15:24:10</sys_created_on>
+        <sys_id>1630f6c315b8a1107f44775c1b035a0e</sys_id>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -16,7 +16,7 @@
         <order>0</order>
         <parent display_value="Travel Expenses ">fab1478b15f8a1107f44775c1b035a4c</parent>
         <roles/>
-        <sc_catalog display_value="PayNow Catalog Items ">01614f4b15f8a1107f44775c1b035a1f</sc_catalog>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>chan.ib</sys_created_by>
         <sys_created_on>2023-02-08 16:42:08</sys_created_on>

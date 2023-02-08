@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sc_cat_item>
+        <sc_catalog display_value="PayNow Catalog Items ">01614f4b15f8a1107f44775c1b035a1f</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:48:40</sys_created_on>
+        <sys_id>88934b0f15f8a1107f44775c1b035a43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PayNow Catalog Items .Car </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_88934b0f15f8a1107f44775c1b035a43</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-08 17:25:00</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_catalog_88934b0f15f8a1107f44775c1b035a43</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sc_cat_item><sc_catalog display_value="PayNow Catalog Items ">01614f4b15f8a1107f44775c1b035a1f</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>chan.ib</sys_created_by><sys_created_on>2023-02-08 16:48:40</sys_created_on><sys_id>88934b0f15f8a1107f44775c1b035a43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PayNow Catalog Items .Car </sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_catalog_88934b0f15f8a1107f44775c1b035a43</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-08 17:25:00</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1307057336</payload_hash>
+        <record_name>PayNow Catalog Items .Car </record_name>
+        <reverted_from/>
+        <source>cb289fc7157ca1107f44775c1b035a47</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-08 18:18:42</sys_created_on>
+        <sys_id>c7289fc7157ca1107f44775c1b035a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186324056db0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-08 18:18:42</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4f289fc7a17ca110d1fad69aaca6a751</update_guid>
+        <update_guid_history>4f289fc7a17ca110d1fad69aaca6a751:1307057336,0c934b0f9cf8a1102e8785f253a7c847:1011148228,aada430bee3ca110b905dff56cb554d7:1307057336,0c934b0f9cf8a1102e8785f253a7c847:1011148228,de8a07c7413ca110134aaa1ee47f7073:1307057336,0c934b0f9cf8a1102e8785f253a7c847:1011148228</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PayNow Catalog Items .Car ">c7289fc7157ca1107f44775c1b035a6b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-08 18:18:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>210a98709db1421c921ca30abd9178e4</sys_id>
+        <sys_metadata>88934b0f15f8a1107f44775c1b035a43</sys_metadata>
+        <sys_name>PayNow Catalog Items .Car </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_88934b0f15f8a1107f44775c1b035a43</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_88934b0f15f8a1107f44775c1b035a43">c7289fc7157ca1107f44775c1b035a52</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

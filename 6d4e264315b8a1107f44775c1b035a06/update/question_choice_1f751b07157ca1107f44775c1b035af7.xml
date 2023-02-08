@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="What is your authorization request amount?">45d29f43157ca1107f44775c1b035a97</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 21:37:33</sys_created_on>
+        <sys_id>1f751b07157ca1107f44775c1b035af7</sys_id>
+        <sys_name>$800</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_1f751b07157ca1107f44775c1b035af7</sys_update_name>
+        <text>$800</text>
+        <value>800</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=1f751b07157ca1107f44775c1b035af7"/>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="authorization_request_notification" label="Authorization Request Notification" language="en" table="x_cdltd_paynow_expense_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>authorization_request_notification</element>
+            <help/>
+            <hint/>
+            <label>Authorization Request Notification</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_expense_request</name>
+            <plural>Authorization Request Notifications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>judith.nereus</sys_created_by>
+            <sys_created_on>2023-02-08 22:11:24</sys_created_on>
+            <sys_name>Authorization Request Notification</sys_name>
+            <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_paynow_expense_request_authorization_request_notification_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

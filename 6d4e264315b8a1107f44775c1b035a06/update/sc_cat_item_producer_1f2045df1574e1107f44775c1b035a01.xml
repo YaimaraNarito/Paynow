@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</category>
-        <checked_out/>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -81,7 +81,7 @@
         <short_description>Use this form to create the expenses request</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-09 01:53:06</sys_created_on>
@@ -91,7 +91,7 @@
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sc_cat_item_producer_1f2045df1574e1107f44775c1b035a01</sys_update_name>
-        <table_name>x_cdltd_paynow_paynow_item_request</table_name>
+        <table_name>x_cdltd_paynow_expense_request</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Paynow Item Request ">1f2045df1574e1107f44775c1b035a01</cat_item>
         <category/>
@@ -52,8 +52,8 @@
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_cdltd_paynow_paynow_item_request</record_producer_table>
-        <reference/>
+        <record_producer_table>x_cdltd_paynow_expense_request</record_producer_table>
+        <reference>x_cdltd_paynow_expense_request</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 01:53:06</sys_created_on>
+        <sys_created_on>2023-02-09 14:30:36</sys_created_on>
         <sys_id>1320011315b4e1107f44775c1b035afa</sys_id>
         <sys_name>Number</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
@@ -82,7 +82,7 @@
         <sys_update_name>item_option_new_1320011315b4e1107f44775c1b035afa</sys_update_name>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

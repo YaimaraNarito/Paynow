@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1a30b6c315b8a1107f44775c1b035afd" extends="task" label="Expense request" max_length="40" name="x_cdltd_paynow_expense_request" type="collection">
+    <element db_object_id="1a30b6c315b8a1107f44775c1b035afd" extends="task" label="Expense Request" max_length="40" name="x_cdltd_paynow_expense_request" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Authorization Request Notification" max_length="80" name="authorization_request_notification" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="training" label="Business Justification" mandatory="true" max_length="40" name="u_choice_business_justification" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Meeting" sequence="0" value="meeting"/>
+                <element inactive_on_update="false" label="Conference" sequence="1" value="conference"/>
+                <element inactive_on_update="false" label="Training" sequence="2" value="training"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="u_glide_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Expense End Date" mandatory="true" max_length="40" name="u_glide_expense_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Expense Start Date" mandatory="true" max_length="40" name="u_glide_expense_start_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_glide_start_date" type="glide_date_time"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Total Authorized Amount" max_length="20" name="u_price_1" type="price"/>
     </element>
 </database>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="452bbc1b1574e1107f44775c1b035aea" extends="sc_request" label="Paynow Item Request" max_length="40" name="x_cdltd_paynow_paynow_item_request" type="collection"/>
-</database>

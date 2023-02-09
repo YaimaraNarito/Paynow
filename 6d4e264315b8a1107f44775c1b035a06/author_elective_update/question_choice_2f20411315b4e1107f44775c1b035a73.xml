@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref/>
+        <question display_value="Priority">af20411315b4e1107f44775c1b035a5a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 01:53:08</sys_created_on>
+        <sys_id>2f20411315b4e1107f44775c1b035a73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3 - Moderate</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_2f20411315b4e1107f44775c1b035a73</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-09 01:53:08</sys_updated_on>
+        <text>3 - Moderate</text>
+        <value>3</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2f20411315b4e1107f44775c1b035a73"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>question_choice_2f20411315b4e1107f44775c1b035a73</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>3</order><published_ref/><question display_value="Priority">af20411315b4e1107f44775c1b035a5a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-09 01:53:08</sys_created_on><sys_id>2f20411315b4e1107f44775c1b035a73</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3 - Moderate</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>question_choice_2f20411315b4e1107f44775c1b035a73</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-09 01:53:08</sys_updated_on><text>3 - Moderate</text><value>3</value></question_choice><fx_price action="delete_multiple" query="id=2f20411315b4e1107f44775c1b035a73"/></record_update>]]></payload>
+        <payload_hash>-1668396929</payload_hash>
+        <record_name>3 - Moderate</record_name>
+        <reverted_from/>
+        <source>67e848931570e1107f44775c1b035a61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 01:53:08</sys_created_on>
+        <sys_id>eb20411315b4e1107f44775c1b035a75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18633e060070000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-09 01:53:08</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>272041135db4e110a5a2541c1d660075</update_guid>
+        <update_guid_history>272041135db4e110a5a2541c1d660075:-1668396929</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3 - Moderate">28cc2f9b153025107f44775c1b035aee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 14:27:08</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>640f1ad2442e4e74b87a2523287e9410</sys_id>
+        <sys_metadata>2f20411315b4e1107f44775c1b035a73</sys_metadata>
+        <sys_name>3 - Moderate</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="Priority">af20411315b4e1107f44775c1b035a5a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>question_choice_2f20411315b4e1107f44775c1b035a73</sys_update_name>
+        <sys_update_version display_value="question_choice_2f20411315b4e1107f44775c1b035a73">eb20411315b4e1107f44775c1b035a75</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

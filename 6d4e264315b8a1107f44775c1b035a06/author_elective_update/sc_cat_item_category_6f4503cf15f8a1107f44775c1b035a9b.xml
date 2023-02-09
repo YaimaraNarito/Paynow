@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Hotel">55458f8f15f8a1107f44775c1b035a6f</sc_cat_item>
+        <sc_category display_value="Travel Expenses ">fab1478b15f8a1107f44775c1b035a4c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:56:16</sys_created_on>
+        <sys_id>6f4503cf15f8a1107f44775c1b035a9b</sys_id>
+        <sys_name>Travel Expenses .Hotel</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_6f4503cf15f8a1107f44775c1b035a9b</sys_update_name>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_6f4503cf15f8a1107f44775c1b035a9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Hotel">55458f8f15f8a1107f44775c1b035a6f</sc_cat_item>
+        <sc_category display_value="Travel Expenses ">fab1478b15f8a1107f44775c1b035a4c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-08 16:56:16</sys_created_on>
+        <sys_id>6f4503cf15f8a1107f44775c1b035a9b</sys_id>
+        <sys_name>Travel Expenses .Hotel</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_6f4503cf15f8a1107f44775c1b035a9b</sys_update_name>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>947666730</payload_hash>
+        <record_name>Travel Expenses .Hotel</record_name>
+        <reverted_from/>
+        <source>9554285b15f0e1107f44775c1b035a8f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-08 23:51:36</sys_created_on>
+        <sys_id>ef542c5b15f0e1107f44775c1b035ae1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18633711d2e0000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-08 23:51:36</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6f542c5b18f0e110a550ddde97bc52e1</update_guid>
+        <update_guid_history>6f542c5b18f0e110a550ddde97bc52e1:0,11342c1b42f0e110cb0ef2ca58a6be7b:1509423490,c6c7d0978cb0e1108f2a461f538cf744:0,ab4503cf72f8a11077a88dfc5c18509e:-1610666738,5eda430be73ca11029e45e4bd3ee366e:1509423490,ab4503cf72f8a11077a88dfc5c18509e:-1610666738,0a8a07c7cd3ca1108ae93253e7cb0009:1509423490,ab4503cf72f8a11077a88dfc5c18509e:-1610666738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Travel Expenses .Hotel">00484d5b15b4e1107f44775c1b035a09</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 02:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>41138161566f4768a8c62f4adb747404</sys_id>
+        <sys_metadata>6f4503cf15f8a1107f44775c1b035a9b</sys_metadata>
+        <sys_name>Travel Expenses .Hotel</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6f4503cf15f8a1107f44775c1b035a9b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6f4503cf15f8a1107f44775c1b035a9b">ef542c5b15f0e1107f44775c1b035ae1</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

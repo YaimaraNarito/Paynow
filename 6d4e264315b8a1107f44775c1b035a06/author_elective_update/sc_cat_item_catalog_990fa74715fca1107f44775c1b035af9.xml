@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Hotel">55458f8f15f8a1107f44775c1b035a6f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:58:31</sys_created_on>
+        <sys_id>990fa74715fca1107f44775c1b035af9</sys_id>
+        <sys_name>Service Catalog.Hotel</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_990fa74715fca1107f44775c1b035af9</sys_update_name>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_catalog_990fa74715fca1107f44775c1b035af9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Hotel">55458f8f15f8a1107f44775c1b035a6f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 19:58:31</sys_created_on>
+        <sys_id>990fa74715fca1107f44775c1b035af9</sys_id>
+        <sys_name>Service Catalog.Hotel</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_990fa74715fca1107f44775c1b035af9</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>-516079214</payload_hash>
+        <record_name>Service Catalog.Hotel</record_name>
+        <reverted_from/>
+        <source>9554285b15f0e1107f44775c1b035a8f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-08 23:51:36</sys_created_on>
+        <sys_id>af542c5b15f0e1107f44775c1b035ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18633711ca80000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-08 23:51:36</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>2f542c5bf5f0e1108023f9cc108f72c5</update_guid>
+        <update_guid_history>2f542c5bf5f0e1108023f9cc108f72c5:0,d9342c1be6f0e110608816fa4d2d087e:-622778880,c2c7d097c0b0e1107924172fead70833:0,550fa7475afca1101f1ad5135bb0dffc:-714633716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Hotel">48480d5b15b4e1107f44775c1b035ae9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 02:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1abc2e576cbe41058706596afcb3be81</sys_id>
+        <sys_metadata>990fa74715fca1107f44775c1b035af9</sys_metadata>
+        <sys_name>Service Catalog.Hotel</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="Hotel">55458f8f15f8a1107f44775c1b035a6f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_990fa74715fca1107f44775c1b035af9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_990fa74715fca1107f44775c1b035af9">af542c5b15f0e1107f44775c1b035ac5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Travel Expenses ">fab1478b15f8a1107f44775c1b035a4c</category>
+        <category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -52,7 +52,7 @@
         <recurring_price>0</recurring_price>
         <request_method>request</request_method>
         <roles/>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>895facd71534e1107f44775c1b035a78</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -127,13 +127,13 @@
         <image_width>42</image_width>
         <size_bytes>1729</size_bytes>
         <size_compressed>1752</size_compressed>
-        <state>pending</state>
+        <state>available</state>
         <sys_created_by>aaron.umbaugh</sys_created_by>
         <sys_created_on>2023-02-08 20:02:25</sys_created_on>
         <sys_id>16ef6b8715fca1107f44775c1b035a34</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-09 00:44:36</sys_updated_on>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2023-02-09 01:41:29</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>cca28bcb15f8a1107f44775c1b035a1e</table_sys_id>
     </sys_attachment>

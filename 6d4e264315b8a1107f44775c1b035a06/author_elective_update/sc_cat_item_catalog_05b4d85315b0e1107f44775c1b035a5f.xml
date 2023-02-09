@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Flight ">a524834f15f8a1107f44775c1b035aa6</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 22:43:10</sys_created_on>
+        <sys_id>05b4d85315b0e1107f44775c1b035a5f</sys_id>
+        <sys_name>Service Catalog.Flight </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_05b4d85315b0e1107f44775c1b035a5f</sys_update_name>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_catalog_05b4d85315b0e1107f44775c1b035a5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Flight ">a524834f15f8a1107f44775c1b035aa6</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 22:43:10</sys_created_on>
+        <sys_id>05b4d85315b0e1107f44775c1b035a5f</sys_id>
+        <sys_name>Service Catalog.Flight </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_05b4d85315b0e1107f44775c1b035a5f</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>2115540661</payload_hash>
+        <record_name>Service Catalog.Flight </record_name>
+        <reverted_from/>
+        <source>9554285b15f0e1107f44775c1b035a8f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-08 23:51:36</sys_created_on>
+        <sys_id>d3542c5b15f0e1107f44775c1b035ab8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18633711c380000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-08 23:51:36</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>53542c5bf1f0e110e319a639b78f64b8</update_guid>
+        <update_guid_history>53542c5bf1f0e110e319a639b78f64b8:0,3834a81b3bf0e11048edcbacddff9488:-54827997,4ac7d0974bb0e110dc8d304740936e15:0,05b4d853d3b0e110e64c5b25c2d09b61:-25762257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Flight ">3fa989db15b4e1107f44775c1b035a58</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 02:34:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>d3ce445fd7d74964beab0e36e2b2cae4</sys_id>
+        <sys_metadata>05b4d85315b0e1107f44775c1b035a5f</sys_metadata>
+        <sys_name>Service Catalog.Flight </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="Flight ">a524834f15f8a1107f44775c1b035aa6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_05b4d85315b0e1107f44775c1b035a5f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_05b4d85315b0e1107f44775c1b035a5f">d3542c5b15f0e1107f44775c1b035ab8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

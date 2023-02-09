@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>do_you_need_to_purchase_food</name>
-        <order>900</order>
+        <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -72,8 +72,8 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>chan.ib</sys_created_by>
-        <sys_created_on>2023-02-09 21:23:35</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:22:02</sys_created_on>
         <sys_id>860f78eb15b425107f44775c1b035a7d</sys_id>
         <sys_name>Do you need to purchase food? </sys_name>
         <sys_package/>

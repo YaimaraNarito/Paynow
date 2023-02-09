@@ -35,12 +35,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>flight_price</name>
-        <order>1200</order>
+        <order>1400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -72,8 +72,8 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>chan.ib</sys_created_by>
-        <sys_created_on>2023-02-09 21:45:20</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:22:03</sys_created_on>
         <sys_id>cfb0d5a3153825107f44775c1b035ae7</sys_id>
         <sys_name>Flight Price</sys_name>
         <sys_package/>

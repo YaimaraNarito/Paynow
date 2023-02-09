@@ -35,12 +35,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>price</name>
-        <order>800</order>
+        <order>1200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -72,8 +72,8 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>chan.ib</sys_created_by>
-        <sys_created_on>2023-02-09 21:23:37</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:22:03</sys_created_on>
         <sys_id>bb20411315b4e1107f44775c1b035aa0</sys_id>
         <sys_name>Car Price</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>

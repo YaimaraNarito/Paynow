@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 21:23:40</sys_created_on>
+        <sys_id>d21c416f15f425107f44775c1b035a71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Expense Request .Any User</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d21c416f15f425107f44775c1b035a71</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 21:56:30</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_d21c416f15f425107f44775c1b035a71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>chan.ib</sys_created_by><sys_created_on>2023-02-09 21:23:40</sys_created_on><sys_id>d21c416f15f425107f44775c1b035a71</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Expense Request .Any User</sys_name><sys_package/><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_d21c416f15f425107f44775c1b035a71</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-09 21:56:30</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-993195157</payload_hash>
+        <record_name>Expense Request .Any User</record_name>
+        <reverted_from/>
+        <source>c79391a7153825107f44775c1b035aa8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 21:56:30</sys_created_on>
+        <sys_id>5f93d1a7153825107f44775c1b035ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186382e19e20000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 21:56:30</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>d393d1a7c83825103462565c6c1977c5</update_guid>
+        <update_guid_history>d393d1a7c83825103462565c6c1977c5:-993195157,5b93d1a7f33825104b704c3c3274d3c2:1915138812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Expense Request .Any User">a301692b157825107f44775c1b035adc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 22:55:14</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>16fd77f9aa734864afd49dfc95ecc790</sys_id>
+        <sys_metadata>d21c416f15f425107f44775c1b035a71</sys_metadata>
+        <sys_name>Expense Request .Any User</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d21c416f15f425107f44775c1b035a71</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_d21c416f15f425107f44775c1b035a71">5f93d1a7153825107f44775c1b035ac5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
+        <sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 22:58:11</sys_created_on>
+        <sys_id>bab125ab157825107f44775c1b035afd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Travel Expenses.Expense Request </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_bab125ab157825107f44775c1b035afd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 22:58:45</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_bab125ab157825107f44775c1b035afd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item><sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>chan.ib</sys_created_by><sys_created_on>2023-02-09 22:58:11</sys_created_on><sys_id>bab125ab157825107f44775c1b035afd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Travel Expenses.Expense Request </sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_bab125ab157825107f44775c1b035afd</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-09 22:58:45</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-473402888</payload_hash>
+        <record_name>Travel Expenses.Expense Request </record_name>
+        <reverted_from/>
+        <source>385661a315b825107f44775c1b035aea</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 23:18:16</sys_created_on>
+        <sys_id>bc56a1a315b825107f44775c1b035a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1863878f3570000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 23:18:16</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f056a1a381b825100836ab7e63d3168f</update_guid>
+        <update_guid_history>f056a1a381b825100836ab7e63d3168f:-473402888,4fd169abfa782510e0f7748f8e75061e:1021208452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Travel Expenses.Expense Request ">fc56a1a315b825107f44775c1b035a93</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 23:18:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>00003e0404e34b3c80000000c3e940a9</sys_id>
+        <sys_metadata>bab125ab157825107f44775c1b035afd</sys_metadata>
+        <sys_name>Travel Expenses.Expense Request </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_bab125ab157825107f44775c1b035afd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_bab125ab157825107f44775c1b035afd">bc56a1a315b825107f44775c1b035a8f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

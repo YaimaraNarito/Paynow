@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Hotel Price?">ef1115e3153825107f44775c1b035a13</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:22:04</sys_created_on>
+        <sys_id>1b6159e3153825107f44775c1b035ac8</sys_id>
+        <sys_name>$600</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_1b6159e3153825107f44775c1b035ac8</sys_update_name>
+        <text>$600</text>
+        <value>600</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=1b6159e3153825107f44775c1b035ac8"/>
+</record_update>

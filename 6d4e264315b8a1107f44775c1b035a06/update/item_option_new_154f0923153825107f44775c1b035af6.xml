@@ -35,12 +35,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>u_food_price</name>
-        <order>1000</order>
+        <order>800</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -72,8 +72,8 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>chan.ib</sys_created_by>
-        <sys_created_on>2023-02-09 21:39:57</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:22:01</sys_created_on>
         <sys_id>154f0923153825107f44775c1b035af6</sys_id>
         <sys_name>Food Price?</sys_name>
         <sys_package/>

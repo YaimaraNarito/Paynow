@@ -5,7 +5,7 @@
         <attributes>omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Total Authorized Amount</column_label>

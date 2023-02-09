@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Paynow Hotel Test">669e68971534e1107f44775c1b035a78</sc_cat_item>
+        <sc_category display_value="Tablets">b06546f23731300054b6a3549dbe5dd8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 00:36:37</sys_created_on>
+        <sys_id>f2ae2c971534e1107f44775c1b035abb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tablets.Paynow Hotel Test</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_f2ae2c971534e1107f44775c1b035abb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 00:36:37</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_f2ae2c971534e1107f44775c1b035abb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Paynow Hotel Test">669e68971534e1107f44775c1b035a78</sc_cat_item><sc_category display_value="Tablets">b06546f23731300054b6a3549dbe5dd8</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-09 00:36:37</sys_created_on><sys_id>f2ae2c971534e1107f44775c1b035abb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tablets.Paynow Hotel Test</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_f2ae2c971534e1107f44775c1b035abb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-09 00:36:37</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1027124704</payload_hash>
+        <record_name>Tablets.Paynow Hotel Test</record_name>
+        <reverted_from/>
+        <source>2a7ea4971534e1107f44775c1b035ab7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 00:36:37</sys_created_on>
+        <sys_id>7eae2c971534e1107f44775c1b035abe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186339a536f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 00:36:37</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f2ae2c971234e110db0793d7a9cc2bbe</update_guid>
+        <update_guid_history>f2ae2c971234e110db0793d7a9cc2bbe:1027124704</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tablets.Paynow Hotel Test">12beac971534e1107f44775c1b035af1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 00:36:51</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>b29ab87364a744309a41779ca6678b24</sys_id>
+        <sys_metadata>f2ae2c971534e1107f44775c1b035abb</sys_metadata>
+        <sys_name>Tablets.Paynow Hotel Test</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f2ae2c971534e1107f44775c1b035abb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f2ae2c971534e1107f44775c1b035abb">7eae2c971534e1107f44775c1b035abe</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

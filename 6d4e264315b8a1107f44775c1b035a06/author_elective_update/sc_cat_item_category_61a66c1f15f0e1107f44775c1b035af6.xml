@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Rental Car">8096201f15f0e1107f44775c1b035a10</sc_cat_item>
+        <sc_category display_value="Desktops">900682363731300054b6a3549dbe5d5f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-09 00:01:34</sys_created_on>
+        <sys_id>61a66c1f15f0e1107f44775c1b035af6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Desktops.Rental Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_61a66c1f15f0e1107f44775c1b035af6</sys_update_name>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-09 00:01:34</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_61a66c1f15f0e1107f44775c1b035af6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Rental Car">8096201f15f0e1107f44775c1b035a10</sc_cat_item><sc_category display_value="Desktops">900682363731300054b6a3549dbe5d5f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>aaron.umbaugh</sys_created_by><sys_created_on>2023-02-09 00:01:34</sys_created_on><sys_id>61a66c1f15f0e1107f44775c1b035af6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Desktops.Rental Car</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_61a66c1f15f0e1107f44775c1b035af6</sys_update_name><sys_updated_by>aaron.umbaugh</sys_updated_by><sys_updated_on>2023-02-09 00:01:34</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2069248419</payload_hash>
+        <record_name>Desktops.Rental Car</record_name>
+        <reverted_from/>
+        <source>33c5e8db15f0e1107f44775c1b035a44</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-09 00:01:34</sys_created_on>
+        <sys_id>2da66c1f15f0e1107f44775c1b035af9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186337a3c5f0000001</sys_recorded_at>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-09 00:01:34</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a1a66c1f84f0e110d210d8867409b5f9</update_guid>
+        <update_guid_history>a1a66c1f84f0e110d210d8867409b5f9:2069248419</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Desktops.Rental Car">dcd6605f15f0e1107f44775c1b035a95</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-09 00:02:18</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>44946d51c6d44f709b293bbe449f8900</sys_id>
+        <sys_metadata>61a66c1f15f0e1107f44775c1b035af6</sys_metadata>
+        <sys_name>Desktops.Rental Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_61a66c1f15f0e1107f44775c1b035af6</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_61a66c1f15f0e1107f44775c1b035af6">2da66c1f15f0e1107f44775c1b035af9</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

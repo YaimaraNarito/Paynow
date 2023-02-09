@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 21:38:41</sys_created_on>
+        <sys_id>a4f588df1530e1107f44775c1b035a75</sys_id>
+        <sys_name>Car .Expense Request User's</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a4f588df1530e1107f44775c1b035a75</sys_update_name>
+        <user_criteria display_value="Expense Request User's">68fba24f6078a110e4a044cf40f73a13</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_a4f588df1530e1107f44775c1b035a75</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-08 21:38:41</sys_created_on>
+        <sys_id>a4f588df1530e1107f44775c1b035a75</sys_id>
+        <sys_name>Car .Expense Request User's</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a4f588df1530e1107f44775c1b035a75</sys_update_name>
+        <user_criteria display_value="Expense Request User's">68fba24f6078a110e4a044cf40f73a13</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>]]></payload>
+        <payload_hash>1833388201</payload_hash>
+        <record_name>Car .Expense Request User's</record_name>
+        <reverted_from/>
+        <source>9554285b15f0e1107f44775c1b035a8f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-08 23:51:36</sys_created_on>
+        <sys_id>e3546c5b15f0e1107f44775c1b035a02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18633711e3f0000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-08 23:51:36</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>63546c5b27f0e1108abb91ab7c33c302</update_guid>
+        <update_guid_history>63546c5b27f0e1108abb91ab7c33c302:0,0b5f10530af0e110c0b837566cc084b9:1000887978,5ec7d0973fb0e110a93576b697df1f81:0,08060cdfd930e110d85a75f3d44834d5:144125123,4c060cdf1330e1101acf3e1a70420fd2:703300398</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Car .Expense Request User's">1190b49b1534e1107f44775c1b035a0b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 00:44:59</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0b359bb831a2436096fd558eca285a24</sys_id>
+        <sys_metadata>a4f588df1530e1107f44775c1b035a75</sys_metadata>
+        <sys_name>Car .Expense Request User's</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a4f588df1530e1107f44775c1b035a75</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_a4f588df1530e1107f44775c1b035a75">e3546c5b15f0e1107f44775c1b035a02</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

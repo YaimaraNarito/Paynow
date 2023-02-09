@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Rental Car">8096201f15f0e1107f44775c1b035a10</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-09 00:01:34</sys_created_on>
+        <sys_id>a1a6ac1f15f0e1107f44775c1b035a17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Rental Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_a1a6ac1f15f0e1107f44775c1b035a17</sys_update_name>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-09 00:01:34</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_a1a6ac1f15f0e1107f44775c1b035a17</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Rental Car">8096201f15f0e1107f44775c1b035a10</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>aaron.umbaugh</sys_created_by><sys_created_on>2023-02-09 00:01:34</sys_created_on><sys_id>a1a6ac1f15f0e1107f44775c1b035a17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Rental Car</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_a1a6ac1f15f0e1107f44775c1b035a17</sys_update_name><sys_updated_by>aaron.umbaugh</sys_updated_by><sys_updated_on>2023-02-09 00:01:34</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1893301297</payload_hash>
+        <record_name>Office.Rental Car</record_name>
+        <reverted_from/>
+        <source>33c5e8db15f0e1107f44775c1b035a44</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-09 00:01:34</sys_created_on>
+        <sys_id>6da6ac1f15f0e1107f44775c1b035a1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186337a3db40000001</sys_recorded_at>
+        <sys_updated_by>aaron.umbaugh</sys_updated_by>
+        <sys_updated_on>2023-02-09 00:01:34</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e1a6ac1fc0f0e110e54cba7de996011a</update_guid>
+        <update_guid_history>e1a6ac1fc0f0e110e54cba7de996011a:-1893301297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Rental Car">68d6a05f15f0e1107f44775c1b035a11</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aaron.umbaugh</sys_created_by>
+        <sys_created_on>2023-02-09 00:02:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>cb738831413441bca381e665ec878990</sys_id>
+        <sys_metadata>a1a6ac1f15f0e1107f44775c1b035a17</sys_metadata>
+        <sys_name>Office.Rental Car</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a1a6ac1f15f0e1107f44775c1b035a17</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a1a6ac1f15f0e1107f44775c1b035a17">6da6ac1f15f0e1107f44775c1b035a1a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

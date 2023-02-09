@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>No</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>opened_by</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -36,16 +36,16 @@
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>opened_by</name>
-        <order>100</order>
+        <name>do_you_need_to_purchase_food</name>
+        <order>900</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Name and last name </question_text>
+        <question_text>Do you need to purchase food? </question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -53,9 +53,9 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_cdltd_paynow_expense_request</record_producer_table>
-        <reference>task</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -72,17 +72,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 15:58:13</sys_created_on>
-        <sys_id>9320411315b4e1107f44775c1b035a07</sys_id>
-        <sys_name>Name and last name </sys_name>
-        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 20:43:54</sys_created_on>
+        <sys_id>860f78eb15b425107f44775c1b035a7d</sys_id>
+        <sys_name>Do you need to purchase food? </sys_name>
+        <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>item_option_new_9320411315b4e1107f44775c1b035a07</sys_update_name>
+        <sys_update_name>item_option_new_860f78eb15b425107f44775c1b035a7d</sys_update_name>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>1</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -98,22 +98,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=9320411315b4e1107f44775c1b035a07"/>
-    <fx_price action="delete_multiple" query="id=9320411315b4e1107f44775c1b035a07"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=860f78eb15b425107f44775c1b035a7d"/>
+    <fx_price action="delete_multiple" query="id=860f78eb15b425107f44775c1b035a7d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>9320411315b4e1107f44775c1b035a07</id>
+        <id>860f78eb15b425107f44775c1b035a7d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 01:53:07</sys_created_on>
-        <sys_id>6320411315b4e1107f44775c1b035a0a</sys_id>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 20:43:54</sys_created_on>
+        <sys_id>b3f2092315f425107f44775c1b035a4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-09 01:53:07</sys_updated_on>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-09 20:43:54</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -121,16 +121,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>9320411315b4e1107f44775c1b035a07</id>
+        <id>860f78eb15b425107f44775c1b035a7d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 01:53:07</sys_created_on>
-        <sys_id>e720411315b4e1107f44775c1b035a09</sys_id>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 20:43:54</sys_created_on>
+        <sys_id>f7f2092315f425107f44775c1b035a4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-09 01:53:07</sys_updated_on>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-09 20:43:54</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

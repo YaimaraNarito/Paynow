@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
-        <cat_item display_value="Paynow Item Request ">1f2045df1574e1107f44775c1b035a01</cat_item>
+        <cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 14:30:36</sys_created_on>
+        <sys_created_on>2023-02-09 15:58:13</sys_created_on>
         <sys_id>6720411315b4e1107f44775c1b035a0d</sys_id>
         <sys_name>Assigned to</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>

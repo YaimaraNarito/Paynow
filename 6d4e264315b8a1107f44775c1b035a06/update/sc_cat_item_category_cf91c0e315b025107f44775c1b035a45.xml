@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Paynow Item Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
+        <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
         <sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 14:30:37</sys_created_on>
-        <sys_id>b78d2fdb153025107f44775c1b035af7</sys_id>
+        <sys_created_on>2023-02-09 15:58:14</sys_created_on>
+        <sys_id>cf91c0e315b025107f44775c1b035a45</sys_id>
         <sys_name>Travel Expenses.Paynow Item Request </sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>sc_cat_item_category_b78d2fdb153025107f44775c1b035af7</sys_update_name>
+        <sys_update_name>sc_cat_item_category_cf91c0e315b025107f44775c1b035a45</sys_update_name>
     </sc_cat_item_category>
 </record_update>

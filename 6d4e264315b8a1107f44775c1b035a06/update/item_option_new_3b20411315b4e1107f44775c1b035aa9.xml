@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Paynow Item Request ">1f2045df1574e1107f44775c1b035a01</cat_item>
+        <cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>short_description</name>
-        <order>900</order>
+        <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 14:30:36</sys_created_on>
+        <sys_created_on>2023-02-09 15:58:12</sys_created_on>
         <sys_id>3b20411315b4e1107f44775c1b035aa9</sys_id>
         <sys_name>Short description</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>

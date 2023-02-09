@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Paynow Item Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
+        <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
         <sc_catalog display_value="Paynow Catalog">895facd71534e1107f44775c1b035a78</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 14:30:37</sys_created_on>
-        <sys_id>f78d2fdb153025107f44775c1b035af5</sys_id>
+        <sys_created_on>2023-02-09 15:58:14</sys_created_on>
+        <sys_id>4391c0e315b025107f44775c1b035a44</sys_id>
         <sys_name>Paynow Catalog.Paynow Item Request </sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_f78d2fdb153025107f44775c1b035af5</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_4391c0e315b025107f44775c1b035a44</sys_update_name>
     </sc_cat_item_catalog>
 </record_update>

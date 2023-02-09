@@ -3,13 +3,13 @@
         <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
         <sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
-        <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 15:58:14</sys_created_on>
-        <sys_id>cf91c0e315b025107f44775c1b035a45</sys_id>
-        <sys_name>Travel Expenses.Paynow Item Request </sys_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 21:23:40</sys_created_on>
+        <sys_id>d61c416f15f425107f44775c1b035a6d</sys_id>
+        <sys_name>Travel Expenses.Expense Request </sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>sc_cat_item_category_cf91c0e315b025107f44775c1b035a45</sys_update_name>
+        <sys_update_name>sc_cat_item_category_d61c416f15f425107f44775c1b035a6d</sys_update_name>
     </sc_cat_item_category>
 </record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Priority">af20411315b4e1107f44775c1b035a5a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 15:58:13</sys_created_on>
+        <sys_id>ef20411315b4e1107f44775c1b035a64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Non-Emergency</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_ef20411315b4e1107f44775c1b035a64</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 20:48:54</sys_updated_on>
+        <text>Non-Emergency</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ef20411315b4e1107f44775c1b035a64"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>question_choice_ef20411315b4e1107f44775c1b035a64</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Priority">af20411315b4e1107f44775c1b035a5a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-09 15:58:13</sys_created_on><sys_id>ef20411315b4e1107f44775c1b035a64</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Non-Emergency</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>question_choice_ef20411315b4e1107f44775c1b035a64</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-09 20:48:54</sys_updated_on><text>Non-Emergency</text><value>2</value></question_choice><fx_price action="delete_multiple" query="id=ef20411315b4e1107f44775c1b035a64"/></record_update>]]></payload>
+        <payload_hash>2010475261</payload_hash>
+        <record_name>Non-Emergency</record_name>
+        <reverted_from/>
+        <source>88248d6315f425107f44775c1b035a24</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 20:48:54</sys_created_on>
+        <sys_id>8d24cd6315f425107f44775c1b035ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18637f0349f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 20:48:54</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>0524cd6348f4251041df251dca03f3b2</update_guid>
+        <update_guid_history>0524cd6348f4251041df251dca03f3b2:2010475261,84cc2f9b40302510ca5a857a81b35916:826093267,af204113bfb4e1104896f7c5ea70ad72:-979783649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Non-Emergency">a4d749e715f425107f44775c1b035a8d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 21:04:59</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>277e4d7fb2024dd09754d11e0c009900</sys_id>
+        <sys_metadata>ef20411315b4e1107f44775c1b035a64</sys_metadata>
+        <sys_name>Non-Emergency</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="Is this an Emergency or Non-Emergency">af20411315b4e1107f44775c1b035a5a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>question_choice_ef20411315b4e1107f44775c1b035a64</sys_update_name>
+        <sys_update_version display_value="question_choice_ef20411315b4e1107f44775c1b035a64">8d24cd6315f425107f44775c1b035ab2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

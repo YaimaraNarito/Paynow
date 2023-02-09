@@ -2,14 +2,14 @@
     <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
-        <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-09 15:58:14</sys_created_on>
-        <sys_id>0f91c0e315b025107f44775c1b035a48</sys_id>
-        <sys_name>Paynow Item Request .Any User</sys_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 21:23:40</sys_created_on>
+        <sys_id>d21c416f15f425107f44775c1b035a71</sys_id>
+        <sys_name>Expense Request .Any User</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>sc_cat_item_user_criteria_mtom_0f91c0e315b025107f44775c1b035a48</sys_update_name>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d21c416f15f425107f44775c1b035a71</sys_update_name>
         <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
     </sc_cat_item_user_criteria_mtom>
 </record_update>

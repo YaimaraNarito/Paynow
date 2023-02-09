@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application/>
+        <application display_value="PayNow">6369fe8f15b8a1107f44775c1b035af4</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -10,28 +10,28 @@
         <image/>
         <link_type>NEW</link_type>
         <map_page/>
-        <mobile_title>Create new</mobile_title>
+        <mobile_title>Create New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_paynow_expense_request</name>
-        <order>300</order>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_cdltd_paynow.user,x_cdltd_paynow.paynow_line_item_user</roles>
+        <roles>x_cdltd_paynow.admin,x_cdltd_paynow.approver,x_cdltd_paynow.paynow_line_item_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-08 17:19:51</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 01:04:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1769cf47153ca1107f44775c1b035a93</sys_id>
-        <sys_name>Create new</sys_name>
+        <sys_id>83d474131574e1107f44775c1b035a70</sys_id>
+        <sys_name>Create New</sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>sys_app_module_1769cf47153ca1107f44775c1b035a93</sys_update_name>
+        <sys_update_name>sys_app_module_83d474131574e1107f44775c1b035a70</sys_update_name>
         <timeline_page/>
-        <title>Create new</title>
+        <title>Create New</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -32,7 +32,7 @@
         <theme display_value="Paynow">1dcfcc2715f025107f44775c1b035aa9</theme>
         <title>PayNow</title>
         <ts_index_group/>
-        <url_suffix>payn</url_suffix>
+        <url_suffix>pn</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=22dc302b15b425107f44775c1b035a29"/>
     <sys_attachment action="INSERT_OR_UPDATE">

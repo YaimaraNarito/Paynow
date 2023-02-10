@@ -15,7 +15,7 @@
         <mandatory_override>false</mandatory_override>
         <name>x_cdltd_paynow_expense_request</name>
         <read_only>false</read_only>
-        <read_only_override>false</read_only_override>
+        <read_only_override>true</read_only_override>
         <reference_qual/>
         <reference_qual_override>false</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>

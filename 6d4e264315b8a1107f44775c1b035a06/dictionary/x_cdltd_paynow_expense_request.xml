@@ -16,7 +16,7 @@
         <element attributes="edge_encryption_enabled=true" label="Expense Start Date" mandatory="true" max_length="40" name="u_glide_expense_start_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_glide_start_date" type="glide_date_time"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Hotel Price" max_length="20" name="u_hotel_price" type="price"/>
-        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Total Authorized Amount" max_length="20" name="u_price_1" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Total Authorized Amount" mandatory="true" max_length="20" name="u_price_1" type="price"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_5" type="price"/>
     </element>
 </database>

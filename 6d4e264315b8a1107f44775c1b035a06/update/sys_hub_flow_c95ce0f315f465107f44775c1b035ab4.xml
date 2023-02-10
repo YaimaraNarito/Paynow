@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow is meant to send emails to requestors and approvers about the status of submitted requests and automatically approve emergency requests</description>
+        <internal_name>paynow_group_flow_notification</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>PayNow Group Flow Notification </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 13:43:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c95ce0f315f465107f44775c1b035ab4</sys_id>
+        <sys_name>PayNow Group Flow Notification </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_hub_flow_c95ce0f315f465107f44775c1b035ab4</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c95ce0f315f465107f44775c1b035ab4^sys_idNOT INc95c207715f465107f44775c1b035ad0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c95ce0f315f465107f44775c1b035ab4</id>
+        <name>PayNow Group Flow Notification </name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 13:43:21</sys_created_on>
+        <sys_id>c95c207715f465107f44775c1b035ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 13:43:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c95c207715f465107f44775c1b035ad0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c95ce0f315f465107f44775c1b035ab4"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c95ce0f315f465107f44775c1b035ab4"/>
+</record_update>

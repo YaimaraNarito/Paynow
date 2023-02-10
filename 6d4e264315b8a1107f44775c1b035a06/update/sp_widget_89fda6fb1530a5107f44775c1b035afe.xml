@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function incidentTicketActions($scope, $http, spUtil, $timeout, spModal, i18n, $window, $uibModal, spAriaUtil) {
+    /* widget controller */
+    var c = this;
+    c.doneLoading = false;
+    c.resolvedIncidentMsg = "${Resolved Incident}";
+    c.closedIncidentMsg = "${Closed Incident}";
+    c.reopenedIncidentMsg = "${Reopened Incident}";
+
+    var MOBILE_DEVICE_SCREEN_WIDTH = 767;
+    $scope.mobileDevice = c.data.isMobile || ($window.innerWidth < MOBILE_DEVICE_SCREEN_WIDTH);
+
+	$scope.resolveIncident = function() {
+        $scope.data.action = 'resolveIncident';
+        $scope.server.update(init).then(function(response){
+					if (response.isIncidentResolved)
+						spAriaUtil.sendLiveMessage(c.resolvedIncidentMsg);
+				});
+		$scope.$emit('focusOnActions', {"isFocusRequired": true});
+    };
+	
+	$scope.closeIncident = function() {
+		$scope.data.action = 'closeIncident';
+        $scope.server.update(init).then(function(response){
+					if (response.isIncidentClosed)
+						spAriaUtil.sendLiveMessage(c.closedIncidentMsg);
+				});
+		var elm = document.getElementById('short-desc')
+		elm.focus();
+	};
+
+    $scope.reopenIncident = function() {
+        $scope.data.action = 'reopenIncident';
+        $scope.server.update(init).then(function(response){
+					if (response.isIncidentReopened)
+						spAriaUtil.sendLiveMessage(c.reopenedIncidentMsg);
+				});
+			$scope.$emit('focusOnActions', {"isFocusRequired": true});
+    };
+
+    function init() {}
+	
+    $(document).on('click', 'div.modal-footer button.btn, ul#child-case-tabs .dropdown-menu', function(e) {
+        e.stopPropagation();
+    });
+
+    $(document).bind('dragover drop', function(event) {
+        event.preventDefault();
+        return false;
+    });
+
+    $scope.$on('sp_loading_indicator', function(e, value) {
+        if (!value && !c.doneLoading) {
+            c.doneLoading = true;
+        }
+    });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>$sp-space--md: 12px !default;
+.arrow {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 150;
+  border-left: $sp-space--md solid transparent;
+  border-right: $sp-space--md solid transparent;
+  border-bottom: $sp-space--md solid #FFFFFF;
+}
+
+.question-tab{
+	font-size:1.4rem;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+}
+
+.action-btn {
+  width: 100%;
+}
+
+.fa-caret-down {
+  vertical-align: middle;
+  font-size: 1.3rem;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>paynow_incidents</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  scope.setFocusOnActionButtons = function() {
+		if (scope.widget.isFocusRequired) {
+			var elm = element.find('#actions-button')[0];
+			elm.focus();
+		}
+	}
+}]]></link>
+        <name>paynow incidents</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    var incidentGr = new GlideRecord('incident');
+	var incidentSysId = options.sys_id;
+	
+	if (!incidentSysId && $sp.getParameter('table') == 'incident')
+		incidentSysId = $sp.getParameter('sys_id');
+	
+	if (!incidentSysId && $sp.getParameter('table') == 'universal_request') {
+		var urGr = new GlideRecord('universal_request');
+		urGr.get($sp.getParameter('sys_id'));
+		incidentSysId = urGr.primary_task + "";
+	}
+	
+	/* Actions - Start */
+    if (input && input.action == 'resolveIncident' && incidentGr.get(incidentSysId)) {
+        incidentGr.incident_state = global.IncidentState.RESOLVED;
+		incidentGr.state = global.IncidentState.RESOLVED;
+		incidentGr.resolved_by = gs.getUserID();
+		data.isIncidentResolved = incidentGr.update();
+    }
+	
+	if (input && input.action == 'reopenIncident' && incidentGr.get(incidentSysId)) {
+        incidentGr.incident_state = global.IncidentState.IN_PROGRESS;
+		incidentGr.state = global.IncidentState.IN_PROGRESS;
+		data.isIncidentReopened = incidentGr.update();
+		gs.addInfoMessage(gs.getMessage("Request reopened"));
+    }
+	
+	if (input && input.action == 'closeIncident' && incidentGr.get(incidentSysId)) {
+		incidentGr.incident_state = global.IncidentState.CLOSED;
+		incidentGr.state = global.IncidentState.CLOSED;
+		data.isIncidentClosed = incidentGr.update();
+    }
+
+   /* Actions - End */
+	
+	/* Load incident data */
+    if (incidentGr.get(incidentSysId)) {
+		var incidentUtils = new global.IncidentUtils();
+		data.canResolve = incidentUtils.canResolveIncident(incidentGr);
+		data.canReopen = incidentUtils.canReopenIncident(incidentGr);
+		data.canClose = incidentUtils.canCloseIncident(incidentGr);
+		data.showActions = data.canResolve || data.canReopen || data.canClose;
+    }
+
+    data.i18n = {};
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>judith.nereus</sys_created_by>
+        <sys_created_on>2023-02-10 23:09:41</sys_created_on>
+        <sys_id>89fda6fb1530a5107f44775c1b035afe</sys_id>
+        <sys_name>paynow incidents</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_widget_89fda6fb1530a5107f44775c1b035afe</sys_update_name>
+        <template><![CDATA[<div>
+    <div class="dropdown" id="child-case-tabs" ng-if="data.showActions">
+        <button type="button" id="actions-button" class="btn btn-default dropdown-toggle action-btn" data-toggle="dropdown" style="width : 100%" aria-haspopup="true" ng-init="setFocusOnActionButtons()">
+            ${Actions}
+            <span class="fa fa-caret-down"></span>
+        </button>
+        <ul class="dropdown-menu pull-right" id="actionList">
+            <li ng-if="data.canResolve">
+                <a href="javascript:void(0)" ng-click="$event.stopPropagation();resolveIncident()">${Resolve}</a>
+            </li>
+            <li ng-if="data.canReopen">
+                <a href="javascript:void(0)" ng-click="$event.stopPropagation();reopenIncident()">${Reopen}</a>
+            </li>
+            <li ng-if="data.canClose">
+                <a href="javascript:void(0)" ng-click="$event.stopPropagation();closeIncident()">${Close}</a>
+            </li>
+        </ul>
+    </div>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

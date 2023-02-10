@@ -2,7 +2,7 @@
     <sys_ui_application action="INSERT_OR_UPDATE">
         <active>true</active>
         <hint/>
-        <name>Paynow Line Item</name>
+        <name>PayNow Line Item</name>
         <order/>
         <roles>x_cdltd_paynow.paynow_line_item_user</roles>
         <sys_class_name>sys_ui_application</sys_class_name>
@@ -11,7 +11,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb1d63c315fca1107f44775c1b035a36</sys_id>
-        <sys_name>Paynow Line Item</sys_name>
+        <sys_name>PayNow Line Item</sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>

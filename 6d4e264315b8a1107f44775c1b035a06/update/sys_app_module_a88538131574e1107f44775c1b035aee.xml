@@ -24,14 +24,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a88538131574e1107f44775c1b035aee</sys_id>
-        <sys_name>Paynow</sys_name>
+        <sys_name>PayNow Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sys_app_module_a88538131574e1107f44775c1b035aee</sys_update_name>
         <timeline_page/>
-        <title>Paynow</title>
+        <title>PayNow Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

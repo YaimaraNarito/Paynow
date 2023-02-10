@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Resolution Information" section_id="af5f4e7b15bc65107f44775c1b035a85" sys_domain="global" table="x_cdltd_paynow_paynow_incidents" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>knowledge</element>
+            <position>0</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 20:56:03</sys_created_on>
+            <sys_id>ab5f4e7b15bc65107f44775c1b035a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_cdltd_paynow_paynow_incidents" sys_domain="global" view="0c1598815c9211107f44347096fdb47a">af5f4e7b15bc65107f44775c1b035a85</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 20:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_code</element>
+            <position>1</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 20:56:03</sys_created_on>
+            <sys_id>e35f4e7b15bc65107f44775c1b035a88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_cdltd_paynow_paynow_incidents" sys_domain="global" view="0c1598815c9211107f44347096fdb47a">af5f4e7b15bc65107f44775c1b035a85</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 20:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>2</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 20:56:03</sys_created_on>
+            <sys_id>e75f4e7b15bc65107f44775c1b035a88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_cdltd_paynow_paynow_incidents" sys_domain="global" view="0c1598815c9211107f44347096fdb47a">af5f4e7b15bc65107f44775c1b035a85</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 20:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_by</element>
+            <position>3</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 20:56:03</sys_created_on>
+            <sys_id>eb5f4e7b15bc65107f44775c1b035a88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_cdltd_paynow_paynow_incidents" sys_domain="global" view="0c1598815c9211107f44347096fdb47a">af5f4e7b15bc65107f44775c1b035a85</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 20:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_at</element>
+            <position>4</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 20:56:03</sys_created_on>
+            <sys_id>ef5f4e7b15bc65107f44775c1b035a88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_cdltd_paynow_paynow_incidents" sys_domain="global" view="0c1598815c9211107f44347096fdb47a">af5f4e7b15bc65107f44775c1b035a85</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 20:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution Information</caption>
+            <header>false</header>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 20:56:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af5f4e7b15bc65107f44775c1b035a85</sys_id>
+            <sys_name>x_cdltd_paynow_paynow_incidents</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+            <sys_update_name>sys_ui_section_af5f4e7b15bc65107f44775c1b035a85</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">0c1598815c9211107f44347096fdb47a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

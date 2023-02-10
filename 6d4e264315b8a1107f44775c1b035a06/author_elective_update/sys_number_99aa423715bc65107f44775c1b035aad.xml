@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_cdltd_paynow_expense_incidents">x_cdltd_paynow_expense_incidents</category>
+        <maximum_digits>7</maximum_digits>
+        <number>2000</number>
+        <prefix>EXINC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:35:25</sys_created_on>
+        <sys_id>99aa423715bc65107f44775c1b035aad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EXINC</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_number_99aa423715bc65107f44775c1b035aad</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 20:35:25</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sys_number_99aa423715bc65107f44775c1b035aad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_cdltd_paynow_expense_incidents">x_cdltd_paynow_expense_incidents</category><maximum_digits>7</maximum_digits><number>2000</number><prefix>EXINC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-10 20:35:25</sys_created_on><sys_id>99aa423715bc65107f44775c1b035aad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EXINC</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sys_number_99aa423715bc65107f44775c1b035aad</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-10 20:35:25</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1488208223</payload_hash>
+        <record_name>EXINC</record_name>
+        <reverted_from/>
+        <source>67e848931570e1107f44775c1b035a61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:35:25</sys_created_on>
+        <sys_id>99aa423715bc65107f44775c1b035ab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1863d0a39390000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 20:35:25</sys_updated_on>
+        <type>Number</type>
+        <update_guid>d1aa42379dbc6510249b704b911390b4</update_guid>
+        <update_guid_history>d1aa42379dbc6510249b704b911390b4:-1488208223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:48:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>281de838d3d143a8864fa0a80e817404</sys_id>
+        <sys_metadata>99aa423715bc65107f44775c1b035aad</sys_metadata>
+        <sys_name>EXINC</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="">13870e3315bc65107f44775c1b035af0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sys_number_99aa423715bc65107f44775c1b035aad</sys_update_name>
+        <sys_update_version display_value="sys_number_99aa423715bc65107f44775c1b035aad">99aa423715bc65107f44775c1b035ab4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Expense Incidents">70aa423715bc65107f44775c1b035a1f</application>
+        <filter/>
+        <name>Expense Incidents</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_cdltd_paynow.expense_incidents_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:35:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3caa423715bc65107f44775c1b035a21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Incidents</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_ui_module_3caa423715bc65107f44775c1b035a21</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 20:35:24</sys_updated_on>
+        <table>x_cdltd_paynow_expense_incidents</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sys_ui_module_3caa423715bc65107f44775c1b035a21</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Expense Incidents">70aa423715bc65107f44775c1b035a1f</application><filter/><name>Expense Incidents</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_cdltd_paynow.expense_incidents_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-10 20:35:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3caa423715bc65107f44775c1b035a21</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Expense Incidents</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sys_ui_module_3caa423715bc65107f44775c1b035a21</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-10 20:35:24</sys_updated_on><table>x_cdltd_paynow_expense_incidents</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>476401691</payload_hash>
+        <record_name>Expense Incidents</record_name>
+        <reverted_from/>
+        <source>67e848931570e1107f44775c1b035a61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:35:24</sys_created_on>
+        <sys_id>05aa423715bc65107f44775c1b035a4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1863d0a346e0000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 20:35:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>4daa423716bc6510819643bf62756549</update_guid>
+        <update_guid_history>4daa423716bc6510819643bf62756549:476401691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:48:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0413d3dc76f64fc1830e8b524c706751</sys_id>
+        <sys_metadata>3caa423715bc65107f44775c1b035a21</sys_metadata>
+        <sys_name>Expense Incidents</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sys_ui_module_3caa423715bc65107f44775c1b035a21</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_3caa423715bc65107f44775c1b035a21">05aa423715bc65107f44775c1b035a4a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

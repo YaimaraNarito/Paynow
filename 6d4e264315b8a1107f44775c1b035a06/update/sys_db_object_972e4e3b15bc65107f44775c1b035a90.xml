@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>PayNow Incidents</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_cdltd_paynow_paynow_incidents</name>
+        <number_ref display_value="PNINC">c93f8e7b15bc65107f44775c1b035ab7</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Incident" name="incident">b0a550855c9211107f44347096fdb473</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 20:55:19</sys_created_on>
+        <sys_id>972e4e3b15bc65107f44775c1b035a90</sys_id>
+        <sys_name>PayNow Incidents</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_db_object_972e4e3b15bc65107f44775c1b035a90</sys_update_name>
+        <update_access>false</update_access>
+        <user_role display_value="x_cdltd_paynow.paynow_incidents_user" name="x_cdltd_paynow.paynow_incidents_user">683f8e7b15bc65107f44775c1b035a2f</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

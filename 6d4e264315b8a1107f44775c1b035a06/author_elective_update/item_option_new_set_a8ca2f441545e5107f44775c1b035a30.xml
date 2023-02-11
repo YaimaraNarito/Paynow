@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>expense_request_variable_set</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 22:14:30</sys_created_on>
+        <sys_id>a8ca2f441545e5107f44775c1b035a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Request Variable Set</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>item_option_new_set_a8ca2f441545e5107f44775c1b035a30</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 22:14:30</sys_updated_on>
+        <title>Expense Request Variable Set</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>item_option_new_set_a8ca2f441545e5107f44775c1b035a30</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>expense_request_variable_set</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-11 22:14:30</sys_created_on><sys_id>a8ca2f441545e5107f44775c1b035a30</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Expense Request Variable Set</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>item_option_new_set_a8ca2f441545e5107f44775c1b035a30</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-11 22:14:30</sys_updated_on><title>Expense Request Variable Set</title><type>one_to_many</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>77551134</payload_hash>
+        <record_name>Expense Request Variable Set</record_name>
+        <reverted_from/>
+        <source>27e8523715fc65107f44775c1b035af4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 22:14:30</sys_created_on>
+        <sys_id>5eea6f441545e5107f44775c1b035ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186428b4a320000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 22:14:30</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>56ea6f442145e510698192d966e364e8</update_guid>
+        <update_guid_history>56ea6f442145e510698192d966e364e8:77551134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Expense Request Variable Set">323cabc41545e5107f44775c1b035a5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 22:20:16</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>7aabe13a12de4b3fb9b999a1dc04be89</sys_id>
+        <sys_metadata>a8ca2f441545e5107f44775c1b035a30</sys_metadata>
+        <sys_name>Expense Request Variable Set</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>item_option_new_set_a8ca2f441545e5107f44775c1b035a30</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_a8ca2f441545e5107f44775c1b035a30">5eea6f441545e5107f44775c1b035ae8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

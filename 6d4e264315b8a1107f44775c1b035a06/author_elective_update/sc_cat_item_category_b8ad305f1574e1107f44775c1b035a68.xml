@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sc_cat_item>
+        <sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-09 01:42:01</sys_created_on>
+        <sys_id>b8ad305f1574e1107f44775c1b035a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel Expenses.Car </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_b8ad305f1574e1107f44775c1b035a68</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-09 02:56:05</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_b8ad305f1574e1107f44775c1b035a68</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Car ">cca28bcb15f8a1107f44775c1b035a1e</sc_cat_item><sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>chan.ib</sys_created_by><sys_created_on>2023-02-09 01:42:01</sys_created_on><sys_id>b8ad305f1574e1107f44775c1b035a68</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Travel Expenses.Car </sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_b8ad305f1574e1107f44775c1b035a68</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-09 02:56:05</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-769292094</payload_hash>
+        <record_name>Travel Expenses.Car </record_name>
+        <reverted_from/>
+        <source>3fcbd2c415cda5107f44775c1b035ada</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 16:28:54</sys_created_on>
+        <sys_id>40db16c415cda5107f44775c1b035a15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186414ee43d0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-11 16:28:54</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b7cb16c472cda5100dc7478f7a16c814</update_guid>
+        <update_guid_history>b7cb16c472cda5100dc7478f7a16c814:-769292094,c5ad345f4d74e1100f1465d371bfeb32:1099719246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Travel Expenses.Car ">88db16c415cda5107f44775c1b035a19</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 16:28:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>52c90b1b5de5479ea3d2e6109a7a1264</sys_id>
+        <sys_metadata>b8ad305f1574e1107f44775c1b035a68</sys_metadata>
+        <sys_name>Travel Expenses.Car </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b8ad305f1574e1107f44775c1b035a68</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b8ad305f1574e1107f44775c1b035a68">40db16c415cda5107f44775c1b035a15</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

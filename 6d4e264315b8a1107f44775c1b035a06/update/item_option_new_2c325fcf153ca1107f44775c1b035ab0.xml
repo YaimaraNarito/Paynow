@@ -72,8 +72,8 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-09 00:44:07</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 22:56:27</sys_created_on>
         <sys_id>2c325fcf153ca1107f44775c1b035ab0</sys_id>
         <sys_name>End Date</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item>
+        <catalog_variable>IO:cfb0d5a3153825107f44775c1b035ae7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:24:53</sys_created_on>
+        <sys_id>08c15b0415c1e5107f44775c1b035a38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what_amount_your_are_requesting_for_flight_booking</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_08c15b0415c1e5107f44775c1b035a38</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:24:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide/Show and make mandatory the option field for flight">9f51dfc015c1e5107f44775c1b035a11</ui_policy>
+        <variable>what_amount_your_are_requesting_for_flight_booking</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>catalog_ui_policy_action_08c15b0415c1e5107f44775c1b035a38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item><catalog_variable>IO:cfb0d5a3153825107f44775c1b035ae7</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-11 20:24:53</sys_created_on><sys_id>08c15b0415c1e5107f44775c1b035a38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>what_amount_your_are_requesting_for_flight_booking</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>catalog_ui_policy_action_08c15b0415c1e5107f44775c1b035a38</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-11 20:24:53</sys_updated_on><table/><ui_policy display_value="Hide/Show and make mandatory the option field for flight">9f51dfc015c1e5107f44775c1b035a11</ui_policy><variable>what_amount_your_are_requesting_for_flight_booking</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1328696822</payload_hash>
+        <record_name>what_amount_your_are_requesting_for_flight_booking</record_name>
+        <reverted_from/>
+        <source>27e8523715fc65107f44775c1b035af4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:24:53</sys_created_on>
+        <sys_id>20d19b0415c1e5107f44775c1b035a4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1864226ee5e0000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:24:53</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>28d19b0490c1e51041f2f85805b2554a</update_guid>
+        <update_guid_history>28d19b0490c1e51041f2f85805b2554a:1328696822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="what_amount_your_are_requesting_for_flight_booking">037f9b441505e5107f44775c1b035af1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 21:24:35</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>009429476e3f4fb5800117126c5df909</sys_id>
+        <sys_metadata>08c15b0415c1e5107f44775c1b035a38</sys_metadata>
+        <sys_name>what_amount_your_are_requesting_for_flight_booking</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_08c15b0415c1e5107f44775c1b035a38</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_08c15b0415c1e5107f44775c1b035a38">20d19b0415c1e5107f44775c1b035a4b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

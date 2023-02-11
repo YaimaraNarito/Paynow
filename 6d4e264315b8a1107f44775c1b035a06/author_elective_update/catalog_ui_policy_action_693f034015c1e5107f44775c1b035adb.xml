@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item>
+        <catalog_variable>IO:bb20411315b4e1107f44775c1b035aa0</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:13:28</sys_created_on>
+        <sys_id>693f034015c1e5107f44775c1b035adb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>what_amount_your_are_requesting_for_car_rental</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035adb</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:18:56</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide/Show and make mandatory the option field for car price">a93f034015c1e5107f44775c1b035ad7</ui_policy>
+        <variable>what_amount_your_are_requesting_for_car_rental</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035adb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item><catalog_variable>IO:bb20411315b4e1107f44775c1b035aa0</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-11 20:13:28</sys_created_on><sys_id>693f034015c1e5107f44775c1b035adb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>what_amount_your_are_requesting_for_car_rental</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035adb</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-11 20:18:56</sys_updated_on><table/><ui_policy display_value="Hide/Show and make mandatory the option field for car price">a93f034015c1e5107f44775c1b035ad7</ui_policy><variable>what_amount_your_are_requesting_for_car_rental</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1960641076</payload_hash>
+        <record_name>what_amount_your_are_requesting_for_car_rental</record_name>
+        <reverted_from/>
+        <source>27e8523715fc65107f44775c1b035af4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:18:56</sys_created_on>
+        <sys_id>617053c015c1e5107f44775c1b035ad5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18642217f360000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:18:56</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>297053c040c1e5102b6189cb47ea84d4</update_guid>
+        <update_guid_history>297053c040c1e5102b6189cb47ea84d4:1960641076,ccff078020c1e51037e4dde4a4575063:-444812328,00ff0780e0c1e5103722c8d35c3e2e61:-1354081476</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="what_amount_your_are_requesting_for_car_rental">df7fdb441505e5107f44775c1b035a1c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 21:24:35</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0730b1670bd24c8e808e8fe63bed9104</sys_id>
+        <sys_metadata>693f034015c1e5107f44775c1b035adb</sys_metadata>
+        <sys_name>what_amount_your_are_requesting_for_car_rental</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035adb</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_693f034015c1e5107f44775c1b035adb">617053c015c1e5107f44775c1b035ad5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

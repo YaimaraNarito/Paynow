@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>what_amount_your_are_requesting_for_flight_booking</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -36,7 +36,7 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>what_amount_your_are_requesting_for_flight_booking</name>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-11 20:13:28</sys_created_on>
+        <sys_created_on>2023-02-11 21:09:25</sys_created_on>
         <sys_id>cfb0d5a3153825107f44775c1b035ae7</sys_id>
         <sys_name>What amount your are requesting for flight booking?</sys_name>
         <sys_package/>

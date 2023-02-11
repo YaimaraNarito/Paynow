@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item>
+        <catalog_variable>IO:154f0923153825107f44775c1b035af6</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:13:28</sys_created_on>
+        <sys_id>693f034015c1e5107f44775c1b035ae4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>what_amount_your_are_requesting_for_food</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035ae4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:16:56</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide/Show and make mandatory the option field for food price">a53f034015c1e5107f44775c1b035ae2</ui_policy>
+        <variable>what_amount_your_are_requesting_for_food</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035ae4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item><catalog_variable>IO:154f0923153825107f44775c1b035af6</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-11 20:13:28</sys_created_on><sys_id>693f034015c1e5107f44775c1b035ae4</sys_id><sys_mod_count>3</sys_mod_count><sys_name>what_amount_your_are_requesting_for_food</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035ae4</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-11 20:16:56</sys_updated_on><table/><ui_policy display_value="Hide/Show and make mandatory the option field for food price">a53f034015c1e5107f44775c1b035ae2</ui_policy><variable>what_amount_your_are_requesting_for_food</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>637220346</payload_hash>
+        <record_name>what_amount_your_are_requesting_for_food</record_name>
+        <reverted_from/>
+        <source>aaf5dcc55c9211107f44347096fdb447</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 20:16:56</sys_created_on>
+        <sys_id>d8005b8015c1e5107f44775c1b035aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186421fa9540000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:16:56</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>d0005b8041c1e5103319455e7641bba7</update_guid>
+        <update_guid_history>d0005b8041c1e5103319455e7641bba7:637220346,48ff0780b8c1e510ba4bb03e3c7fa75e:518601844,48ff078042c1e5100e62e0de99dab45b:1676907366</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="what_amount_your_are_requesting_for_food">c518d30c15c1e5107f44775c1b035a6f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:52:13</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>00b27f081d164bca928593179742c3a4</sys_id>
+        <sys_metadata>693f034015c1e5107f44775c1b035ae4</sys_metadata>
+        <sys_name>what_amount_your_are_requesting_for_food</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_693f034015c1e5107f44775c1b035ae4</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_693f034015c1e5107f44775c1b035ae4">d8005b8015c1e5107f44775c1b035aa7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

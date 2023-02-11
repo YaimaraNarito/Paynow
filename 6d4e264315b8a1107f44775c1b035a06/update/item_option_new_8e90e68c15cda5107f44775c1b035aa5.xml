@@ -28,11 +28,11 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>label</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>sys_choice</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>value</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
@@ -54,7 +54,7 @@
         <record/>
         <record_producer_table>x_cdltd_paynow_paynow_incidents</record_producer_table>
         <reference>x_cdltd_paynow_paynow_incidents</reference>
-        <reference_qual/>
+        <reference_qual>name=incident^element=category</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -82,11 +82,11 @@
         <sys_update_name>item_option_new_8e90e68c15cda5107f44775c1b035aa5</sys_update_name>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

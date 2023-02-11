@@ -28,18 +28,18 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>label</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>sys_choice</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>value</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>please_choose_a_subcategory</name>
+        <name>subcategory</name>
         <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -54,7 +54,7 @@
         <record/>
         <record_producer_table>x_cdltd_paynow_paynow_incidents</record_producer_table>
         <reference/>
-        <reference_qual/>
+        <reference_qual>javascript:“name=incident^element=subcategory^dependent_value=” + current.variables.category;</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -75,18 +75,18 @@
         <sys_created_by>judith.nereus</sys_created_by>
         <sys_created_on>2023-02-11 22:00:29</sys_created_on>
         <sys_id>0d316f081505e5107f44775c1b035a91</sys_id>
-        <sys_name>Please choose a subcategory</sys_name>
+        <sys_name>subcategory</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>item_option_new_0d316f081505e5107f44775c1b035a91</sys_update_name>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

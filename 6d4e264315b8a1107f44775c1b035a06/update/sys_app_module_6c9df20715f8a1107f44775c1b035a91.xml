@@ -13,11 +13,11 @@
         <mobile_title>All</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_paynow_expense_request</name>
-        <order>300</order>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_cdltd_paynow.PayNow Managers,x_cdltd_paynow.user,x_cdltd_paynow.expense_incidents_user,x_cdltd_paynow.admin,x_cdltd_paynow.approver</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-08 16:23:59</sys_created_on>

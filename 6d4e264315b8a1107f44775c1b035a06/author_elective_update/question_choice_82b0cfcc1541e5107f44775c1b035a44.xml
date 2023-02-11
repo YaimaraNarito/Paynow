@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Please, choose a category for submission">8e90e68c15cda5107f44775c1b035aa5</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>judith.nereus</sys_created_by>
+        <sys_created_on>2023-02-11 22:00:29</sys_created_on>
+        <sys_id>82b0cfcc1541e5107f44775c1b035a44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Inquiry/Help</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_82b0cfcc1541e5107f44775c1b035a44</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-11 22:02:52</sys_updated_on>
+        <text>Inquiry/Help</text>
+        <value>inquiry_help</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=82b0cfcc1541e5107f44775c1b035a44"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>question_choice_82b0cfcc1541e5107f44775c1b035a44</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Please, choose a category for submission">8e90e68c15cda5107f44775c1b035aa5</question><sys_class_name>question_choice</sys_class_name><sys_created_by>judith.nereus</sys_created_by><sys_created_on>2023-02-11 22:00:29</sys_created_on><sys_id>82b0cfcc1541e5107f44775c1b035a44</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Inquiry/Help</sys_name><sys_package/><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>question_choice_82b0cfcc1541e5107f44775c1b035a44</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-11 22:02:52</sys_updated_on><text>Inquiry/Help</text><value>inquiry_help</value></question_choice><fx_price action="delete_multiple" query="id=82b0cfcc1541e5107f44775c1b035a44"/></record_update>]]></payload>
+        <payload_hash>-533227874</payload_hash>
+        <record_name>Inquiry/Help</record_name>
+        <reverted_from/>
+        <source>ab386f801545e5107f44775c1b035a78</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 22:02:52</sys_created_on>
+        <sys_id>4848af801545e5107f44775c1b035ab9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1864280a6620000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-11 22:02:52</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8c48af807d45e51064de293b884e37b8</update_guid>
+        <update_guid_history>8c48af807d45e51064de293b884e37b8:-533227874,6247e740d445e510a855c93f5834cbb9:2063583062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Inquiry/Help">a991c05015c5e5107f44775c1b035adb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 23:53:34</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>aae81b36394642b88b6877a8472e5dc9</sys_id>
+        <sys_metadata>82b0cfcc1541e5107f44775c1b035a44</sys_metadata>
+        <sys_name>Inquiry/Help</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>question_choice_82b0cfcc1541e5107f44775c1b035a44</sys_update_name>
+        <sys_update_version display_value="question_choice_82b0cfcc1541e5107f44775c1b035a44">4848af801545e5107f44775c1b035ab9</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -17,23 +17,23 @@
             <element>subcategory</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Feedback</label>
+            <label>Password Reset</label>
             <language>en</language>
             <name>x_cdltd_paynow_paynow_incidents</name>
             <sequence>0</sequence>
             <synonyms/>
-            <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_created_by>judith.nereus</sys_created_by>
+            <sys_created_on>2023-02-11 17:46:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>Feedback</value>
+            <value>Password Reset</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>inquiry</dependent_value>
             <element>subcategory</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Password Rest</label>
+            <label>Feedback</label>
             <language>en</language>
             <name>x_cdltd_paynow_paynow_incidents</name>
             <sequence>1</sequence>
@@ -42,7 +42,7 @@
             <sys_created_on>2023-02-10 22:06:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>Password Rest</value>
+            <value>Feedback</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>inquiry</dependent_value>
@@ -75,6 +75,22 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Password Rest</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Password Rest</value>
         </sys_choice>
     </sys_choice>
 </record_update>

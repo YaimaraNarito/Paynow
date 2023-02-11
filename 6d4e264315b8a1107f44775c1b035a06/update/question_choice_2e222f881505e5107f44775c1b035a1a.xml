@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Please choose a subcategory">0d316f081505e5107f44775c1b035a91</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>judith.nereus</sys_created_by>
+        <sys_created_on>2023-02-11 22:00:29</sys_created_on>
+        <sys_id>2e222f881505e5107f44775c1b035a1a</sys_id>
+        <sys_name>Application crashing or non-responsive</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_2e222f881505e5107f44775c1b035a1a</sys_update_name>
+        <text>Application crashing or non-responsive</text>
+        <value>application_crashing_or_non_responsive</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=2e222f881505e5107f44775c1b035a1a"/>
+</record_update>

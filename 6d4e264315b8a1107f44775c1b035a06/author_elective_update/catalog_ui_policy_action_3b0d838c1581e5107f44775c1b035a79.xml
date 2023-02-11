@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item>
+        <catalog_variable>IO:ef1115e3153825107f44775c1b035a13</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:04:45</sys_created_on>
+        <sys_id>3b0d838c1581e5107f44775c1b035a79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_hotel_price</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3b0d838c1581e5107f44775c1b035a79</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:04:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide/Show and make mandatory the option field for hotel price">66ea07c81581e5107f44775c1b035adc</ui_policy>
+        <variable>u_hotel_price</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>catalog_ui_policy_action_3b0d838c1581e5107f44775c1b035a79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</catalog_item><catalog_variable>IO:ef1115e3153825107f44775c1b035a13</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-11 20:04:45</sys_created_on><sys_id>3b0d838c1581e5107f44775c1b035a79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hotel_price</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>catalog_ui_policy_action_3b0d838c1581e5107f44775c1b035a79</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-11 20:04:45</sys_updated_on><table/><ui_policy display_value="Hide/Show and make mandatory the option field for hotel price">66ea07c81581e5107f44775c1b035adc</ui_policy><variable>u_hotel_price</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1165181674</payload_hash>
+        <record_name>u_hotel_price</record_name>
+        <reverted_from/>
+        <source>27e8523715fc65107f44775c1b035af4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 20:04:45</sys_created_on>
+        <sys_id>bd3dc38c1581e5107f44775c1b035a0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186421481130000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:04:45</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>b53dc38c2e81e510ec0df714019fdc0a</update_guid>
+        <update_guid_history>b53dc38c2e81e510ec0df714019fdc0a:1165181674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_hotel_price">3fef078015c1e5107f44775c1b035a23</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 20:16:38</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0e77d872393049159134aa15aca9a431</sys_id>
+        <sys_metadata>3b0d838c1581e5107f44775c1b035a79</sys_metadata>
+        <sys_name>u_hotel_price</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_3b0d838c1581e5107f44775c1b035a79</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_3b0d838c1581e5107f44775c1b035a79">bd3dc38c1581e5107f44775c1b035a0a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

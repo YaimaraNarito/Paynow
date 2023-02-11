@@ -3,10 +3,10 @@
         <inactive>false</inactive>
         <order>300</order>
         <published_ref/>
-        <question display_value="Hotel Price?">ef1115e3153825107f44775c1b035a13</question>
+        <question display_value="What amount your are requesting for accommodations?">ef1115e3153825107f44775c1b035a13</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-11 16:46:06</sys_created_on>
+        <sys_created_on>2023-02-11 20:13:28</sys_created_on>
         <sys_id>1b6159e3153825107f44775c1b035ac8</sys_id>
         <sys_name>$600</sys_name>
         <sys_package/>

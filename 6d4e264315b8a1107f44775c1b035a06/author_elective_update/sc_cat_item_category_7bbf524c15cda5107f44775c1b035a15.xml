@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item>
+        <sc_category display_value="What can we help you with today?">326bcac0158da5107f44775c1b035ad7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-11 16:46:06</sys_created_on>
+        <sys_id>7bbf524c15cda5107f44775c1b035a15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What can we help you with today?.Expense Request </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_category_7bbf524c15cda5107f44775c1b035a15</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 17:13:31</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_category_7bbf524c15cda5107f44775c1b035a15</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</sc_cat_item><sc_category display_value="What can we help you with today?">326bcac0158da5107f44775c1b035ad7</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-11 16:46:06</sys_created_on><sys_id>7bbf524c15cda5107f44775c1b035a15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>What can we help you with today?.Expense Request </sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_category_7bbf524c15cda5107f44775c1b035a15</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-11 17:13:31</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2030292244</payload_hash>
+        <record_name>What can we help you with today?.Expense Request </record_name>
+        <reverted_from/>
+        <source>afefc38015c1e5107f44775c1b035ae9</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 20:16:39</sys_created_on>
+        <sys_id>8cff078015c1e5107f44775c1b035a8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186421f66350000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-11 20:16:39</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c0ff0780cbc1e510f47385ddcfe49d8d</update_guid>
+        <update_guid_history>c0ff0780cbc1e510f47385ddcfe49d8d:2030292244,49102a4cbacda510412849de9d860146:-85631072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="What can we help you with today?.Expense Request ">48ff078015c1e5107f44775c1b035a92</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-11 20:16:39</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>32b69c3e7ac14722b202b36594080c51</sys_id>
+        <sys_metadata>7bbf524c15cda5107f44775c1b035a15</sys_metadata>
+        <sys_name>What can we help you with today?.Expense Request </sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7bbf524c15cda5107f44775c1b035a15</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7bbf524c15cda5107f44775c1b035a15">8cff078015c1e5107f44775c1b035a8d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

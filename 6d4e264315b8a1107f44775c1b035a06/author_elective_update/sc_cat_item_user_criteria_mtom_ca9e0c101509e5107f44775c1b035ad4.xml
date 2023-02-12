@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Paynow Incident Submission">5dca42c0158da5107f44775c1b035a79</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 00:50:24</sys_created_on>
+        <sys_id>ca9e0c101509e5107f44775c1b035ad4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Paynow Incident Submission.PayNow Group Users</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ca9e0c101509e5107f44775c1b035ad4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-12 00:53:58</sys_updated_on>
+        <user_criteria display_value="PayNow Group Users">c69bdce3153425107f44775c1b035ac5</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_ca9e0c101509e5107f44775c1b035ad4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Paynow Incident Submission">5dca42c0158da5107f44775c1b035a79</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-12 00:50:24</sys_created_on><sys_id>ca9e0c101509e5107f44775c1b035ad4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Paynow Incident Submission.PayNow Group Users</sys_name><sys_package/><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_ca9e0c101509e5107f44775c1b035ad4</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-12 00:53:58</sys_updated_on><user_criteria display_value="PayNow Group Users">c69bdce3153425107f44775c1b035ac5</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>651553977</payload_hash>
+        <record_name>Paynow Incident Submission.PayNow Group Users</record_name>
+        <reverted_from/>
+        <source>4a6f0c501509e5107f44775c1b035a27</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-12 00:53:58</sys_created_on>
+        <sys_id>5a6f0c501509e5107f44775c1b035aa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186431d48c90000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-12 00:53:58</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>9e6f0c50ab09e510bb33125fd90de6a4</update_guid>
+        <update_guid_history>9e6f0c50ab09e510bb33125fd90de6a4:651553977,166f0c507009e510048fb92ef645c1a2:-2074628921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Paynow Incident Submission.PayNow Group Users">54dfc4901509e5107f44775c1b035ae2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-12 00:55:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>727cde4e63664cfc8f3ef72957dc1490</sys_id>
+        <sys_metadata>ca9e0c101509e5107f44775c1b035ad4</sys_metadata>
+        <sys_name>Paynow Incident Submission.PayNow Group Users</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ca9e0c101509e5107f44775c1b035ad4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_ca9e0c101509e5107f44775c1b035ad4">5a6f0c501509e5107f44775c1b035aa5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

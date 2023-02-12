@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>short_description</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -35,12 +35,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <mandatory>true</mandatory>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>please_provide_a_short_description</name>
-        <order>400</order>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -72,8 +72,8 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>judith.nereus</sys_created_by>
-        <sys_created_on>2023-02-11 22:00:29</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 00:59:51</sys_created_on>
         <sys_id>aca22bc81505e5107f44775c1b035a1e</sys_id>
         <sys_name>Please provide a short description</sys_name>
         <sys_package/>

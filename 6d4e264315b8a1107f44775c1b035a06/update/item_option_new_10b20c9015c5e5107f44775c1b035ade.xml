@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>subcategory</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -36,16 +36,16 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>urgency</name>
-        <order>400</order>
+        <name>subcategory</name>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Urgency</question_text>
+        <question_text>If you chose Inquiry/Help, please select the subcategory</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -73,13 +73,13 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-12 00:59:51</sys_created_on>
-        <sys_id>2e42af881505e5107f44775c1b035a71</sys_id>
-        <sys_name>Urgency</sys_name>
+        <sys_created_on>2023-02-12 00:59:50</sys_created_on>
+        <sys_id>10b20c9015c5e5107f44775c1b035ade</sys_id>
+        <sys_name>If you chose Inquiry/Help, please select the subcategory</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>item_option_new_2e42af881505e5107f44775c1b035a71</sys_update_name>
+        <sys_update_name>item_option_new_10b20c9015c5e5107f44775c1b035ade</sys_update_name>
         <table/>
         <tooltip/>
         <type>5</type>
@@ -98,22 +98,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=2e42af881505e5107f44775c1b035a71"/>
-    <fx_price action="delete_multiple" query="id=2e42af881505e5107f44775c1b035a71"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=10b20c9015c5e5107f44775c1b035ade"/>
+    <fx_price action="delete_multiple" query="id=10b20c9015c5e5107f44775c1b035ade"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>2e42af881505e5107f44775c1b035a71</id>
+        <id>10b20c9015c5e5107f44775c1b035ade</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>judith.nereus</sys_created_by>
-        <sys_created_on>2023-02-11 21:37:56</sys_created_on>
-        <sys_id>7e8267c81505e5107f44775c1b035ae2</sys_id>
+        <sys_created_on>2023-02-12 00:00:52</sys_created_on>
+        <sys_id>dc4308d015c5e5107f44775c1b035a3b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>judith.nereus</sys_updated_by>
-        <sys_updated_on>2023-02-11 21:37:56</sys_updated_on>
+        <sys_updated_on>2023-02-12 00:00:52</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -121,16 +121,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>2e42af881505e5107f44775c1b035a71</id>
+        <id>10b20c9015c5e5107f44775c1b035ade</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>judith.nereus</sys_created_by>
-        <sys_created_on>2023-02-11 21:37:56</sys_created_on>
-        <sys_id>fe8267c81505e5107f44775c1b035ae1</sys_id>
+        <sys_created_on>2023-02-12 00:00:52</sys_created_on>
+        <sys_id>544308d015c5e5107f44775c1b035a3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>judith.nereus</sys_updated_by>
-        <sys_updated_on>2023-02-11 21:37:56</sys_updated_on>
+        <sys_updated_on>2023-02-12 00:00:52</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

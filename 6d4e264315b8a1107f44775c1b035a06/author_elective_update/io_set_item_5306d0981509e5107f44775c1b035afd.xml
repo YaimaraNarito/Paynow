@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>500</order>
+        <sc_cat_item display_value="Paynow Incident Submission">5dca42c0158da5107f44775c1b035a79</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 01:24:14</sys_created_on>
+        <sys_id>5306d0981509e5107f44775c1b035afd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Expense line items.Paynow Incident Submission</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>io_set_item_5306d0981509e5107f44775c1b035afd</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-12 01:24:14</sys_updated_on>
+        <variable_set display_value="Expense line items">a0fba24f1678a11059223430c68a9517</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>io_set_item_5306d0981509e5107f44775c1b035afd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>500</order><sc_cat_item display_value="Paynow Incident Submission">5dca42c0158da5107f44775c1b035a79</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-12 01:24:14</sys_created_on><sys_id>5306d0981509e5107f44775c1b035afd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Expense line items.Paynow Incident Submission</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>io_set_item_5306d0981509e5107f44775c1b035afd</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-12 01:24:14</sys_updated_on><variable_set display_value="Expense line items">a0fba24f1678a11059223430c68a9517</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-651347026</payload_hash>
+        <record_name>Expense line items.Paynow Incident Submission</record_name>
+        <reverted_from/>
+        <source>27e8523715fc65107f44775c1b035af4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 01:24:14</sys_created_on>
+        <sys_id>295658981509e5107f44775c1b035a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1864338ff860000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-12 01:24:14</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>695658984809e510380cbc2c8f11b64e</update_guid>
+        <update_guid_history>695658984809e510380cbc2c8f11b64e:-651347026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Expense line items.Paynow Incident Submission">a5ab10501549e5107f44775c1b035a14</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 01:47:26</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>4ae5436a442e40909028d56b8ce0dc10</sys_id>
+        <sys_metadata>5306d0981509e5107f44775c1b035afd</sys_metadata>
+        <sys_name>Expense line items.Paynow Incident Submission</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>io_set_item_5306d0981509e5107f44775c1b035afd</sys_update_name>
+        <sys_update_version display_value="io_set_item_5306d0981509e5107f44775c1b035afd">295658981509e5107f44775c1b035a5b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

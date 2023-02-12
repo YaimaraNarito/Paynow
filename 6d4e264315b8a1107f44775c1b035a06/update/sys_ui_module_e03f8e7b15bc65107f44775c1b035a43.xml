@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="PayNow Incidents">283f8e7b15bc65107f44775c1b035a40</application>
+        <application display_value="Paynow Incidents">283f8e7b15bc65107f44775c1b035a40</application>
         <filter/>
-        <name>PayNow Incidents</name>
+        <name>Paynow Incidents</name>
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
@@ -14,7 +14,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e03f8e7b15bc65107f44775c1b035a43</sys_id>
-        <sys_name>PayNow Incidents</sys_name>
+        <sys_name>Paynow Incidents</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>

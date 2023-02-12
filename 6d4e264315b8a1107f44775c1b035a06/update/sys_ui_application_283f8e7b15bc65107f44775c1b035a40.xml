@@ -2,7 +2,7 @@
     <sys_ui_application action="INSERT_OR_UPDATE">
         <active>true</active>
         <hint/>
-        <name>PayNow Incidents</name>
+        <name>Paynow Incidents</name>
         <order/>
         <roles>x_cdltd_paynow.paynow_incidents_user</roles>
         <sys_class_name>sys_ui_application</sys_class_name>
@@ -11,7 +11,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>283f8e7b15bc65107f44775c1b035a40</sys_id>
-        <sys_name>PayNow Incidents</sys_name>
+        <sys_name>Paynow Incidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>

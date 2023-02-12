@@ -43,14 +43,14 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Hide/Show the fileds with price question </short_description>
+        <short_description>Hide/Show the fields with price question </short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-11 21:59:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0236a3001545e5107f44775c1b035a3d</sys_id>
-        <sys_name>Hide/Show the fileds with price question </sys_name>
+        <sys_name>Hide/Show the fields with price question </sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>

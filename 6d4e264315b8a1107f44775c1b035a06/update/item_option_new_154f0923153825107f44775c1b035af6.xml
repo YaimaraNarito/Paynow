@@ -39,7 +39,7 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>u_food_price</name>
+        <name>u_food_price_2</name>
         <order>800</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>

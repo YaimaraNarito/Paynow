@@ -14,13 +14,13 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>771d63c315fca1107f44775c1b035a2f</sys_id>
-        <sys_name>PayNow Line Item</sys_name>
+        <sys_name>Paynow Line Item</sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sys_app_application_771d63c315fca1107f44775c1b035a2f</sys_update_name>
-        <title>PayNow Line Item</title>
+        <title>Paynow Line Item</title>
         <view_name/>
     </sys_app_application>
 </record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Copy of Expense Request ">2c0398a4150929107f44775c1b035a8c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 19:48:15</sys_created_on>
+        <sys_id>7103d8e4150929107f44775c1b035a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Expense Request .PayNow Group Users</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7103d8e4150929107f44775c1b035a8e</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-12 19:48:15</sys_updated_on>
+        <user_criteria display_value="PayNow Group Users">c69bdce3153425107f44775c1b035ac5</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_7103d8e4150929107f44775c1b035a8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Expense Request ">2c0398a4150929107f44775c1b035a8c</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-12 19:48:15</sys_created_on><sys_id>7103d8e4150929107f44775c1b035a8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of Expense Request .PayNow Group Users</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_7103d8e4150929107f44775c1b035a8e</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-12 19:48:15</sys_updated_on><user_criteria display_value="PayNow Group Users">c69bdce3153425107f44775c1b035ac5</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>743040075</payload_hash>
+        <record_name>Copy of Expense Request .PayNow Group Users</record_name>
+        <reverted_from/>
+        <source>27e8523715fc65107f44775c1b035af4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 19:48:15</sys_created_on>
+        <sys_id>b503d8e4150929107f44775c1b035a91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186472bc0af0000001</sys_recorded_at>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-12 19:48:15</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>bd03d8e4ee09291090549066761bb590</update_guid>
+        <update_guid_history>bd03d8e4ee09291090549066761bb590:743040075</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Expense Request .PayNow Group Users">95231028150929107f44775c1b035abd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 19:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>68e2abc7d57e4bee836d91966a0c5181</sys_id>
+        <sys_metadata>7103d8e4150929107f44775c1b035a8e</sys_metadata>
+        <sys_name>Copy of Expense Request .PayNow Group Users</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7103d8e4150929107f44775c1b035a8e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_7103d8e4150929107f44775c1b035a8e">b503d8e4150929107f44775c1b035a91</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

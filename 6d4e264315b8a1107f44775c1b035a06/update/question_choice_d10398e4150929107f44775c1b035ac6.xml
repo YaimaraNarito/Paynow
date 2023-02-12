@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="What amount are you requesting for food?">bc0398e4150929107f44775c1b035a17</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 19:48:13</sys_created_on>
+        <sys_id>d10398e4150929107f44775c1b035ac6</sys_id>
+        <sys_name>$800</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_d10398e4150929107f44775c1b035ac6</sys_update_name>
+        <text>$800</text>
+        <value>800</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d10398e4150929107f44775c1b035ac6"/>
+</record_update>

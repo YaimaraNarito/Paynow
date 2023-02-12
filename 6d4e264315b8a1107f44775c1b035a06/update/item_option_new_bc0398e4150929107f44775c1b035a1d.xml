@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Expense Request ">1f2045df1574e1107f44775c1b035a01</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>No</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -19,12 +19,12 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>u_food_price</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>true</include_none>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -35,17 +35,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>u_food_price</name>
-        <order>800</order>
+        <name>do_you_need_hotel_accommodations</name>
+        <order>900</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What amount are you requesting for food?</question_text>
+        <question_text>Do you need hotel accommodations?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -54,8 +54,8 @@
         <record/>
         <record_producer_table>x_cdltd_paynow_expense_request</record_producer_table>
         <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -73,16 +73,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
-        <sys_created_on>2023-02-11 21:29:39</sys_created_on>
-        <sys_id>154f0923153825107f44775c1b035af6</sys_id>
-        <sys_name>What amount are you requesting for food?</sys_name>
-        <sys_package/>
+        <sys_created_on>2023-02-12 19:48:11</sys_created_on>
+        <sys_id>bc0398e4150929107f44775c1b035a1d</sys_id>
+        <sys_name>Do you need hotel accommodations?</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
-        <sys_update_name>item_option_new_154f0923153825107f44775c1b035af6</sys_update_name>
+        <sys_update_name>item_option_new_bc0398e4150929107f44775c1b035a1d</sys_update_name>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>1</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -98,22 +98,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=154f0923153825107f44775c1b035af6"/>
-    <fx_price action="delete_multiple" query="id=154f0923153825107f44775c1b035af6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc0398e4150929107f44775c1b035a1d"/>
+    <fx_price action="delete_multiple" query="id=bc0398e4150929107f44775c1b035a1d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>154f0923153825107f44775c1b035af6</id>
+        <id>bc0398e4150929107f44775c1b035a1d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>chan.ib</sys_created_by>
-        <sys_created_on>2023-02-09 21:39:57</sys_created_on>
-        <sys_id>70df0563153825107f44775c1b035a62</sys_id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 19:48:11</sys_created_on>
+        <sys_id>f80398e4150929107f44775c1b035a20</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chan.ib</sys_updated_by>
-        <sys_updated_on>2023-02-09 21:39:57</sys_updated_on>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-12 19:48:11</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -121,16 +121,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>154f0923153825107f44775c1b035af6</id>
+        <id>bc0398e4150929107f44775c1b035a1d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>chan.ib</sys_created_by>
-        <sys_created_on>2023-02-09 21:39:57</sys_created_on>
-        <sys_id>f4df0563153825107f44775c1b035a60</sys_id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-12 19:48:11</sys_created_on>
+        <sys_id>700398e4150929107f44775c1b035a20</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chan.ib</sys_updated_by>
-        <sys_updated_on>2023-02-09 21:39:57</sys_updated_on>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-12 19:48:11</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

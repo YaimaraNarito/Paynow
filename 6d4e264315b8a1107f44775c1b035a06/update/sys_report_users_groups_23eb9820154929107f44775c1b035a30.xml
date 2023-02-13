@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="PayNow Authorizations By Business Justifications">abeb9820154929107f44775c1b035a2e</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 20:27:09</sys_created_on>
+        <sys_id>23eb9820154929107f44775c1b035a30</sys_id>
+        <sys_name>abeb9820154929107f44775c1b035a2e</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_report_users_groups_23eb9820154929107f44775c1b035a30</sys_update_name>
+        <user_id display_value="chan Ib">56582e6a153821107f44775c1b035a03</user_id>
+    </sys_report_users_groups>
+</record_update>

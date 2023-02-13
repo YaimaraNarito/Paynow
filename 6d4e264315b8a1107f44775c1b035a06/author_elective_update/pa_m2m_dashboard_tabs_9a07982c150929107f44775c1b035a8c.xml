@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="PayNow Group Dashboard">0b7a882c15c529107f44775c1b035af9</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 20:05:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a07982c150929107f44775c1b035a8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0b7a882c15c529107f44775c1b035af9</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_9a07982c150929107f44775c1b035a8c</sys_update_name>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-12 20:05:46</sys_updated_on>
+        <tab display_value="PayNow Group Dashboa - New Tab 2">5e07982c150929107f44775c1b035a89</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>pa_m2m_dashboard_tabs_9a07982c150929107f44775c1b035a8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="PayNow Group Dashboard">0b7a882c15c529107f44775c1b035af9</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>chan.ib</sys_created_by><sys_created_on>2023-02-12 20:05:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a07982c150929107f44775c1b035a8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>0b7a882c15c529107f44775c1b035af9</sys_name><sys_overrides/><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_9a07982c150929107f44775c1b035a8c</sys_update_name><sys_updated_by>chan.ib</sys_updated_by><sys_updated_on>2023-02-12 20:05:46</sys_updated_on><tab display_value="PayNow Group Dashboa - New Tab 2">5e07982c150929107f44775c1b035a89</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>1103994485</payload_hash>
+        <record_name>0b7a882c15c529107f44775c1b035af9</record_name>
+        <reverted_from/>
+        <source>e79aa22b15fc25107f44775c1b035a6f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 20:05:46</sys_created_on>
+        <sys_id>56071c2c150929107f44775c1b035ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186473bcc340000001</sys_recorded_at>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-12 20:05:46</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>5a07982c1e092910ebeb31e11787ff8e</update_guid>
+        <update_guid_history>5a07982c1e092910ebeb31e11787ff8e:1103994485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PayNow Group Dashboard">f1175ce8150929107f44775c1b035aec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 20:06:00</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>0edc1d5e39804acc8123f5cf8a5c4a39</sys_id>
+        <sys_metadata>9a07982c150929107f44775c1b035a8c</sys_metadata>
+        <sys_name>0b7a882c15c529107f44775c1b035af9</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent display_value="PayNow Group Dashboard">0b7a882c15c529107f44775c1b035af9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_9a07982c150929107f44775c1b035a8c</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_9a07982c150929107f44775c1b035a8c">56071c2c150929107f44775c1b035ab2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

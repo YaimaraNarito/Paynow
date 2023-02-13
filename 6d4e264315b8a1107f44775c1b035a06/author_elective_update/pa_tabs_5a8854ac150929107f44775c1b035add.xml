@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>PayNow Group Dashboa - New Tab 2</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 20:12:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a8854ac150929107f44775c1b035add</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PayNow Group Dashboa - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>pa_tabs_5a8854ac150929107f44775c1b035add</sys_update_name>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-12 20:12:19</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>491a282a87b4ad50926e411d8bbb351f</instance_id>
+        <instance_name>adf-feb6-788-dev-001</instance_name>
+        <name>pa_tabs_5a8854ac150929107f44775c1b035add</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>PayNow Group Dashboa - New Tab 2</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>chan.ib</sys_created_by><sys_created_on>2023-02-12 20:12:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5a8854ac150929107f44775c1b035add</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PayNow Group Dashboa - New Tab 2</sys_name><sys_overrides/><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>pa_tabs_5a8854ac150929107f44775c1b035add</sys_update_name><sys_updated_by>chan.ib</sys_updated_by><sys_updated_on>2023-02-12 20:12:19</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>394658853</payload_hash>
+        <record_name>PayNow Group Dashboa - New Tab 2</record_name>
+        <reverted_from/>
+        <source>e79aa22b15fc25107f44775c1b035a6f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 21:50:00</sys_created_on>
+        <sys_id>19ee6ce4158929107f44775c1b035a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186479b39470000001</sys_recorded_at>
+        <sys_updated_by>chan.ib</sys_updated_by>
+        <sys_updated_on>2023-02-12 21:50:00</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>568854ac6c092910b0a0ea2f89de5ddf</update_guid>
+        <update_guid_history>568854ac6c092910b0a0ea2f89de5ddf:-2100651775,568854ac6c092910b0a0ea2f89de5ddf:-2100651775,568854ac6c092910b0a0ea2f89de5ddf:-2100651775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PayNow Group Dashboa - New Tab 2">55ee6ce4158929107f44775c1b035a73</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chan.ib</sys_created_by>
+        <sys_created_on>2023-02-12 21:50:00</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>6615dcd95b2f497cb82e10881b64df10</sys_id>
+        <sys_metadata>5a8854ac150929107f44775c1b035add</sys_metadata>
+        <sys_name>PayNow Group Dashboa - New Tab 2</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>pa_tabs_5a8854ac150929107f44775c1b035add</sys_update_name>
+        <sys_update_version display_value="pa_tabs_5a8854ac150929107f44775c1b035add">19ee6ce4158929107f44775c1b035a67</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

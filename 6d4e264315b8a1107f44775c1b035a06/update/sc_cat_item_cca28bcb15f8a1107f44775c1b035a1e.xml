@@ -43,7 +43,7 @@
         <omit_price>false</omit_price>
         <order>300</order>
         <ordered_item_link/>
-        <owner display_value="chan Ib">56582e6a153821107f44775c1b035a03</owner>
+        <owner display_value="">56582e6a153821107f44775c1b035a03</owner>
         <picture>2feaeef71530a5107f44775c1b035afc</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cca28bcb15f8a1107f44775c1b035a1e&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>

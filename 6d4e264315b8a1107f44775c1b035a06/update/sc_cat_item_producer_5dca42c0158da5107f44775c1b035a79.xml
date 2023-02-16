@@ -45,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Yaimara Narito">d398a2aa153821107f44775c1b035a2c</owner>
+        <owner display_value="">d398a2aa153821107f44775c1b035a2c</owner>
         <picture>a8c01cd01509e5107f44775c1b035a9d</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 

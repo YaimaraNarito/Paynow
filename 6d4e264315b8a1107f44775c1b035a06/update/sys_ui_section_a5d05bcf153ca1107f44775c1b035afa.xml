@@ -4,195 +4,307 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>27ca1c9b15b0e1107f44775c1b035a19</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>0d983037153865107f44775c1b035af9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>opened_by</element>
             <position>1</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>ebca1c9b15b0e1107f44775c1b035a19</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>45983037153865107f44775c1b035afa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>2</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>49983037153865107f44775c1b035afa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>authorization_request_notification</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>6fca1c9b15b0e1107f44775c1b035a19</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>4d983037153865107f44775c1b035afa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>efca1c9b15b0e1107f44775c1b035a19</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>41983037153865107f44775c1b035afb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_business_justification</element>
+            <position>5</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>45983037153865107f44775c1b035afb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>49983037153865107f44775c1b035afb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>7</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>4d983037153865107f44775c1b035afb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>8</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>63ca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>41983037153865107f44775c1b035afc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>5</position>
-            <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>e3ca1c9b15b0e1107f44775c1b035a1a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
-            <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>9</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>67ca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>45983037153865107f44775c1b035afc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>7</position>
+            <position>10</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>e7ca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>49983037153865107f44775c1b035afc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_glide_start_date</element>
-            <position>8</position>
+            <element>u_glide_expense_start_date</element>
+            <position>11</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>6bca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>4d983037153865107f44775c1b035afc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_glide_end_date</element>
-            <position>9</position>
+            <element>u_glide_expense_end_date</element>
+            <position>12</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>ebca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>41983037153865107f44775c1b035afd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_food_price</element>
+            <position>13</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>45983037153865107f44775c1b035afd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hotel_price</element>
+            <position>14</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>49983037153865107f44775c1b035afd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_car_price</element>
+            <position>15</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>4d983037153865107f44775c1b035afd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_flight_price</element>
+            <position>16</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>41983037153865107f44775c1b035afe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_price_1</element>
+            <position>17</position>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>45983037153865107f44775c1b035afe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>18</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>6fca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>49983037153865107f44775c1b035afe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>11</position>
+            <position>19</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>efca1c9b15b0e1107f44775c1b035a1a</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>4d983037153865107f44775c1b035afe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>12</position>
+            <element>comments</element>
+            <position>20</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>63ca1c9b15b0e1107f44775c1b035a1b</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>41983037153865107f44775c1b035aff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>13</position>
+            <position>21</position>
             <sys_created_by>yaimara.narito</sys_created_by>
-            <sys_created_on>2023-02-08 23:09:50</sys_created_on>
-            <sys_id>e3ca1c9b15b0e1107f44775c1b035a1b</sys_id>
+            <sys_created_on>2023-02-10 14:36:52</sys_created_on>
+            <sys_id>45983037153865107f44775c1b035aff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_paynow_expense_request" sys_domain="global" view="Default view">a5d05bcf153ca1107f44775c1b035afa</sys_ui_section>
             <sys_updated_by>yaimara.narito</sys_updated_by>
-            <sys_updated_on>2023-02-08 23:09:50</sys_updated_on>
+            <sys_updated_on>2023-02-10 14:36:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -207,12 +319,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a5d05bcf153ca1107f44775c1b035afa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>x_cdltd_paynow_expense_request</sys_name>
             <sys_overrides/>
             <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
             <sys_policy/>
             <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
             <sys_update_name>sys_ui_section_a5d05bcf153ca1107f44775c1b035afa</sys_update_name>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-10 20:21:34</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

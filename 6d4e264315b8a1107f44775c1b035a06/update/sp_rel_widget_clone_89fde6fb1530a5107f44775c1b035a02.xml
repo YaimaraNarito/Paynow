@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="paynow incidents">89fda6fb1530a5107f44775c1b035afe</child>
+        <cloned>2023-02-10 23:09:41</cloned>
+        <last_validated>2023-02-10 23:09:41</last_validated>
+        <parent display_value="Incident Standard Ticket Actions">9bd06ce173070010cbb654eb7df6a7d4</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function incidentTicketActions($scope, $http, spUtil, $timeout, spModal, i18n, $window, $uibModal, spAriaUtil) {
+    /* widget controller */
+    var c = this;
+    c.doneLoading = false;
+    c.resolvedIncidentMsg = "${Resolved Incident}";
+    c.closedIncidentMsg = "${Closed Incident}";
+    c.reopenedIncidentMsg = "${Reopened Incident}";
+
+    var MOBILE_DEVICE_SCREEN_WIDTH = 767;
+    $scope.mobileDevice = c.data.isMobile || ($window.innerWidth &lt; MOBILE_DEVICE_SCREEN_WIDTH);
+
+	$scope.resolveIncident = function() {
+        $scope.data.action = 'resolveIncident';
+        $scope.server.update(init).then(function(response){
+					if (response.isIncidentResolved)
+						spAriaUtil.sendLiveMessage(c.resolvedIncidentMsg);
+				});
+		$scope.$emit('focusOnActions', {"isFocusRequired": true});
+    };
+	
+	$scope.closeIncident = function() {
+		$scope.data.action = 'closeIncident';
+        $scope.server.update(init).then(function(response){
+					if (response.isIncidentClosed)
+						spAriaUtil.sendLiveMessage(c.closedIncidentMsg);
+				});
+		var elm = document.getElementById('short-desc')
+		elm.focus();
+	};
+
+    $scope.reopenIncident = function() {
+        $scope.data.action = 'reopenIncident';
+        $scope.server.update(init).then(function(response){
+					if (response.isIncidentReopened)
+						spAriaUtil.sendLiveMessage(c.reopenedIncidentMsg);
+				});
+			$scope.$emit('focusOnActions', {"isFocusRequired": true});
+    };
+
+    function init() {}
+	
+    $(document).on('click', 'div.modal-footer button.btn, ul#child-case-tabs .dropdown-menu', function(e) {
+        e.stopPropagation();
+    });
+
+    $(document).bind('dragover drop', function(event) {
+        event.preventDefault();
+        return false;
+    });
+
+    $scope.$on('sp_loading_indicator', function(e, value) {
+        if (!value &amp;&amp; !c.doneLoading) {
+            c.doneLoading = true;
+        }
+    });
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;$sp-space--md: 12px !default;
+.arrow {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 150;
+  border-left: $sp-space--md solid transparent;
+  border-right: $sp-space--md solid transparent;
+  border-bottom: $sp-space--md solid #FFFFFF;
+}
+
+.question-tab{
+	font-size:1.4rem;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+}
+
+.action-btn {
+  width: 100%;
+}
+
+.fa-caret-down {
+  vertical-align: middle;
+  font-size: 1.3rem;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;incident-standard-ticket-actions&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  scope.setFocusOnActionButtons = function() {
+		if (scope.widget.isFocusRequired) {
+			var elm = element.find('#actions-button')[0];
+			elm.focus();
+		}
+	}
+}]]&gt;&lt;/link&gt;&lt;name&gt;Incident Standard Ticket Actions&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    var incidentGr = new GlideRecord('incident');
+	var incidentSysId = options.sys_id;
+	
+	if (!incidentSysId &amp;&amp; $sp.getParameter('table') == 'incident')
+		incidentSysId = $sp.getParameter('sys_id');
+	
+	if (!incidentSysId &amp;&amp; $sp.getParameter('table') == 'universal_request') {
+		var urGr = new GlideRecord('universal_request');
+		urGr.get($sp.getParameter('sys_id'));
+		incidentSysId = urGr.primary_task + "";
+	}
+	
+	/* Actions - Start */
+    if (input &amp;&amp; input.action == 'resolveIncident' &amp;&amp; incidentGr.get(incidentSysId)) {
+        incidentGr.incident_state = global.IncidentState.RESOLVED;
+		incidentGr.state = global.IncidentState.RESOLVED;
+		incidentGr.resolved_by = gs.getUserID();
+		data.isIncidentResolved = incidentGr.update();
+    }
+	
+	if (input &amp;&amp; input.action == 'reopenIncident' &amp;&amp; incidentGr.get(incidentSysId)) {
+        incidentGr.incident_state = global.IncidentState.IN_PROGRESS;
+		incidentGr.state = global.IncidentState.IN_PROGRESS;
+		data.isIncidentReopened = incidentGr.update();
+		gs.addInfoMessage(gs.getMessage("Request reopened"));
+    }
+	
+	if (input &amp;&amp; input.action == 'closeIncident' &amp;&amp; incidentGr.get(incidentSysId)) {
+		incidentGr.incident_state = global.IncidentState.CLOSED;
+		incidentGr.state = global.IncidentState.CLOSED;
+		data.isIncidentClosed = incidentGr.update();
+    }
+
+   /* Actions - End */
+	
+	/* Load incident data */
+    if (incidentGr.get(incidentSysId)) {
+		var incidentUtils = new global.IncidentUtils();
+		data.canResolve = incidentUtils.canResolveIncident(incidentGr);
+		data.canReopen = incidentUtils.canReopenIncident(incidentGr);
+		data.canClose = incidentUtils.canCloseIncident(incidentGr);
+		data.showActions = data.canResolve || data.canReopen || data.canClose;
+    }
+
+    data.i18n = {};
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-18 08:21:28&lt;/sys_created_on&gt;&lt;sys_id&gt;9bd06ce173070010cbb654eb7df6a7d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;71&lt;/sys_mod_count&gt;&lt;sys_name&gt;Incident Standard Ticket Actions&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Standard Ticket" source="sn_std_tkt"&gt;c9f1df5787f50010e0ef0cf888cb0b2c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Portal - Standard Ticket"&gt;c9f1df5787f50010e0ef0cf888cb0b2c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_9bd06ce173070010cbb654eb7df6a7d4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-17 14:59:54&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+    &lt;div class="dropdown" id="child-case-tabs" ng-if="data.showActions"&gt;
+        &lt;button type="button" id="actions-button" class="btn btn-default dropdown-toggle action-btn" data-toggle="dropdown" style="width : 100%" aria-haspopup="true" ng-init="setFocusOnActionButtons()"&gt;
+            ${Actions}
+            &lt;span class="fa fa-caret-down"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu pull-right" id="actionList"&gt;
+            &lt;li ng-if="data.canResolve"&gt;
+                &lt;a href="javascript:void(0)" ng-click="$event.stopPropagation();resolveIncident()"&gt;${Resolve}&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li ng-if="data.canReopen"&gt;
+                &lt;a href="javascript:void(0)" ng-click="$event.stopPropagation();reopenIncident()"&gt;${Reopen}&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li ng-if="data.canClose"&gt;
+                &lt;a href="javascript:void(0)" ng-click="$event.stopPropagation();closeIncident()"&gt;${Close}&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>judith.nereus</sys_created_by>
+        <sys_created_on>2023-02-10 23:09:41</sys_created_on>
+        <sys_id>89fde6fb1530a5107f44775c1b035a02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>89fda6fb1530a5107f44775c1b035afe</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_89fde6fb1530a5107f44775c1b035a02</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 23:14:45</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

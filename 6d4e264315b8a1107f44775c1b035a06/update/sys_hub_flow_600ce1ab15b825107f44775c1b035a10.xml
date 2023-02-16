@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow would email the approver notifying about expenses requests, and the requestor about their submission as well as the status of their request.</description>
+        <internal_name>paynow_email_notification</internal_name>
+        <label_cache>[{"name":"e58bba0b-0bb1-4723-8c4d-1f41f9ef3511.__dont_treat_as_error__","label":"10 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e58bba0b-0bb1-4723-8c4d-1f41f9ef3511.__action_status__","label":"10 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e58bba0b-0bb1-4723-8c4d-1f41f9ef3511.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Expense Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"number"},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Expense Request Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"assignment_group"},{"name":"3f45e82e-ab0d-41ee-92d6-f3640ad8c304.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f45e82e-ab0d-41ee-92d6-f3640ad8c304.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f45e82e-ab0d-41ee-92d6-f3640ad8c304.table_name","label":"8 - Update Record➛Expense Request Table","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f45e82e-ab0d-41ee-92d6-f3640ad8c304.record","label":"8 - Update Record➛Expense Request Record","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce68584a-3a5b-4900-b7bf-57dd2a8beeed.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce68584a-3a5b-4900-b7bf-57dd2a8beeed.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce68584a-3a5b-4900-b7bf-57dd2a8beeed.table_name","label":"3 - Update Record➛Expense Request Table","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce68584a-3a5b-4900-b7bf-57dd2a8beeed.record","label":"3 - Update Record➛Expense Request Record","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Expense Request Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"priority","choices":[{"label":"-- None --","value":"","reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false},{"value":"1","parameters":{"name":"x_cdltd_paynow_expense_request"},"reference":false,"image":"","rawLabel":"1 - Emergency","selected":false,"label":"1 - Emergency","missing":false,"used":false},{"value":"2","parameters":{"name":"x_cdltd_paynow_expense_request"},"reference":false,"image":"","rawLabel":"2 - Non-Emergency","selected":false,"label":"2 - Non-Emergency","missing":false,"used":false}]},{"name":"b2e606ee-0716-4b87-b715-9c614456c15c.__dont_treat_as_error__","label":"14 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2e606ee-0716-4b87-b715-9c614456c15c.__action_status__","label":"14 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2e606ee-0716-4b87-b715-9c614456c15c.email","label":"14 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40fcbbb4-539e-4c2a-8cd9-db7c0af937f7.__dont_treat_as_error__","label":"9 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40fcbbb4-539e-4c2a-8cd9-db7c0af937f7.__action_status__","label":"9 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40fcbbb4-539e-4c2a-8cd9-db7c0af937f7.email","label":"9 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d4cb3311-d8d5-4577-a407-55593c9dc11b.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"d4cb3311-d8d5-4577-a407-55593c9dc11b.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d4cb3311-d8d5-4577-a407-55593c9dc11b.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_price_1","label":"Trigger - Record Created➛Expense Request Record➛Total Authorized Amount","reference":"","reference_display":"Total Authorized Amount","type":"price","base_type":"price","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"u_price_1"},{"name":"Created_1.current.u_glide_expense_end_date","label":"Trigger - Record Created➛Expense Request Record➛Expense End Date","reference":"","reference_display":"Expense End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"u_glide_expense_end_date"},{"name":"2778733c-f287-4f95-b729-cca66905a8de.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2778733c-f287-4f95-b729-cca66905a8de.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2778733c-f287-4f95-b729-cca66905a8de.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.approval","label":"Trigger - Record Created➛Expense Request Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"approval","choices":[{"value":"requested","parameters":{"name":"x_cdltd_paynow_expense_request"},"reference":false,"image":"","rawLabel":"Requested","selected":false,"label":"Requested","missing":false,"used":false},{"value":"awaiting approval","parameters":{"name":"x_cdltd_paynow_expense_request"},"reference":false,"image":"","rawLabel":"Awaiting Approval","selected":false,"label":"Awaiting Approval","missing":false,"used":false},{"value":"approved","parameters":{"name":"x_cdltd_paynow_expense_request"},"reference":false,"image":"","rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"used":false},{"value":"rejected","parameters":{"name":"x_cdltd_paynow_expense_request"},"reference":false,"image":"","rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"used":false}]},{"name":"Created_1.current.u_glide_expense_start_date","label":"Trigger - Record Created➛Expense Request Record➛Expense Start Date","reference":"","reference_display":"Expense Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"u_glide_expense_start_date"},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Expense Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"opened_by"},{"name":"Created_1.current.assignment_group.manager","label":"Trigger - Record Created➛Expense Request Record➛Assignment group➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Expense Request Record","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request","type":"reference","base_type":"reference","attributes":{}},{"name":"9617d04d-26ba-42ad-a039-599ee30b5511.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9617d04d-26ba-42ad-a039-599ee30b5511.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9617d04d-26ba-42ad-a039-599ee30b5511.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"542fe212-7f85-4156-9f14-ea38743dd590.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"542fe212-7f85-4156-9f14-ea38743dd590.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"542fe212-7f85-4156-9f14-ea38743dd590.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.record","label":"16 - Update Record➛Expense Request Record","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.table_name","label":"16 - Update Record➛Expense Request Table","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.__action_status__","label":"16 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.__dont_treat_as_error__","label":"16 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"794e5c79-58cc-4e9a-8df3-ecce0f02a187.record","label":"13 - Update Record➛Expense Request Record","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"794e5c79-58cc-4e9a-8df3-ecce0f02a187.table_name","label":"13 - Update Record➛Expense Request Table","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"794e5c79-58cc-4e9a-8df3-ecce0f02a187.__action_status__","label":"13 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"794e5c79-58cc-4e9a-8df3-ecce0f02a187.__dont_treat_as_error__","label":"13 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3399b733-0706-4b25-ad66-1ced3502b744.email","label":"17 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3399b733-0706-4b25-ad66-1ced3502b744.__action_status__","label":"17 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3399b733-0706-4b25-ad66-1ced3502b744.__dont_treat_as_error__","label":"17 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record","label":"9 - Update Record➛Expense Request Record","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.table_name","label":"9 - Update Record➛Expense Request Table","reference":"x_cdltd_paynow_expense_request","reference_display":"Expense Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faa27609-b7bf-4068-9887-62d9cd109d5a.email","label":"11 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faa27609-b7bf-4068-9887-62d9cd109d5a.__action_status__","label":"11 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faa27609-b7bf-4068-9887-62d9cd109d5a.__dont_treat_as_error__","label":"11 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.assignment_group","label":"9 - Update Record➛Expense Request Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"assignment_group"},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.number","label":"9 - Update Record➛Expense Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"number"},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.opened_by","label":"9 - Update Record➛Expense Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"opened_by"},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.opened_by.first_name","label":"9 - Update Record➛Expense Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.u_glide_expense_start_date","label":"9 - Update Record➛Expense Request Record➛Expense Start Date","reference":"","reference_display":"Expense Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"u_glide_expense_start_date"},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.u_glide_expense_end_date","label":"9 - Update Record➛Expense Request Record➛Expense End Date","reference":"","reference_display":"Expense End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"u_glide_expense_end_date"},{"name":"52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.u_price_1","label":"9 - Update Record➛Expense Request Record➛Total Authorized Amount","reference":"","reference_display":"Total Authorized Amount","type":"price","base_type":"price","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"u_price_1"},{"name":"794e5c79-58cc-4e9a-8df3-ecce0f02a187.record.number","label":"13 - Update Record➛Expense Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"number"},{"name":"794e5c79-58cc-4e9a-8df3-ecce0f02a187.record.opened_by.first_name","label":"13 - Update Record➛Expense Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.record.number","label":"16 - Update Record➛Expense Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_paynow_expense_request","column_name":"number"},{"name":"117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.record.opened_by.first_name","label":"16 - Update Record➛Expense Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>PayNow Email Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:43:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>600ce1ab15b825107f44775c1b035a10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PayNow Email Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_hub_flow_600ce1ab15b825107f44775c1b035a10</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 20:21:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_variable_value action="delete_multiple" query="document_key=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=600ce1ab15b825107f44775c1b035a10^sys_idNOT INafe842eb153c25107f44775c1b035a3e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>An expense request has been created</comment>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>afe842eb153c25107f44775c1b035a3e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=afe842eb153c25107f44775c1b035a3e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>afe842eb153c25107f44775c1b035a3e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>2be842eb153c25107f44775c1b035a40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>afe842eb153c25107f44775c1b035a3e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>efe842eb153c25107f44775c1b035a3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=600ce1ab15b825107f44775c1b035a10^sys_idNOT IN600ce1ab15b825107f44775c1b035a12"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>600ce1ab15b825107f44775c1b035a10</id>
+        <name>PayNow Email Notification</name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 23:43:05</sys_created_on>
+        <sys_id>600ce1ab15b825107f44775c1b035a12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-09 23:43:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=600ce1ab15b825107f44775c1b035a12"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=600ce1ab15b825107f44775c1b035a10^sys_idNOT IN6be842eb153c25107f44775c1b035a31,efe842eb153c25107f44775c1b035a38"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</model>
+        <model_id>600ce1ab15b825107f44775c1b035a10</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_600ce1ab15b825107f44775c1b035a10</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>6be842eb153c25107f44775c1b035a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</model>
+        <model_id>600ce1ab15b825107f44775c1b035a10</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_600ce1ab15b825107f44775c1b035a10</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>efe842eb153c25107f44775c1b035a38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=600ce1ab15b825107f44775c1b035a10^sys_idNOT IN19625a27157c25107f44775c1b035ab3,25625a27157c25107f44775c1b035af3,63e842eb153c25107f44775c1b035a54,649d517315f865107f44775c1b035aae,69629a27157c25107f44775c1b035a07,6be842eb153c25107f44775c1b035a6a,6eec513315f865107f44775c1b035a5a,6eec513315f865107f44775c1b035a6f,a1625a27157c25107f44775c1b035ae4,a7e842eb153c25107f44775c1b035a64,f7e842eb153c25107f44775c1b035a9b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Notify assignment group an emai about the automated approval of the request due to urgency.</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>5</order>
+        <parent_ui_id>4c807c46-4cd2-471e-90d9-d81e56c66172</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>19625a27157c25107f44775c1b035ab3</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>542fe212-7f85-4156-9f14-ea38743dd590</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19625a27157c25107f44775c1b035ab3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>19625a27157c25107f44775c1b035ab3</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>69625a27157c25107f44775c1b035ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>19625a27157c25107f44775c1b035ab3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>a1625a27157c25107f44775c1b035ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=19625a27157c25107f44775c1b035ab3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>19625a27157c25107f44775c1b035ab3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>ad625a27157c25107f44775c1b035ab5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 04:04:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;div style="position: relative;" data-key="30"&gt;&lt;span data-key="31"&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e96d2187-fe73-434c-b3d3-d2185b3f4f92}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e96d2187-fe73-434c-b3d3-d2185b3f4f92}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Expense Request Record &amp;gt; Assignment group"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Assignment group&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e96d2187-fe73-434c-b3d3-d2185b3f4f92" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/span&gt;&lt;/div&gt;
+&lt;div style="position: relative;" data-key="30"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="position: relative;" data-key="32"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="position: relative;" data-key="34"&gt;&lt;span data-key="35"&gt;This&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:560faa2e-5180-46c1-822b-4b4018831149}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense Request Record&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_560faa2e-5180-46c1-822b-4b4018831149" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;has been submitted, and it&amp;nbsp;has been automatically approved due to the level of urgency. Please, revise this record for more information. Thank you!&lt;/span&gt;&lt;/div&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>19625a27157c25107f44775c1b035ab3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>e5625a27157c25107f44775c1b035ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>19625a27157c25107f44775c1b035ab3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>d5625a27157c25107f44775c1b035ab5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:42:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.assignment_group}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>19625a27157c25107f44775c1b035ab3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>61625a27157c25107f44775c1b035ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>19625a27157c25107f44775c1b035ab3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>25625a27157c25107f44775c1b035ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19625a27157c25107f44775c1b035ab3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19625a27157c25107f44775c1b035ab3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update the approval field to rejected</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>16</order>
+        <parent_ui_id>0d6d7c39-4f13-44ad-ad2e-9d6ef70a0dc6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>25625a27157c25107f44775c1b035af3</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <ui_id>117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=25625a27157c25107f44775c1b035af3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>25625a27157c25107f44775c1b035af3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>21625a27157c25107f44775c1b035af5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>25625a27157c25107f44775c1b035af3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>6d625a27157c25107f44775c1b035af4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <value>approval=rejected^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=25625a27157c25107f44775c1b035af3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>25625a27157c25107f44775c1b035af3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>e9625a27157c25107f44775c1b035af4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>25625a27157c25107f44775c1b035af3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>65625a27157c25107f44775c1b035af4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>25625a27157c25107f44775c1b035af3</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>29625a27157c25107f44775c1b035af4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25625a27157c25107f44775c1b035af3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=25625a27157c25107f44775c1b035af3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Send an email to assigment group to approve a newly created expense request</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>63e842eb153c25107f44775c1b035a54</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>9617d04d-26ba-42ad-a039-599ee30b5511</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=63e842eb153c25107f44775c1b035a54"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>63e842eb153c25107f44775c1b035a54</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>67e842eb153c25107f44775c1b035a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>63e842eb153c25107f44775c1b035a54</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>a3e842eb153c25107f44775c1b035a58</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:59:40</sys_updated_on>
+        <value>&lt;div style="position: relative;"&gt;
+&lt;div style="position: relative;"&gt;
+&lt;div style="position: relative;"&gt;Dear ${requested_for},&lt;/div&gt;
+&lt;div style="position: relative;"&gt; &lt;/div&gt;
+&lt;div style="position: relative;"&gt;This ${item_type} (${cmdb_ci}) is available for pickup at ${depot}&lt;/div&gt;
+&lt;div style="position: relative;"&gt; &lt;/div&gt;
+&lt;div style="position: relative;"&gt;Your reservation is scheduled to begin ${start_date}. Please return the item to the same location you picked it up by ${end_date}&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=63e842eb153c25107f44775c1b035a54"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>63e842eb153c25107f44775c1b035a54</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>e7e842eb153c25107f44775c1b035a57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:59:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>63e842eb153c25107f44775c1b035a54</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>23e842eb153c25107f44775c1b035a58</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:59:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>63e842eb153c25107f44775c1b035a54</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>efe842eb153c25107f44775c1b035a56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:42:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.assignment_group}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>63e842eb153c25107f44775c1b035a54</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>abe842eb153c25107f44775c1b035a57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>63e842eb153c25107f44775c1b035a54</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>6fe842eb153c25107f44775c1b035a57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=63e842eb153c25107f44775c1b035a54"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=63e842eb153c25107f44775c1b035a54"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>10</order>
+        <parent_ui_id>1512d56a-44b3-4257-8125-f1265afcaa2d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>649d517315f865107f44775c1b035aae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>e58bba0b-0bb1-4723-8c4d-1f41f9ef3511</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=649d517315f865107f44775c1b035aae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>649d517315f865107f44775c1b035aae</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>2c9d517315f865107f44775c1b035ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>649d517315f865107f44775c1b035aae</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>689d517315f865107f44775c1b035ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <value>ApprovesRejectsAny</value>
+        <variable display_value="Approval Conditions">45f2e9920b10030085c083eb37673aee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>649d517315f865107f44775c1b035aae</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>a49d517315f865107f44775c1b035ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>649d517315f865107f44775c1b035aae</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>e09d517315f865107f44775c1b035ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>649d517315f865107f44775c1b035aae</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>e89d517315f865107f44775c1b035ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=649d517315f865107f44775c1b035aae"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>649d517315f865107f44775c1b035aae</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>a49d517315f865107f44775c1b035ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>649d517315f865107f44775c1b035aae</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>a49d517315f865107f44775c1b035ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>649d517315f865107f44775c1b035aae</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>e09d517315f865107f44775c1b035ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>649d517315f865107f44775c1b035aae</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>6c9d517315f865107f44775c1b035ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>649d517315f865107f44775c1b035aae</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>209d517315f865107f44775c1b035ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>649d517315f865107f44775c1b035aae</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:18:30</sys_created_on>
+        <sys_id>689d517315f865107f44775c1b035ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=649d517315f865107f44775c1b035aae"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=649d517315f865107f44775c1b035aae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Send email to requestor that their  request has been denied</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>17</order>
+        <parent_ui_id>0d6d7c39-4f13-44ad-ad2e-9d6ef70a0dc6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>69629a27157c25107f44775c1b035a07</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <ui_id>3399b733-0706-4b25-ad66-1ced3502b744</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=69629a27157c25107f44775c1b035a07"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>69629a27157c25107f44775c1b035a07</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>65629a27157c25107f44775c1b035a0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>69629a27157c25107f44775c1b035a07</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>a1629a27157c25107f44775c1b035a0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=69629a27157c25107f44775c1b035a07"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>69629a27157c25107f44775c1b035a07</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>e5629a27157c25107f44775c1b035a09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;em&gt;Please,&amp;nbsp;&lt;strong&gt;do not&lt;/strong&gt;&amp;nbsp;reply to this email.&amp;nbsp;&lt;/em&gt;&lt;em&gt;This is an automated response. For further assistance please contact us through our PayNow application.&lt;/em&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b1d99a91-86c5-40e0-bb6f-2575a43b6860}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b1d99a91-86c5-40e0-bb6f-2575a43b6860}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="16 &amp;gt; Expense Request Record &amp;gt; Opened by &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;16&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b1d99a91-86c5-40e0-bb6f-2575a43b6860" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your expense request&amp;nbsp;for the following dates:&amp;nbsp;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0e8017a8-1c8a-4a3a-adb7-d16b06affe76}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Expense Start Date"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense Start Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0e8017a8-1c8a-4a3a-adb7-d16b06affe76" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;to&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Expense End Date"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense End Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;for the amount of&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3e7487d6-a543-4701-b6b6-da67f8697aea}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Total Authorized Amount"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Total Authorized Amount&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3e7487d6-a543-4701-b6b6-da67f8697aea" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;has been &lt;strong&gt;rejected&lt;/strong&gt;. Please, contact your manager for more information. We apologize for the inconvenience.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your PayNow Team&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>69629a27157c25107f44775c1b035a07</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>21629a27157c25107f44775c1b035a0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>69629a27157c25107f44775c1b035a07</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>25629a27157c25107f44775c1b035a09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>69629a27157c25107f44775c1b035a07</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>a9629a27157c25107f44775c1b035a09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>69629a27157c25107f44775c1b035a07</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>6d629a27157c25107f44775c1b035a09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=69629a27157c25107f44775c1b035a07"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=69629a27157c25107f44775c1b035a07"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update the approval field to approved</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>3</order>
+        <parent_ui_id>4c807c46-4cd2-471e-90d9-d81e56c66172</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>6be842eb153c25107f44775c1b035a6a</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>ce68584a-3a5b-4900-b7bf-57dd2a8beeed</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6be842eb153c25107f44775c1b035a6a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6be842eb153c25107f44775c1b035a6a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>2be842eb153c25107f44775c1b035a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value>approval=approved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6be842eb153c25107f44775c1b035a6a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>ebe842eb153c25107f44775c1b035a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6be842eb153c25107f44775c1b035a6a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6be842eb153c25107f44775c1b035a6a</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>a7e842eb153c25107f44775c1b035a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6be842eb153c25107f44775c1b035a6a</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>23e842eb153c25107f44775c1b035a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6be842eb153c25107f44775c1b035a6a</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>e3e842eb153c25107f44775c1b035a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6be842eb153c25107f44775c1b035a6a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6be842eb153c25107f44775c1b035a6a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update the approval field to approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>9</order>
+        <parent_ui_id>1512d56a-44b3-4257-8125-f1265afcaa2d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>6eec513315f865107f44775c1b035a5a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>52d34440-6ced-4ef6-ab3e-1ce60a552ebd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6eec513315f865107f44775c1b035a5a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6eec513315f865107f44775c1b035a5a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>a2ec513315f865107f44775c1b035a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6eec513315f865107f44775c1b035a5a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>eeec513315f865107f44775c1b035a5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <value>approval=awaiting approval</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6eec513315f865107f44775c1b035a5a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6eec513315f865107f44775c1b035a5a</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>6eec513315f865107f44775c1b035a5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6eec513315f865107f44775c1b035a5a</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>e6ec513315f865107f44775c1b035a5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6eec513315f865107f44775c1b035a5a</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>aaec513315f865107f44775c1b035a5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6eec513315f865107f44775c1b035a5a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6eec513315f865107f44775c1b035a5a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Send the requestor an email notifying about their request being sent for approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>11</order>
+        <parent_ui_id>1512d56a-44b3-4257-8125-f1265afcaa2d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>6eec513315f865107f44775c1b035a6f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>faa27609-b7bf-4068-9887-62d9cd109d5a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6eec513315f865107f44775c1b035a6f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6eec513315f865107f44775c1b035a6f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>aeec513315f865107f44775c1b035a72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6eec513315f865107f44775c1b035a6f</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>eaec513315f865107f44775c1b035a72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6eec513315f865107f44775c1b035a6f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>6eec513315f865107f44775c1b035a6f</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>22ec513315f865107f44775c1b035a72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;em&gt;Please,&amp;nbsp;&lt;strong&gt;do not&lt;/strong&gt;&amp;nbsp;reply to this email.&amp;nbsp;&lt;/em&gt;&lt;em&gt;This is an automated response. For further assistance please contact us through our PayNow application.&lt;/em&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b6e2170f-8829-4b4d-b32d-125472aeacd8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b6e2170f-8829-4b4d-b32d-125472aeacd8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="9 - Update Record &amp;gt; Expense Request Record &amp;gt; Opened by &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;9 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b6e2170f-8829-4b4d-b32d-125472aeacd8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your expense request&amp;nbsp;for the following dates:&amp;nbsp;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:116a3383-84ff-4709-82a5-77b8676f5da6}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="12 &amp;gt; Expense Request Record &amp;gt; Expense Start Date"&gt;&lt;span class="pill-start"&gt;12&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense Start Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_116a3383-84ff-4709-82a5-77b8676f5da6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;to&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cce202ff-8397-4289-8775-09f6d1e2d405}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="12 &amp;gt; Expense Request Record &amp;gt; Expense End Date"&gt;&lt;span class="pill-start"&gt;12&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense End Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cce202ff-8397-4289-8775-09f6d1e2d405" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;for the amount of&amp;nbsp;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:30e9e2c9-363e-4aff-a512-adc47bbf4664}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="12 &amp;gt; Expense Request Record &amp;gt; Total Authorized Amount"&gt;&lt;span class="pill-start"&gt;12&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Total Authorized Amount&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_30e9e2c9-363e-4aff-a512-adc47bbf4664" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;has been submitted, and it is awaiting&amp;nbsp;&lt;strong&gt;approval&lt;/strong&gt;. You will be notified as soon as the status is updated. Thank you for your patience&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your PayNow Team&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>6eec513315f865107f44775c1b035a6f</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>6aec513315f865107f44775c1b035a72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>6eec513315f865107f44775c1b035a6f</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>6eec513315f865107f44775c1b035a71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6eec513315f865107f44775c1b035a6f</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>e2ec513315f865107f44775c1b035a72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6eec513315f865107f44775c1b035a6f</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>a6ec513315f865107f44775c1b035a72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6eec513315f865107f44775c1b035a6f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6eec513315f865107f44775c1b035a6f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update the approval field to approved</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>13</order>
+        <parent_ui_id>016dc5ec-4b6b-4c4c-8698-a154c7744ab7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>a1625a27157c25107f44775c1b035ae4</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <ui_id>794e5c79-58cc-4e9a-8df3-ecce0f02a187</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a1625a27157c25107f44775c1b035ae4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1625a27157c25107f44775c1b035ae4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>ad625a27157c25107f44775c1b035ae5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1625a27157c25107f44775c1b035ae4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>e9625a27157c25107f44775c1b035ae5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <value>approval=approved^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a1625a27157c25107f44775c1b035ae4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a1625a27157c25107f44775c1b035ae4</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>69625a27157c25107f44775c1b035ae5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a1625a27157c25107f44775c1b035ae4</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>e1625a27157c25107f44775c1b035ae5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a1625a27157c25107f44775c1b035ae4</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>a5625a27157c25107f44775c1b035ae5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a1625a27157c25107f44775c1b035ae4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a1625a27157c25107f44775c1b035ae4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Send an email to the requestor notifying about their request being approved</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>4</order>
+        <parent_ui_id>4c807c46-4cd2-471e-90d9-d81e56c66172</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>a7e842eb153c25107f44775c1b035a64</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>2778733c-f287-4f95-b729-cca66905a8de</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7e842eb153c25107f44775c1b035a64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7e842eb153c25107f44775c1b035a64</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>6be842eb153c25107f44775c1b035a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7e842eb153c25107f44775c1b035a64"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>a7e842eb153c25107f44775c1b035a64</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>27e842eb153c25107f44775c1b035a66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;em&gt;Please, &lt;strong&gt;do not&lt;/strong&gt; reply to this email. &lt;/em&gt;&lt;em&gt;This is an automated response. For further assistance please contact us through our PayNow application.&lt;/em&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c50518d4-8979-49d1-9234-6de774a6375d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c50518d4-8979-49d1-9234-6de774a6375d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Expense Request Record &amp;gt; Opened by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Opened by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c50518d4-8979-49d1-9234-6de774a6375d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your expense request&amp;nbsp;for the following dates:&amp;nbsp;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0e8017a8-1c8a-4a3a-adb7-d16b06affe76}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Expense Start Date"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense Start Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0e8017a8-1c8a-4a3a-adb7-d16b06affe76" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; to&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Expense End Date"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense End Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;for the amount of&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3e7487d6-a543-4701-b6b6-da67f8697aea}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Total Authorized Amount"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Total Authorized Amount&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3e7487d6-a543-4701-b6b6-da67f8697aea" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; has been automatically&amp;nbsp;&lt;strong&gt;approved&amp;nbsp;&lt;/strong&gt;due to the level of emergency. This preset amount has been on activated on your credit card. Safe travels!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your PayNow Team&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>a7e842eb153c25107f44775c1b035a64</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>e7e842eb153c25107f44775c1b035a66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>a7e842eb153c25107f44775c1b035a64</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>63e842eb153c25107f44775c1b035a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7e842eb153c25107f44775c1b035a64"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7e842eb153c25107f44775c1b035a64"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>If priotity is !=1 and approved, send the requestor an email notifying of approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <order>14</order>
+        <parent_ui_id>016dc5ec-4b6b-4c4c-8698-a154c7744ab7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>f7e842eb153c25107f44775c1b035a9b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <ui_id>b2e606ee-0716-4b87-b715-9c614456c15c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f7e842eb153c25107f44775c1b035a9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f7e842eb153c25107f44775c1b035a9b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>29625a27157c25107f44775c1b035ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>x_cdltd_paynow_expense_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f7e842eb153c25107f44775c1b035a9b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>bbe842eb153c25107f44775c1b035a9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f7e842eb153c25107f44775c1b035a9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>f7e842eb153c25107f44775c1b035a9b</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>77e842eb153c25107f44775c1b035a9d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;em&gt;Please,&amp;nbsp;&lt;strong&gt;do not&lt;/strong&gt;&amp;nbsp;reply to this email.&amp;nbsp;&lt;/em&gt;&lt;em&gt;This is an automated response. For further assistance please contact us through our PayNow application.&lt;/em&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:7c73e35f-8d24-47ae-b1c1-524bae276957}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="13 &amp;gt; Expense Request Record &amp;gt; Opened by &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;13&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_7c73e35f-8d24-47ae-b1c1-524bae276957" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your expense request&amp;nbsp;for the following dates:&amp;nbsp;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0e8017a8-1c8a-4a3a-adb7-d16b06affe76}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Expense Start Date"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense Start Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0e8017a8-1c8a-4a3a-adb7-d16b06affe76" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;to&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Expense End Date"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Expense End Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;in the amount of&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3e7487d6-a543-4701-b6b6-da67f8697aea}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Expense Request Record &amp;gt; Total Authorized Amount"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Total Authorized Amount&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3e7487d6-a543-4701-b6b6-da67f8697aea" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;has been&amp;nbsp;&lt;strong&gt;approved&lt;/strong&gt;. This preset amount has been on activated on your credit card. Safe travels!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your PayNow Team&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>f7e842eb153c25107f44775c1b035a9b</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>3be842eb153c25107f44775c1b035a9d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{794e5c79-58cc-4e9a-8df3-ecce0f02a187.record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>f7e842eb153c25107f44775c1b035a9b</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>b3e842eb153c25107f44775c1b035a9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f7e842eb153c25107f44775c1b035a9b</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>21625a27157c25107f44775c1b035ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f7e842eb153c25107f44775c1b035a9b</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>e1625a27157c25107f44775c1b035ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f7e842eb153c25107f44775c1b035a9b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f7e842eb153c25107f44775c1b035a9b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=600ce1ab15b825107f44775c1b035a10^sys_idNOT IN2fe842eb153c25107f44775c1b035a59,abe842eb153c25107f44775c1b035a6d,b7e842eb153c25107f44775c1b035a8f,eaec513315f865107f44775c1b035a39,f3e842eb153c25107f44775c1b035a92,f3e842eb153c25107f44775c1b035aa1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ebe842eb153c25107f44775c1b035a58</block>
+        <comment>Automatically approve the request for emergency requests</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>2fe842eb153c25107f44775c1b035a59</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>4c807c46-4cd2-471e-90d9-d81e56c66172</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2fe842eb153c25107f44775c1b035a59"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2fe842eb153c25107f44775c1b035a59</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>23e842eb153c25107f44775c1b035a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <value>Priority == 1 </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2fe842eb153c25107f44775c1b035a59"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2fe842eb153c25107f44775c1b035a59</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>afe842eb153c25107f44775c1b035a5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 15:51:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.priority}}=1^{{Created_1.current.u_price_1}}!=&gt;1000</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2fe842eb153c25107f44775c1b035a59</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>ebe842eb153c25107f44775c1b035a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2fe842eb153c25107f44775c1b035a59"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2fe842eb153c25107f44775c1b035a59"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">63e842eb153c25107f44775c1b035a6d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4c807c46-4cd2-471e-90d9-d81e56c66172</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>abe842eb153c25107f44775c1b035a6d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>bad075b6-2a75-44c5-88d8-784a2e085c03</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=abe842eb153c25107f44775c1b035a6d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=abe842eb153c25107f44775c1b035a6d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=abe842eb153c25107f44775c1b035a6d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fe842eb153c25107f44775c1b035a8e</block>
+        <comment/>
+        <connected_to>4c807c46-4cd2-471e-90d9-d81e56c66172</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>b7e842eb153c25107f44775c1b035a8f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>511c9f53-5ff2-47c2-917a-a15bb87b1b2d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b7e842eb153c25107f44775c1b035a8f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b7e842eb153c25107f44775c1b035a8f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b7e842eb153c25107f44775c1b035a8f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">aeec513315f865107f44775c1b035a38</block>
+        <comment>If the request not an emergency send it to the manager for approval</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>511c9f53-5ff2-47c2-917a-a15bb87b1b2d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>eaec513315f865107f44775c1b035a39</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:29</sys_updated_on>
+        <ui_id>1512d56a-44b3-4257-8125-f1265afcaa2d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eaec513315f865107f44775c1b035a39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eaec513315f865107f44775c1b035a39</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>66ec513315f865107f44775c1b035a56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <value>Priority != 1</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eaec513315f865107f44775c1b035a39"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>eaec513315f865107f44775c1b035a39</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>e2ec513315f865107f44775c1b035a56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.priority}}!=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>eaec513315f865107f44775c1b035a39</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:37</sys_created_on>
+        <sys_id>eaec513315f865107f44775c1b035a55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eaec513315f865107f44775c1b035a39"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eaec513315f865107f44775c1b035a39"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bbe842eb153c25107f44775c1b035a91</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1512d56a-44b3-4257-8125-f1265afcaa2d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>f3e842eb153c25107f44775c1b035a92</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <ui_id>016dc5ec-4b6b-4c4c-8698-a154c7744ab7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f3e842eb153c25107f44775c1b035a92"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f3e842eb153c25107f44775c1b035a92</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>77e842eb153c25107f44775c1b035a95</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>Priority != 1  and approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3e842eb153c25107f44775c1b035a92"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f3e842eb153c25107f44775c1b035a92</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>f3e842eb153c25107f44775c1b035a95</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.priority}}!=1^{{Created_1.current.approval}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f3e842eb153c25107f44775c1b035a92</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>33e842eb153c25107f44775c1b035a95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f3e842eb153c25107f44775c1b035a92"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3e842eb153c25107f44775c1b035a92"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bbe842eb153c25107f44775c1b035aa0</block>
+        <comment>If priority !=1 and it is denied, send requestos email notifying of request denial</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PayNow Email Notification">600ce1ab15b825107f44775c1b035a10</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1512d56a-44b3-4257-8125-f1265afcaa2d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>f3e842eb153c25107f44775c1b035aa1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <ui_id>0d6d7c39-4f13-44ad-ad2e-9d6ef70a0dc6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f3e842eb153c25107f44775c1b035aa1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f3e842eb153c25107f44775c1b035aa1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>33e842eb153c25107f44775c1b035aa4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <value>Priority != 1 </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3e842eb153c25107f44775c1b035aa1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f3e842eb153c25107f44775c1b035aa1</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:30:49</sys_created_on>
+        <sys_id>a1625a27157c25107f44775c1b035aef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:30:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.priority}}!=1^{{Created_1.current.approval}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f3e842eb153c25107f44775c1b035aa1</id>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>bfe842eb153c25107f44775c1b035aa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f3e842eb153c25107f44775c1b035aa1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3e842eb153c25107f44775c1b035aa1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=600ce1ab15b825107f44775c1b035a10^sys_idNOT IN26ec513315f865107f44775c1b035a89,2caf55f315f865107f44775c1b035afa,2eec513315f865107f44775c1b035a89,37e842eb153c25107f44775c1b035aa8,3a05d22b157c25107f44775c1b035af5,3a759e2b157c25107f44775c1b035a27,3be842eb153c25107f44775c1b035aa7,60af55f315f865107f44775c1b035afa,68af55f315f865107f44775c1b035afa,73e842eb153c25107f44775c1b035aa8,77e842eb153c25107f44775c1b035aa7,7fe842eb153c25107f44775c1b035aa6,a2ec513315f865107f44775c1b035a8a,bbe842eb153c25107f44775c1b035aa8,bfe842eb153c25107f44775c1b035aa7,eeec513315f865107f44775c1b035a89,f7e842eb153c25107f44775c1b035aa8,fbe842eb153c25107f44775c1b035aa7"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:38</sys_created_on>
+        <sys_id>26ec513315f865107f44775c1b035a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b6e2170f-8829-4b4d-b32d-125472aeacd8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{117af5a9-8ab1-4a9e-bc68-d745ef9f5cd4.record.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:27:30</sys_created_on>
+        <sys_id>2caf55f315f865107f44775c1b035afa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b1d99a91-86c5-40e0-bb6f-2575a43b6860</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.u_glide_expense_start_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:38</sys_created_on>
+        <sys_id>2eec513315f865107f44775c1b035a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>116a3383-84ff-4709-82a5-77b8676f5da6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_glide_expense_start_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>37e842eb153c25107f44775c1b035aa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0e8017a8-1c8a-4a3a-adb7-d16b06affe76</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.assignment_group}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:42:23</sys_created_on>
+        <sys_id>3a05d22b157c25107f44775c1b035af5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:42:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b871c1bd-daed-438b-9871-ee62501409cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.assignment_group}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 02:44:17</sys_created_on>
+        <sys_id>3a759e2b157c25107f44775c1b035a27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 02:44:17</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e96d2187-fe73-434c-b3d3-d2185b3f4f92</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>3be842eb153c25107f44775c1b035aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>560faa2e-5180-46c1-822b-4b4018831149</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:27:30</sys_created_on>
+        <sys_id>60af55f315f865107f44775c1b035afa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a01931f6-c1a9-493f-95a6-39e411fde777</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{794e5c79-58cc-4e9a-8df3-ecce0f02a187.record.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:27:30</sys_created_on>
+        <sys_id>68af55f315f865107f44775c1b035afa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:27:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7c73e35f-8d24-47ae-b1c1-524bae276957</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.opened_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>73e842eb153c25107f44775c1b035aa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c50518d4-8979-49d1-9234-6de774a6375d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>77e842eb153c25107f44775c1b035aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>30e05ee9-f823-4332-afd3-da39920ca5e4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.assignment_group.manager}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>7fe842eb153c25107f44775c1b035aa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>eeed7eca-4948-424c-bbcf-265f28fba1ad</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.u_price_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:38</sys_created_on>
+        <sys_id>a2ec513315f865107f44775c1b035a8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>30e9e2c9-363e-4aff-a512-adc47bbf4664</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_price_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>bbe842eb153c25107f44775c1b035aa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3e7487d6-a543-4701-b6b6-da67f8697aea</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_glide_expense_start_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>bfe842eb153c25107f44775c1b035aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>69c0abb7-da36-4ade-9519-8f93b6754e98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{52d34440-6ced-4ef6-ab3e-1ce60a552ebd.record.u_glide_expense_end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 17:15:38</sys_created_on>
+        <sys_id>eeec513315f865107f44775c1b035a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 17:15:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cce202ff-8397-4289-8775-09f6d1e2d405</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_glide_expense_end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>f7e842eb153c25107f44775c1b035aa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>26d325ac-cbf9-4fa7-b0ac-d77d9382c9f2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>600ce1ab15b825107f44775c1b035a10</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_glide_expense_start_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:28</sys_created_on>
+        <sys_id>fbe842eb153c25107f44775c1b035aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d1031bd5-b332-42cd-9050-d91a2d8b4a0b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_600ce1ab15b825107f44775c1b035a10^sys_idNOT INa7e842eb153c25107f44775c1b035a3b,abe842eb153c25107f44775c1b035a37"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_600ce1ab15b825107f44775c1b035a10</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>a7e842eb153c25107f44775c1b035a3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_600ce1ab15b825107f44775c1b035a10</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 01:49:27</sys_created_on>
+        <sys_id>abe842eb153c25107f44775c1b035a37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 01:49:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_600ce1ab15b825107f44775c1b035a10"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_600ce1ab15b825107f44775c1b035a10"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_600ce1ab15b825107f44775c1b035a10"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=600ce1ab15b825107f44775c1b035a10"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=600ce1ab15b825107f44775c1b035a10"/>
+</record_update>

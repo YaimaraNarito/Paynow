@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <description/>
+        <operation>read</operation>
+        <rca_type>real_rca</rca_type>
+        <source>aea34678c61122710151b1b7fdf65762</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script</source_table>
+        <source_type>0</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 16:52:54</sys_created_on>
+        <sys_id>bdb7517b15b865107f44775c1b035a75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_bdb7517b15b865107f44775c1b035a75</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-10 20:21:34</sys_updated_on>
+        <target name="x_cdltd_paynow_expense_request" target_table="sys_db_object">1a30b6c315b8a1107f44775c1b035afd</target>
+        <target_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

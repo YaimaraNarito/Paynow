@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>6</order>
+        <published_ref/>
+        <question display_value="Short description">9d30051315b4e1107f44775c1b035ab3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-09 01:53:14</sys_created_on>
+        <sys_id>d930051315b4e1107f44775c1b035ac8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request for a new service</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>question_choice_d930051315b4e1107f44775c1b035ac8</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-09 02:56:05</sys_updated_on>
+        <text>Request for a new service</text>
+        <value>Request for a new service</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d930051315b4e1107f44775c1b035ac8"/>
+</record_update>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_cdltd_paynow_paynow_incidents" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_id>ec9f5ebb15fc65107f44775c1b035a63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_paynow_paynow_incidents_subcategory</sys_update_name>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-11 19:03:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Password Reset</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>judith.nereus</sys_created_by>
+            <sys_created_on>2023-02-11 17:46:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>809d260c1501e5107f44775c1b035aab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-11 19:03:04</sys_updated_on>
+            <value>Password Reset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feedback</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>289f5ebb15fc65107f44775c1b035a63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-11 19:03:04</sys_updated_on>
+            <value>Feedback</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application crashing or non-responsive</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a49f5ebb15fc65107f44775c1b035a6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-11 19:03:04</sys_updated_on>
+            <value>Application crashing or non-responsive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a89f5ebb15fc65107f44775c1b035a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-11 19:03:04</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Password Rest</label>
+            <language>en</language>
+            <name>x_cdltd_paynow_paynow_incidents</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yaimara.narito</sys_created_by>
+            <sys_created_on>2023-02-10 22:06:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>209f5ebb15fc65107f44775c1b035a68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yaimara.narito</sys_updated_by>
+            <sys_updated_on>2023-02-11 19:03:04</sys_updated_on>
+            <value>Password Rest</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

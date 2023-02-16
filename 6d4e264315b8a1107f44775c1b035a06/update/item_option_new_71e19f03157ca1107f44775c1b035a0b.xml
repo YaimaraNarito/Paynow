@@ -72,14 +72,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>aaron.umbaugh</sys_created_by>
-        <sys_created_on>2023-02-08 21:37:33</sys_created_on>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-10 22:56:28</sys_created_on>
         <sys_id>71e19f03157ca1107f44775c1b035a0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Start Date </sys_name>
-        <sys_package/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>item_option_new_71e19f03157ca1107f44775c1b035a0b</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-11 17:13:31</sys_updated_on>
         <table/>
         <tooltip/>
         <type>9</type>

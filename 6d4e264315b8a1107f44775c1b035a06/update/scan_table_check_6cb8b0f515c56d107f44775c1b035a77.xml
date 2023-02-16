@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_table_check">
+    <scan_table_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <category>security</category>
+        <conditions table="sp_page">public=true^EQ<item endquery="false" field="public" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description>This is considered as exposure of sensitive information caused by mis-configured  service portal pages, pages should not be made public unless its necessary to support application requirements.</description>
+        <documentation_url/>
+        <finding_type>scan_finding</finding_type>
+        <name>All Portal pages with Public Access</name>
+        <priority>4</priority>
+        <resolution_details>Please make sure that Public field is set to false in portal pages unless its necessary, make sure the access is limited to required audience.</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (finding, current) {
+
+    // Add your code here
+
+})(finding, current);]]></script>
+        <short_description>All Portal pages with Public Access</short_description>
+        <sys_class_name>scan_table_check</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:45:14</sys_created_on>
+        <sys_id>6cb8b0f515c56d107f44775c1b035a77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Portal pages with Public Access</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>scan_table_check_6cb8b0f515c56d107f44775c1b035a77</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:45:14</sys_updated_on>
+        <table>sp_page</table>
+        <use_manifest>false</use_manifest>
+    </scan_table_check>
+</record_update>

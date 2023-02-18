@@ -17,19 +17,16 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Incident" name="incident">b0a550855c9211107f44347096fdb473</super_class>
+        <super_class display_value="Incident" name="incident">07f312a4f98211108c8bd16244dfe7d8</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-10 20:55:19</sys_created_on>
         <sys_id>972e4e3b15bc65107f44775c1b035a90</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>Paynow Incidents</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sys_db_object_972e4e3b15bc65107f44775c1b035a90</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-12 19:41:04</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_cdltd_paynow.paynow_incidents_user" name="x_cdltd_paynow.paynow_incidents_user">683f8e7b15bc65107f44775c1b035a2f</user_role>
         <ws_access>true</ws_access>

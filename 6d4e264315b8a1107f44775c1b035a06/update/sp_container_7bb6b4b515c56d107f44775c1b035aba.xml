@@ -14,14 +14,11 @@
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-16 19:36:43</sys_created_on>
         <sys_id>7bb6b4b515c56d107f44775c1b035aba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>Copy of Knowledge Base (pn) (1) - Container 1</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_container_7bb6b4b515c56d107f44775c1b035aba</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-16 19:36:43</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>/* CLOUD DIMENSIONS OFFICIAL COLORS */&#13;
+$cloud-Primary: #2d80c3;&#13;
+$cloud-Secondary: #ebf2f4;&#13;
+$cloud-CloudWhite: #ece5de;&#13;
+$cloud-CloudBlack: #323232;&#13;
+&#13;
+/* ELEMENT SPECIFIC CSS */&#13;
+$sp-tagline-color:		$cloud-CloudWhite !default;&#13;
+$navbar-inverse-bg: 	#395132 !default;&#13;
+$navbar-inverse-link-color: $cloud-CloudWhite !default;&#13;
+$navbar-inverse-link-hover-color: $cloud-Primary !default;&#13;
+$body-bg: $cloud-Secondary !default;&#13;
+&#13;
+h1,h2 {&#13;
+ 	font-family: 'Lexend Deca', sans-serif;&#13;
+    }</css_variables>
+        <footer display_value="PayNow Footer">d850653715f865107f44775c1b035acf</footer>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="Employee Center Header">d0009941eb103010ed7966d6475228c1</header>
+        <name>Paynow</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 21:05:18</sys_created_on>
+        <sys_id>ef0e53de07052110aad5f26d7c1ed0db</sys_id>
+        <sys_name>Paynow</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_theme_ef0e53de07052110aad5f26d7c1ed0db</sys_update_name>
+    </sp_theme>
+</record_update>

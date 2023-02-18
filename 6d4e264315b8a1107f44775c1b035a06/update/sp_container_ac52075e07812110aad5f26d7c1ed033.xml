@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color>#ffffff</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Paynow v2 - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="pn_paynow_v2">a452075e07812110aad5f26d7c1ed031</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 19:03:29</sys_created_on>
+        <sys_id>ac52075e07812110aad5f26d7c1ed033</sys_id>
+        <sys_name>Paynow v2 - Container 1</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_container_ac52075e07812110aad5f26d7c1ed033</sys_update_name>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

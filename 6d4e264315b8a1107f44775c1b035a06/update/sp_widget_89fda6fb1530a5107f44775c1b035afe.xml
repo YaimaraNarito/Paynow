@@ -157,14 +157,11 @@
         <sys_created_by>judith.nereus</sys_created_by>
         <sys_created_on>2023-02-10 23:09:41</sys_created_on>
         <sys_id>89fda6fb1530a5107f44775c1b035afe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>paynow incidents</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_widget_89fda6fb1530a5107f44775c1b035afe</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-10 23:14:45</sys_updated_on>
         <template><![CDATA[<div>
     <div class="dropdown" id="child-case-tabs" ng-if="data.showActions">
         <button type="button" id="actions-button" class="btn btn-default dropdown-toggle action-btn" data-toggle="dropdown" style="width : 100%" aria-haspopup="true" ng-init="setFocusOnActionButtons()">

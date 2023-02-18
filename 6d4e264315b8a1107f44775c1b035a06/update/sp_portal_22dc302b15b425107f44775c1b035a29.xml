@@ -25,11 +25,11 @@ $text-muted:#979797;
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="">7e35c8e715b025107f44775c1b035ae4</homepage>
+        <homepage display_value="pn_paynow_v2">a452075e07812110aad5f26d7c1ed031</homepage>
         <icon/>
         <kb_knowledge_base/>
-        <kb_knowledge_page display_value="">b524fcaf157425107f44775c1b035aec</kb_knowledge_page>
-        <login_page display_value="">5ee6446b15b025107f44775c1b035abb</login_page>
+        <kb_knowledge_page display_value="paynow_category">b524fcaf157425107f44775c1b035aec</kb_knowledge_page>
+        <login_page display_value="pn">5ee6446b15b025107f44775c1b035abb</login_page>
         <logo>c692252f157825107f44775c1b035ab1</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -44,15 +44,12 @@ $text-muted:#979797;
         <sys_created_by>judith.nereus</sys_created_by>
         <sys_created_on>2023-02-09 20:21:20</sys_created_on>
         <sys_id>22dc302b15b425107f44775c1b035a29</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>PayNow</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_portal_22dc302b15b425107f44775c1b035a29</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-10 20:21:34</sys_updated_on>
-        <theme display_value="">1dcfcc2715f025107f44775c1b035aa9</theme>
+        <theme display_value="Paynow">ef0e53de07052110aad5f26d7c1ed0db</theme>
         <title>PayNow</title>
         <ts_index_group/>
         <url_suffix>pn</url_suffix>

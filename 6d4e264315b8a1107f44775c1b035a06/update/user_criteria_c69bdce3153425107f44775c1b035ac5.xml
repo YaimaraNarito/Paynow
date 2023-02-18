@@ -4,7 +4,7 @@
         <advanced>false</advanced>
         <company/>
         <department/>
-        <group name="Pay Now">9439eaaa153821107f44775c1b035abd</group>
+        <group>9439eaaa153821107f44775c1b035abd</group>
         <location/>
         <match_all>false</match_all>
         <name>PayNow Group Users</name>
@@ -22,14 +22,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c69bdce3153425107f44775c1b035ac5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>PayNow Group Users</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>user_criteria_c69bdce3153425107f44775c1b035ac5</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-09 18:06:14</sys_updated_on>
         <user/>
     </user_criteria>
 </record_update>

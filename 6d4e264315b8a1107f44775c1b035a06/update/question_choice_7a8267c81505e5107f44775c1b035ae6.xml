@@ -8,14 +8,11 @@
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-12 00:59:51</sys_created_on>
         <sys_id>7a8267c81505e5107f44775c1b035ae6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>1-High</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>question_choice_7a8267c81505e5107f44775c1b035ae6</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-12 01:10:19</sys_updated_on>
         <text>1-High</text>
         <value>1_high</value>
     </question_choice>

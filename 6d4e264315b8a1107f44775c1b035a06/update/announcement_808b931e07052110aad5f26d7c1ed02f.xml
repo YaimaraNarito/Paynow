@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>session_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Paynow">324c931e07052110aad5f26d7c1ed037</display_style>
+        <from>2023-01-01 20:53:54</from>
+        <glyph/>
+        <glyph_alt_text/>
+        <name>Paynow</name>
+        <public>false</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Beginning in March, the mobile pay feature will be launched, allowing you to pay directly via Paynow mobile app.&#13;
+This feature will make saving receipts and filling your expenses a thing of the past, thanks to our new automated process.</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 20:56:09</sys_created_on>
+        <sys_id>808b931e07052110aad5f26d7c1ed02f</sys_id>
+        <sys_name>Paynow</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>announcement_808b931e07052110aad5f26d7c1ed02f</sys_update_name>
+        <title>Version 2.0 coming soon!</title>
+        <to>2024-01-31 20:54:04</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=808b931e07052110aad5f26d7c1ed02f"/>
+</record_update>

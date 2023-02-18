@@ -1385,7 +1385,7 @@
       };
    }
 }]]></link>
-        <name>Copy of Employee Center Header</name>
+        <name>Paynow Employee Center Header</name>
         <option_schema/>
         <public>false</public>
         <roles/>
@@ -1539,14 +1539,11 @@
         <sys_created_by>judith.nereus</sys_created_by>
         <sys_created_on>2023-02-10 23:28:04</sys_created_on>
         <sys_id>5622be331570a5107f44775c1b035ad4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Copy of Employee Center Header</sys_name>
+        <sys_name>Paynow Employee Center Header</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_header_footer_5622be331570a5107f44775c1b035ad4</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-10 23:51:56</sys_updated_on>
         <template><![CDATA[<!-- Nav bar menu items starts-->
 <nav class="navbar-inverse" aria-label="Primary" role="navigation">
 

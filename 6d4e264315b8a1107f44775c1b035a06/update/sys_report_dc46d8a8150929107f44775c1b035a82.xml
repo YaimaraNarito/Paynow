@@ -32,7 +32,7 @@
         <column>urgency</column>
         <compute_percent>count</compute_percent>
         <content/>
-        <created_by_user display_value="chan Ib">56582e6a153821107f44775c1b035a03</created_by_user>
+        <created_by_user display_value="">56582e6a153821107f44775c1b035a03</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -106,14 +106,11 @@
         <sys_created_by>chan.ib</sys_created_by>
         <sys_created_on>2023-02-12 20:02:21</sys_created_on>
         <sys_id>dc46d8a8150929107f44775c1b035a82</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>PayNow Incidents By State</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sys_report_dc46d8a8150929107f44775c1b035a82</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-13 00:19:49</sys_updated_on>
         <table>x_cdltd_paynow_paynow_incidents</table>
         <title>PayNow Incidents By State</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

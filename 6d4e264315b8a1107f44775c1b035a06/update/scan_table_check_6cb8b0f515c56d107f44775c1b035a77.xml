@@ -26,14 +26,11 @@
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-16 19:45:14</sys_created_on>
         <sys_id>6cb8b0f515c56d107f44775c1b035a77</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>All Portal pages with Public Access</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>scan_table_check_6cb8b0f515c56d107f44775c1b035a77</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-16 19:45:14</sys_updated_on>
         <table>sp_page</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>

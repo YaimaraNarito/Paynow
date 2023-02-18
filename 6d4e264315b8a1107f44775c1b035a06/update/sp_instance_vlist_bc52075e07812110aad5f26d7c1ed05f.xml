@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>7</maximum_entries>
+        <order>3</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ac52075e07812110aad5f26d7c1ed058</sp_column>
+        <sp_page display_value="my_requests">4ab7a3a5875023000f220cf888cb0bec</sp_page>
+        <sp_widget display_value="paynow news ticker">16ed64bc154969107f44775c1b035a16</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 19:03:30</sys_created_on>
+        <sys_id>bc52075e07812110aad5f26d7c1ed05f</sys_id>
+        <sys_name>My Requests</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_vlist_bc52075e07812110aad5f26d7c1ed05f</sys_update_name>
+        <table>x_cdltd_paynow_expense_request</table>
+        <title>My Requests</title>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc52075e07812110aad5f26d7c1ed05f"/>
+</record_update>

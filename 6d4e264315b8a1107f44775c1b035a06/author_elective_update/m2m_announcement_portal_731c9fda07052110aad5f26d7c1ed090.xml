@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_announcement_portal">
+    <m2m_announcement_portal action="DELETE">
+        <announcement display_value="Paynow">808b931e07052110aad5f26d7c1ed02f</announcement>
+        <order>100</order>
+        <sp_portal display_value="PayNow">22dc302b15b425107f44775c1b035a29</sp_portal>
+        <sys_class_name>m2m_announcement_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 20:56:46</sys_created_on>
+        <sys_id>731c9fda07052110aad5f26d7c1ed090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paynow.PayNow</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>m2m_announcement_portal_731c9fda07052110aad5f26d7c1ed090</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 20:56:46</sys_updated_on>
+    </m2m_announcement_portal>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>m2m_announcement_portal_731c9fda07052110aad5f26d7c1ed090</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_announcement_portal"><m2m_announcement_portal action="INSERT_OR_UPDATE"><announcement display_value="Paynow">808b931e07052110aad5f26d7c1ed02f</announcement><order>100</order><sp_portal display_value="PayNow">22dc302b15b425107f44775c1b035a29</sp_portal><sys_class_name>m2m_announcement_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-18 20:56:46</sys_created_on><sys_id>731c9fda07052110aad5f26d7c1ed090</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Paynow.PayNow</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>m2m_announcement_portal_731c9fda07052110aad5f26d7c1ed090</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-18 20:56:46</sys_updated_on></m2m_announcement_portal></record_update>]]></payload>
+        <payload_hash>1908587556</payload_hash>
+        <record_name>Paynow.PayNow</record_name>
+        <reverted_from/>
+        <source>af1664bd07012110aad5f26d7c1ed048</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 20:56:46</sys_created_on>
+        <sys_id>bb3c53da07052110aad5f26d7c1ed0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1866650a4380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 20:56:46</sys_updated_on>
+        <type>Portal Announcements</type>
+        <update_guid>b33c53da66052110c8ff187daa1eaedc</update_guid>
+        <update_guid_history>b33c53da66052110c8ff187daa1eaedc:1908587556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Paynow.PayNow">5dbcdbda07052110aad5f26d7c1ed0f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 20:58:47</sys_created_on>
+        <sys_db_object display_value="" name="m2m_announcement_portal">m2m_announcement_portal</sys_db_object>
+        <sys_id>05ad139db167442e81957eaddb4cf064</sys_id>
+        <sys_metadata>731c9fda07052110aad5f26d7c1ed090</sys_metadata>
+        <sys_name>Paynow.PayNow</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>m2m_announcement_portal_731c9fda07052110aad5f26d7c1ed090</sys_update_name>
+        <sys_update_version display_value="m2m_announcement_portal_731c9fda07052110aad5f26d7c1ed090">bb3c53da07052110aad5f26d7c1ed0dc</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

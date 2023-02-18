@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>question-circle</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value="">5474bd2715f825107f44775c1b035a32</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Travel Expenses">835df81f1574e1107f44775c1b035aa8</sc_category>
+        <short_description>Browse and search for frequently asked questions</short_description>
+        <size>md</size>
+        <sp_column display_value="1">ac52075e07812110aad5f26d7c1ed058</sp_column>
+        <sp_page display_value="pn_kb_view2_1">1e7e027b15bc65107f44775c1b035acc</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 19:03:30</sys_created_on>
+        <sys_id>7052075e07812110aad5f26d7c1ed05b</sys_id>
+        <sys_name>FAQ</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_link_7052075e07812110aad5f26d7c1ed05b</sys_update_name>
+        <title>FAQ</title>
+        <type>page</type>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
+        <url>https://adf-feb6-788-dev-001.lab.service-now.com/now/nav/ui/classic/params/target/%24knowledge.do%3Fbrowse_type%3Dcategories%26sysparm_kb%3D9cc4302315b425107f44775c1b035a69</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=7052075e07812110aad5f26d7c1ed05b"/>
+</record_update>

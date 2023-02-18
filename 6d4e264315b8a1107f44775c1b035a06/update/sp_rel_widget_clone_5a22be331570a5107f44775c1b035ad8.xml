@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of Employee Center Header">5622be331570a5107f44775c1b035ad4</child>
+        <child display_value="Paynow Employee Center Header">5622be331570a5107f44775c1b035ad4</child>
         <cloned>2023-02-10 23:28:04</cloned>
         <last_validated>2023-02-10 23:28:04</last_validated>
         <parent display_value="Employee Center Header">d0009941eb103010ed7966d6475228c1</parent>
@@ -1766,13 +1766,10 @@
         <sys_created_by>judith.nereus</sys_created_by>
         <sys_created_on>2023-02-10 23:28:04</sys_created_on>
         <sys_id>5a22be331570a5107f44775c1b035ad8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>5622be331570a5107f44775c1b035ad4</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_rel_widget_clone_5a22be331570a5107f44775c1b035ad8</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-10 23:51:56</sys_updated_on>
     </sp_rel_widget_clone>
 </record_update>

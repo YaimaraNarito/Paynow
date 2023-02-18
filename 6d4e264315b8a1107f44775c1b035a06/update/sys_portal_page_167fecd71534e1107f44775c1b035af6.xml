@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2023-02-17 16:41:20">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2023-02-18 22:13:55">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -11,15 +11,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>167fecd71534e1107f44775c1b035af6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>catalog_paynow_catalog</sys_name>
         <sys_overrides/>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sys_portal_page_167fecd71534e1107f44775c1b035af6</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-09 00:40:07</sys_updated_on>
         <title>catalog_paynow_catalog</title>
         <user/>
         <view>catalog_paynow_catalog</view>
@@ -38,7 +35,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>render_title</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>42b5d6cc158da5107f44775c1b035a62</sys_id>
@@ -49,7 +46,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link_class</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>42b5d6cc158da5107f44775c1b035a63</sys_id>
@@ -60,7 +57,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>46b5d6cc158da5107f44775c1b035a62</sys_id>
@@ -71,7 +68,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>46b5d6cc158da5107f44775c1b035a63</sys_id>
@@ -82,7 +79,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>fromHome</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>4ab5d6cc158da5107f44775c1b035a62</sys_id>
@@ -93,7 +90,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>4ab5d6cc158da5107f44775c1b035a63</sys_id>
@@ -104,7 +101,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>macro</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>4eb5d6cc158da5107f44775c1b035a61</sys_id>
@@ -115,7 +112,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>catalog</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>4eb5d6cc158da5107f44775c1b035a62</sys_id>
@@ -126,7 +123,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>4eb5d6cc158da5107f44775c1b035a63</sys_id>
@@ -137,7 +134,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>catalog_view</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c2b5d6cc158da5107f44775c1b035a64</sys_id>
@@ -148,7 +145,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c6b5d6cc158da5107f44775c1b035a61</sys_id>
@@ -159,7 +156,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">46b5d6cc158da5107f44775c1b035a61</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c6b5d6cc158da5107f44775c1b035a64</sys_id>
@@ -184,7 +181,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>macro</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>42b5d6cc158da5107f44775c1b035a5e</sys_id>
@@ -195,7 +192,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>42b5d6cc158da5107f44775c1b035a61</sys_id>
@@ -206,7 +203,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>46b5d6cc158da5107f44775c1b035a5e</sys_id>
@@ -217,7 +214,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>fromHome</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c2b5d6cc158da5107f44775c1b035a5f</sys_id>
@@ -228,7 +225,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>catalog_view</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c2b5d6cc158da5107f44775c1b035a60</sys_id>
@@ -239,7 +236,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>catalog</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c6b5d6cc158da5107f44775c1b035a5f</sys_id>
@@ -250,7 +247,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>c6b5d6cc158da5107f44775c1b035a60</sys_id>
@@ -261,7 +258,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>render_title</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>cab5d6cc158da5107f44775c1b035a5e</sys_id>
@@ -272,7 +269,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link_class</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>cab5d6cc158da5107f44775c1b035a5f</sys_id>
@@ -283,7 +280,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>cab5d6cc158da5107f44775c1b035a60</sys_id>
@@ -294,7 +291,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>ceb5d6cc158da5107f44775c1b035a5e</sys_id>
@@ -305,7 +302,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link</name>
-                        <portal_section display_value="Created 2023-02-11 16:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
+                        <portal_section display_value="Created 02-11-2023 10:02:17">ceb5d6cc158da5107f44775c1b035a5d</portal_section>
                         <sys_created_by>yaimara.narito</sys_created_by>
                         <sys_created_on>2023-02-11 16:02:17</sys_created_on>
                         <sys_id>ceb5d6cc158da5107f44775c1b035a5f</sys_id>

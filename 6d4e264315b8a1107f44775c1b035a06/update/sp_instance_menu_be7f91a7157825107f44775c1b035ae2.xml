@@ -16,15 +16,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-09 22:49:40</sys_created_on>
         <sys_id>be7f91a7157825107f44775c1b035ae2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
         <sys_name>Paynow menu</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_instance_menu_be7f91a7157825107f44775c1b035ae2</sys_update_name>
-        <sys_updated_by>judith.nereus</sys_updated_by>
-        <sys_updated_on>2023-02-10 17:16:18</sys_updated_on>
         <title>Paynow menu</title>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
         <url/>
         <widget_parameters><![CDATA[{
    "enable_cart":{

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement_style">
+    <announcement_style action="INSERT_OR_UPDATE">
+        <alignment>left</alignment>
+        <background_color>#f6dd26</background_color>
+        <foreground_color>#000000</foreground_color>
+        <name>Paynow</name>
+        <sys_class_name>announcement_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 20:56:58</sys_created_on>
+        <sys_id>324c931e07052110aad5f26d7c1ed037</sys_id>
+        <sys_name>Paynow</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>announcement_style_324c931e07052110aad5f26d7c1ed037</sys_update_name>
+    </announcement_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=324c931e07052110aad5f26d7c1ed037"/>
+</record_update>

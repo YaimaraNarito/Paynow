@@ -552,13 +552,10 @@ div.introduction-container img, div.end-note img{
         <sys_created_by>judith.nereus</sys_created_by>
         <sys_created_on>2023-02-11 15:59:26</sys_created_on>
         <sys_id>5c15528c158da5107f44775c1b035ab5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>5c15528c158da5107f44775c1b035ab1</sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>sp_rel_widget_clone_5c15528c158da5107f44775c1b035ab5</sys_update_name>
-        <sys_updated_by>yaimara.narito</sys_updated_by>
-        <sys_updated_on>2023-02-11 17:13:31</sys_updated_on>
     </sp_rel_widget_clone>
 </record_update>

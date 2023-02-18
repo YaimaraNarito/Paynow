@@ -130,6 +130,45 @@
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>1f2045df1574e1107f44775c1b035a01</table_sys_id>
     </sys_attachment>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>thumb_4ea023081505e5107f44775c1b035ab3_525</file_name>
+        <hash>a846c838af8650a18fda439edbd0da7ed7db01f4c09ae0a663a0cda019043c4f</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>4405</size_bytes>
+        <size_compressed>4428</size_compressed>
+        <state>available</state>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2023-02-16 18:41:12</sys_created_on>
+        <sys_id>e60aa83107012110aad5f26d7c1ed008</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2023-02-16 18:41:12</sys_updated_on>
+        <table_name>sys_attachment</table_name>
+        <table_sys_id>4ea023081505e5107f44775c1b035ab3</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="thumb_4ea023081505e5107f44775c1b035ab3_525" sys_id="e60aa83107012110aad5f26d7c1ed008">e60aa83107012110aad5f26d7c1ed008</sys_attachment>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2023-02-16 18:41:12</sys_created_on>
+        <sys_id>2a0aa83107012110aad5f26d7c1ed008</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5892</length>
+        <position>1</position>
+        <sys_attachment display_value="thumb_4ea023081505e5107f44775c1b035ab3_525" sys_id="e60aa83107012110aad5f26d7c1ed008">e60aa83107012110aad5f26d7c1ed008</sys_attachment>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2023-02-16 18:41:12</sys_created_on>
+        <sys_id>2e0aa83107012110aad5f26d7c1ed008</sys_id>
+    </sys_attachment_doc>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>
         <length>16</length>

@@ -16,7 +16,7 @@
         <short_description>Browse and search for frequently asked questions</short_description>
         <size>md</size>
         <sp_column display_value="1">ac52075e07812110aad5f26d7c1ed058</sp_column>
-        <sp_page display_value="pn_kb_view2_1">1e7e027b15bc65107f44775c1b035acc</sp_page>
+        <sp_page display_value="paynow_kb">2496b47515c56d107f44775c1b035a61</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>

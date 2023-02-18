@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">1beab0f915c56d107f44775c1b035aaa</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:54:58</sys_created_on>
+        <sys_id>5beab0f915c56d107f44775c1b035aac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit a report or Provide feedback</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_5beab0f915c56d107f44775c1b035aac</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:54:58</sys_updated_on>
+        <title>Submit a report or Provide feedback</title>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Submit a report or Provide feedback",
+		"displayValue": "Submit a report or Provide feedback"
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": "-- None --"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "500a22481501e5107f44775c1b035ad2",
+		"displayValue": "Submit an incident"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=5beab0f915c56d107f44775c1b035aac"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_instance_5beab0f915c56d107f44775c1b035aac</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;1beab0f915c56d107f44775c1b035aaa&lt;/sp_column&gt;&lt;sp_widget display_value="Quick Links"&gt;dae53627530030101865ddeeff7b12be&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yaimara.narito&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-16 19:54:58&lt;/sys_created_on&gt;&lt;sys_id&gt;5beab0f915c56d107f44775c1b035aac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit a report or Provide feedback&lt;/sys_name&gt;&lt;sys_package display_value="PayNow" source="x_cdltd_paynow"&gt;6d4e264315b8a1107f44775c1b035a06&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PayNow"&gt;6d4e264315b8a1107f44775c1b035a06&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_5beab0f915c56d107f44775c1b035aac&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;yaimara.narito&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-16 19:54:58&lt;/sys_updated_on&gt;&lt;title&gt;Submit a report or Provide feedback&lt;/title&gt;&lt;u_reference_1/&gt;&lt;u_table_name_2/&gt;&lt;u_url_1/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Submit a report or Provide feedback",
+		"displayValue": "Submit a report or Provide feedback"
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": "-- None --"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "500a22481501e5107f44775c1b035ad2",
+		"displayValue": "Submit an incident"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5beab0f915c56d107f44775c1b035aac"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1936574766</payload_hash>
+        <record_name>Submit a report or Provide feedback</record_name>
+        <reverted_from/>
+        <source>df062ada07012110aad5f26d7c1ed03e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 17:00:43</sys_created_on>
+        <sys_id>5a36ae1e07012110aad5f26d7c1ed0ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186657889f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 17:00:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>1a36ae1e72012110739b8164b8c5c1ab</update_guid>
+        <update_guid_history>dfeab0f907c56d108231d0ad003ab5ad:1744373132,dfeab0f907c56d108231d0ad003ab5ad:1744373132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Submit a report or Provide feedback">7d25bb1e07852110aad5f26d7c1ed0ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>06d2f95923824c94911caa5386fee644</sys_id>
+        <sys_metadata>5beab0f915c56d107f44775c1b035aac</sys_metadata>
+        <sys_name>Submit a report or Provide feedback</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_instance_5beab0f915c56d107f44775c1b035aac</sys_update_name>
+        <sys_update_version display_value="sp_instance_5beab0f915c56d107f44775c1b035aac">5a36ae1e07012110aad5f26d7c1ed0ab</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

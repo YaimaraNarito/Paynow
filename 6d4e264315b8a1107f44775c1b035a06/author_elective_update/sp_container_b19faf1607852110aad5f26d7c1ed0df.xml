@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Knowledge Base (pn) - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="pn_kb_category_1">e8a30667153c25107f44775c1b035ac1</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:21:17</sys_created_on>
+        <sys_id>b19faf1607852110aad5f26d7c1ed0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Base (pn) - Container 1</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_container_b19faf1607852110aad5f26d7c1ed0df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 22:21:17</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_container_b19faf1607852110aad5f26d7c1ed0df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Knowledge Base (pn) - Container 1</name><order>1</order><sp_page display_value="pn_kb_category_1">e8a30667153c25107f44775c1b035ac1</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-18 22:21:17</sys_created_on><sys_id>b19faf1607852110aad5f26d7c1ed0df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Knowledge Base (pn) - Container 1</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sp_container_b19faf1607852110aad5f26d7c1ed0df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-18 22:21:17</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1495306371</payload_hash>
+        <record_name>Knowledge Base (pn) - Container 1</record_name>
+        <reverted_from/>
+        <source>facd2f1207852110aad5f26d7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:21:17</sys_created_on>
+        <sys_id>719f6b5607852110aad5f26d7c1ed0ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186669e03830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 22:21:17</sys_updated_on>
+        <type>Container</type>
+        <update_guid>399f6b5685852110b21f882f8066cde9</update_guid>
+        <update_guid_history>399f6b5685852110b21f882f8066cde9:-1495306371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Base (pn) - Container 1">d80fb75a07c52110aad5f26d7c1ed0fb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 23:28:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>407f4211306041f6949ecb111f02da44</sys_id>
+        <sys_metadata>b19faf1607852110aad5f26d7c1ed0df</sys_metadata>
+        <sys_name>Knowledge Base (pn) - Container 1</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_container_b19faf1607852110aad5f26d7c1ed0df</sys_update_name>
+        <sys_update_version display_value="sp_container_b19faf1607852110aad5f26d7c1ed0df">719f6b5607852110aad5f26d7c1ed0ea</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

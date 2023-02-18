@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>9</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">1beab0f915c56d107f44775c1b035aaa</sp_column>
+        <sp_page/>
+        <sp_widget display_value="News Ticker">a9a0b0dec3623100c8b837659bba8f80</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:54:58</sys_created_on>
+        <sys_id>9feab0f915c56d107f44775c1b035aae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Incidents</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_vlist_9feab0f915c56d107f44775c1b035aae</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:54:58</sys_updated_on>
+        <table>x_cdltd_paynow_paynow_incidents</table>
+        <title>My Incidents</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=9feab0f915c56d107f44775c1b035aae"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_instance_vlist_9feab0f915c56d107f44775c1b035aae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>success</color><css/><display_field>short_description</display_field><field_list/><filter/><glyph/><id/><maximum_entries>9</maximum_entries><order>2</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">1beab0f915c56d107f44775c1b035aaa</sp_column><sp_page/><sp_widget display_value="News Ticker">a9a0b0dec3623100c8b837659bba8f80</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-16 19:54:58</sys_created_on><sys_id>9feab0f915c56d107f44775c1b035aae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Incidents</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sp_instance_vlist_9feab0f915c56d107f44775c1b035aae</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-16 19:54:58</sys_updated_on><table>x_cdltd_paynow_paynow_incidents</table><title>My Incidents</title><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=9feab0f915c56d107f44775c1b035aae"/></record_update>]]></payload>
+        <payload_hash>-1641742658</payload_hash>
+        <record_name>My Incidents</record_name>
+        <reverted_from/>
+        <source>87ccfc3907812110aad5f26d7c1ed05a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 20:03:27</sys_created_on>
+        <sys_id>6fdc707907812110aad5f26d7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865bd31dfe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 20:03:27</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>93eab0f9bac56d108e357cadb64056b0</update_guid>
+        <update_guid_history>93eab0f9bac56d108e357cadb64056b0:-1641742658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Incidents">3525bb1e07852110aad5f26d7c1ed0b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>37b97a8b5299436ca21463a230b75090</sys_id>
+        <sys_metadata>9feab0f915c56d107f44775c1b035aae</sys_metadata>
+        <sys_name>My Incidents</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_9feab0f915c56d107f44775c1b035aae</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_9feab0f915c56d107f44775c1b035aae">6fdc707907812110aad5f26d7c1ed02f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

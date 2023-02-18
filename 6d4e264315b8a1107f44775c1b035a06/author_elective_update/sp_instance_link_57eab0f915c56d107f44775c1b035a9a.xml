@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>credit-card-alt</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Pay for your authorized travel expenses here.</short_description>
+        <size>md</size>
+        <sp_column display_value="3">c3eab0f915c56d107f44775c1b035a98</sp_column>
+        <sp_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:54:58</sys_created_on>
+        <sys_id>57eab0f915c56d107f44775c1b035a9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pay For Expenses</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_link_57eab0f915c56d107f44775c1b035a9a</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:54:58</sys_updated_on>
+        <title>Pay For Expenses</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=57eab0f915c56d107f44775c1b035a9a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_instance_link_57eab0f915c56d107f44775c1b035a9a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;credit-card-alt&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Pay for your authorized travel expenses here.&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;c3eab0f915c56d107f44775c1b035a98&lt;/sp_column&gt;&lt;sp_page display_value="404"&gt;3c2c9063cb11020000f8d856634c9c1f&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yaimara.narito&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-16 19:54:58&lt;/sys_created_on&gt;&lt;sys_id&gt;57eab0f915c56d107f44775c1b035a9a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pay For Expenses&lt;/sys_name&gt;&lt;sys_package display_value="PayNow" source="x_cdltd_paynow"&gt;6d4e264315b8a1107f44775c1b035a06&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PayNow"&gt;6d4e264315b8a1107f44775c1b035a06&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_57eab0f915c56d107f44775c1b035a9a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;yaimara.narito&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-16 19:54:58&lt;/sys_updated_on&gt;&lt;title&gt;Pay For Expenses&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=57eab0f915c56d107f44775c1b035a9a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>340202019</payload_hash>
+        <record_name>Pay For Expenses</record_name>
+        <reverted_from/>
+        <source>87ccfc3907812110aad5f26d7c1ed05a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 20:03:27</sys_created_on>
+        <sys_id>5bdc707907812110aad5f26d7c1ed028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865bd31d060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 20:03:27</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>9beab0f9e6c56d10084ea94bdd59d89b</update_guid>
+        <update_guid_history>9beab0f9e6c56d10084ea94bdd59d89b:340202019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pay For Expenses">7d25bb1e07852110aad5f26d7c1ed095</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>2cf3f9e922174e608cc41320d13f2400</sys_id>
+        <sys_metadata>57eab0f915c56d107f44775c1b035a9a</sys_metadata>
+        <sys_name>Pay For Expenses</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_instance_link_57eab0f915c56d107f44775c1b035a9a</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_57eab0f915c56d107f44775c1b035a9a">5bdc707907812110aad5f26d7c1ed028</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

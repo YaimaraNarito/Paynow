@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>kb</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_about_pn_kb_view2_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:35:19</sys_created_on>
+        <sys_id>af66b47515c56d107f44775c1b035a85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_about_pn_kb_view2_1</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_page_af66b47515c56d107f44775c1b035a85</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:35:19</sys_updated_on>
+        <title>Copy of about (us) paynow Knowledge (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=af66b47515c56d107f44775c1b035a85"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_page_af66b47515c56d107f44775c1b035a85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>kb</category><css/><draft>false</draft><dynamic_title_structure/><id>copy_of_about_pn_kb_view2_1</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles>snc_external,snc_internal</roles><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-16 19:35:19</sys_created_on><sys_id>af66b47515c56d107f44775c1b035a85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_about_pn_kb_view2_1</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sp_page_af66b47515c56d107f44775c1b035a85</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-16 19:35:19</sys_updated_on><title>Copy of about (us) paynow Knowledge (1)</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=af66b47515c56d107f44775c1b035a85"/></record_update>]]></payload>
+        <payload_hash>499277021</payload_hash>
+        <record_name>copy_of_about_pn_kb_view2_1</record_name>
+        <reverted_from/>
+        <source>df19783507812110aad5f26d7c1ed0ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 19:47:17</sys_created_on>
+        <sys_id>6a29f83507812110aad5f26d7c1ed044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865bc44e770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:47:17</sys_updated_on>
+        <type>Page</type>
+        <update_guid>54e678b5adc56d10d430bbb1747dd906</update_guid>
+        <update_guid_history>54e678b5adc56d10d430bbb1747dd906:499277021,2b66b47598c56d10bf1ccc6c62809387:499277021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_about_pn_kb_view2_1">da25fb1e07852110aad5f26d7c1ed088</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>8bee0388917d4e4086da43af0fed53b9</sys_id>
+        <sys_metadata>af66b47515c56d107f44775c1b035a85</sys_metadata>
+        <sys_name>copy_of_about_pn_kb_view2_1</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_page_af66b47515c56d107f44775c1b035a85</sys_update_name>
+        <sys_update_version display_value="sp_page_af66b47515c56d107f44775c1b035a85">6a29f83507812110aad5f26d7c1ed044</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">dfeab0f915c56d107f44775c1b035ab2</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:54:58</sys_created_on>
+        <sys_id>d7eab0f915c56d107f44775c1b035abb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_column_d7eab0f915c56d107f44775c1b035abb</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:54:58</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_column_d7eab0f915c56d107f44775c1b035abb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">dfeab0f915c56d107f44775c1b035ab2</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-16 19:54:58</sys_created_on><sys_id>d7eab0f915c56d107f44775c1b035abb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sp_column_d7eab0f915c56d107f44775c1b035abb</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-16 19:54:58</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1625191879</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>87ccfc3907812110aad5f26d7c1ed05a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 20:03:25</sys_created_on>
+        <sys_id>36dc307907812110aad5f26d7c1ed0f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865bd314f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 20:03:25</sys_updated_on>
+        <type>Column</type>
+        <update_guid>1beab0f90bc56d10f94542f5160de5bc</update_guid>
+        <update_guid_history>1beab0f90bc56d10f94542f5160de5bc:-1625191879</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">0625fb1e07852110aad5f26d7c1ed020</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0b27fb7ece93400a981fdd9848a131c4</sys_id>
+        <sys_metadata>d7eab0f915c56d107f44775c1b035abb</sys_metadata>
+        <sys_name>2</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_column_d7eab0f915c56d107f44775c1b035abb</sys_update_name>
+        <sys_update_version display_value="sp_column_d7eab0f915c56d107f44775c1b035abb">36dc307907812110aad5f26d7c1ed0f8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

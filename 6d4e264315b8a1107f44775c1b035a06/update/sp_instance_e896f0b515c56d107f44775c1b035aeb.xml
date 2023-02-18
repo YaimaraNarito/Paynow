@@ -30,6 +30,18 @@
 	"number_of_categories_to_load": {
 		"value": 15,
 		"displayValue": "15"
+	},
+	"omit_badges": {
+		"value": "",
+		"displayValue": ""
+	},
+	"check_access_per_category": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_article_limit_for_counts": {
+		"value": "",
+		"displayValue": ""
 	}
 }]]></widget_parameters>
     </sp_instance>

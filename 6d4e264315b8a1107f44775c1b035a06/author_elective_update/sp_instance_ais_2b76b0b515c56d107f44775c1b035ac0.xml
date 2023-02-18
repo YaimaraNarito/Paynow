@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css>.input-group {
+  margin-bottom: 25px;
+}
+
+input, button {
+  background-color: rgba(138, 143, 160, 0.6);
+  color:#fff !important;
+  font-weight: 300;
+  border-color:rgba(255, 255, 255, 0.3);
+}
+
+input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff !important;  
+}
+
+input:-ms-input-placeholder {  
+  color: #fff !important;  
+}</css>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph>search</glyph>
+        <id/>
+        <order>0</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="2">6776b0b515c56d107f44775c1b035abe</sp_column>
+        <sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:35:37</sys_created_on>
+        <sys_id>2b76b0b515c56d107f44775c1b035ac0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search the knowledge base</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_ais_2b76b0b515c56d107f44775c1b035ac0</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:35:37</sys_updated_on>
+        <title>Search the knowledge base</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=2b76b0b515c56d107f44775c1b035ac0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_instance_ais_2b76b0b515c56d107f44775c1b035ac0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css>.input-group {
+  margin-bottom: 25px;
+}
+
+input, button {
+  background-color: rgba(138, 143, 160, 0.6);
+  color:#fff !important;
+  font-weight: 300;
+  border-color:rgba(255, 255, 255, 0.3);
+}
+
+input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff !important;  
+}
+
+input:-ms-input-placeholder {  
+  color: #fff !important;  
+}</css><disable_all_suggestions>false</disable_all_suggestions><glyph>search</glyph><id/><order>0</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>lg</size><sp_column display_value="2">6776b0b515c56d107f44775c1b035abe</sp_column><sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>yaimara.narito</sys_created_by><sys_created_on>2023-02-16 19:35:37</sys_created_on><sys_id>2b76b0b515c56d107f44775c1b035ac0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Search the knowledge base</sys_name><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sp_instance_ais_2b76b0b515c56d107f44775c1b035ac0</sys_update_name><sys_updated_by>yaimara.narito</sys_updated_by><sys_updated_on>2023-02-16 19:35:37</sys_updated_on><title>Search the knowledge base</title><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=2b76b0b515c56d107f44775c1b035ac0"/></record_update>]]></payload>
+        <payload_hash>-562631131</payload_hash>
+        <record_name>Search the knowledge base</record_name>
+        <reverted_from/>
+        <source>df19783507812110aad5f26d7c1ed0ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 19:47:16</sys_created_on>
+        <sys_id>1a29f83507812110aad5f26d7c1ed025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865bc44c950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:47:16</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>6776b0b5b8c56d10111f76921f80f8c2</update_guid>
+        <update_guid_history>6776b0b5b8c56d10111f76921f80f8c2:-562631131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Search the knowledge base">66253f1e07852110aad5f26d7c1ed060</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>1a0c34726646482988ae10a9ce8e5fe1</sys_id>
+        <sys_metadata>2b76b0b515c56d107f44775c1b035ac0</sys_metadata>
+        <sys_name>Search the knowledge base</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_2b76b0b515c56d107f44775c1b035ac0</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_2b76b0b515c56d107f44775c1b035ac0">1a29f83507812110aad5f26d7c1ed025</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

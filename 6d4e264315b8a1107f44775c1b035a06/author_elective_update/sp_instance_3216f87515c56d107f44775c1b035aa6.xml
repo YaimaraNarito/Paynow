@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f616f87515c56d107f44775c1b035aa1</sp_column>
+        <sp_widget display_value="KB Categories - KBv3">ee307070d7201200a9addd173e24d4da</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:33:55</sys_created_on>
+        <sys_id>3216f87515c56d107f44775c1b035aa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Categories</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_3216f87515c56d107f44775c1b035aa6</sys_update_name>
+        <sys_updated_by>yaimara.narito</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:33:55</sys_updated_on>
+        <title>Categories</title>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"number_of_categories_to_load": {
+		"value": 15,
+		"displayValue": "15"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3216f87515c56d107f44775c1b035aa6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_instance_3216f87515c56d107f44775c1b035aa6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f616f87515c56d107f44775c1b035aa1&lt;/sp_column&gt;&lt;sp_widget display_value="KB Categories - KBv3"&gt;ee307070d7201200a9addd173e24d4da&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yaimara.narito&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-16 19:33:55&lt;/sys_created_on&gt;&lt;sys_id&gt;3216f87515c56d107f44775c1b035aa6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Categories&lt;/sys_name&gt;&lt;sys_package display_value="PayNow" source="x_cdltd_paynow"&gt;6d4e264315b8a1107f44775c1b035a06&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PayNow"&gt;6d4e264315b8a1107f44775c1b035a06&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3216f87515c56d107f44775c1b035aa6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;yaimara.narito&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-16 19:33:55&lt;/sys_updated_on&gt;&lt;title&gt;Categories&lt;/title&gt;&lt;u_reference_1/&gt;&lt;u_table_name_2/&gt;&lt;u_url_1/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"number_of_categories_to_load": {
+		"value": 15,
+		"displayValue": "15"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3216f87515c56d107f44775c1b035aa6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1830869985</payload_hash>
+        <record_name>Categories</record_name>
+        <reverted_from/>
+        <source>df062ada07012110aad5f26d7c1ed03e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 17:00:43</sys_created_on>
+        <sys_id>8e36ae1e07012110aad5f26d7c1ed09c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186657889350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 17:00:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>4e36ae1e09012110e02a018d25ead69c</update_guid>
+        <update_guid_history>f616f8756ec56d10263efc8ec7ec57a7:-806127403,f616f8756ec56d10263efc8ec7ec57a7:-806127403</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Categories">65257b1e07852110aad5f26d7c1ed0fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 22:45:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>89fd464708b24cec9b99b6a7327f5784</sys_id>
+        <sys_metadata>3216f87515c56d107f44775c1b035aa6</sys_metadata>
+        <sys_name>Categories</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_instance_3216f87515c56d107f44775c1b035aa6</sys_update_name>
+        <sys_update_version display_value="sp_instance_3216f87515c56d107f44775c1b035aa6">8e36ae1e07012110aad5f26d7c1ed09c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

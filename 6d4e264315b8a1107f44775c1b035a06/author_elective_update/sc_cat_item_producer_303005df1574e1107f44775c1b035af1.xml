@@ -161,7 +161,7 @@
         <sys_metadata>303005df1574e1107f44775c1b035af1</sys_metadata>
         <sys_name>Paynow Item Request </sys_name>
         <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
-        <sys_parent display_value="Paynow Item Request">452bbc1b1574e1107f44775c1b035aea</sys_parent>
+        <sys_parent display_value="">452bbc1b1574e1107f44775c1b035aea</sys_parent>
         <sys_policy/>
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>

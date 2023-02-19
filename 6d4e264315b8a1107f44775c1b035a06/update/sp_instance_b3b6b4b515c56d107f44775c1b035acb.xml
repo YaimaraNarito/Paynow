@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3fb6b4b515c56d107f44775c1b035ac6</sp_column>
+        <sp_widget display_value="KB Categories - KBv3">ee307070d7201200a9addd173e24d4da</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:36:43</sys_created_on>
+        <sys_id>b3b6b4b515c56d107f44775c1b035acb</sys_id>
+        <sys_name/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_b3b6b4b515c56d107f44775c1b035acb</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3b6b4b515c56d107f44775c1b035acb"/>
+</record_update>

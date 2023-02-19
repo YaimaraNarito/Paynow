@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Copy of pn_Knowledge Base (1) (1) - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="copy_of_pn_kb_view2_1_1">2616bcf915856d107f44775c1b035a9e</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:33:55</sys_created_on>
+        <sys_id>b616f87515c56d107f44775c1b035a9d</sys_id>
+        <sys_name>Copy of pn_Knowledge Base (1) (1) - Container 2</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_container_b616f87515c56d107f44775c1b035a9d</sys_update_name>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

@@ -17,7 +17,7 @@
         <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
         <sys_update_name>catalog_ui_policy_action_cdbeab881545e5107f44775c1b035a3e</sys_update_name>
         <table/>
-        <ui_policy display_value="Hide/Show the fileds with price question ">0236a3001545e5107f44775c1b035a3d</ui_policy>
+        <ui_policy display_value="Hide/Show the fields with price question ">0236a3001545e5107f44775c1b035a3d</ui_policy>
         <variable>u_car_price</variable>
         <variable_set/>
         <visible>true</visible>

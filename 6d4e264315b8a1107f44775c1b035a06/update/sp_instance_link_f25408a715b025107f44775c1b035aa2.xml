@@ -16,7 +16,7 @@
         <short_description>Browse and search for articles, rate or submit feedback</short_description>
         <size>md</size>
         <sp_column display_value="2">b25408a715b025107f44775c1b035aa0</sp_column>
-        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_page display_value="about_pn_kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>judith.nereus</sys_created_by>

@@ -117,13 +117,13 @@
         <image_width/>
         <size_bytes>6426</size_bytes>
         <size_compressed>6449</size_compressed>
-        <state>pending</state>
+        <state>available</state>
         <sys_created_by>yaimara.narito</sys_created_by>
         <sys_created_on>2023-02-11 21:29:41</sys_created_on>
         <sys_id>4ea023081505e5107f44775c1b035ab3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-11 21:34:28</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2023-02-11 21:35:41</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>1f2045df1574e1107f44775c1b035a01</table_sys_id>
     </sys_attachment>

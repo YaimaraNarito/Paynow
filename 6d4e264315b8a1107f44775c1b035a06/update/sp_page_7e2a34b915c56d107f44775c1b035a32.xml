@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>kb</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_about_pn_kb_view2_2</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:51:39</sys_created_on>
+        <sys_id>7e2a34b915c56d107f44775c1b035a32</sys_id>
+        <sys_name>copy_of_about_pn_kb_view2_2</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_page_7e2a34b915c56d107f44775c1b035a32</sys_update_name>
+        <title>Copy of about (us) paynow Knowledge (2)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e2a34b915c56d107f44775c1b035a32"/>
+</record_update>

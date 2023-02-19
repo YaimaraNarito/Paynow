@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance action="DELETE" reclassify_current="sp_instance_ais" reclassify_id="9e4648a207092110aad5f26d7c1ed051" reclassify_previous="sp_instance"/>
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2ad500a207092110aad5f26d7c1ed00b</sp_column>
+        <sp_widget display_value="KB also in Category">fe8ee752cb30020000f8d856634c9cb4</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-19 00:00:26</sys_created_on>
+        <sys_id>9e4648a207092110aad5f26d7c1ed051</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_ais_9e4648a207092110aad5f26d7c1ed051</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-19 00:00:58</sys_updated_on>
+        <title/>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=9e4648a207092110aad5f26d7c1ed051"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</application>
+        <file_path/>
+        <instance_id>e235b7c7db939f047e55d5b0cf961947</instance_id>
+        <instance_name>dev65841</instance_name>
+        <name>sp_instance_ais_9e4648a207092110aad5f26d7c1ed051</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance action="delete_reclassify" reclassify_current="sp_instance_ais" reclassify_id="9e4648a207092110aad5f26d7c1ed051" reclassify_previous="sp_instance"/><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">2ad500a207092110aad5f26d7c1ed00b</sp_column><sp_widget display_value="KB also in Category">fe8ee752cb30020000f8d856634c9cb4</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-19 00:00:26</sys_created_on><sys_id>9e4648a207092110aad5f26d7c1ed051</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package><sys_policy/><sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope><sys_update_name>sp_instance_ais_9e4648a207092110aad5f26d7c1ed051</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-19 00:00:58</sys_updated_on><title/><u_reference_1/><u_table_name_2/><u_url_1/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=9e4648a207092110aad5f26d7c1ed051"/></record_update>]]></payload>
+        <payload_hash>-430640907</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>facd2f1207852110aad5f26d7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-19 00:00:59</sys_created_on>
+        <sys_id>9666c8a207092110aad5f26d7c1ed0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18666f94bef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-19 00:00:59</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>9e66c8a2a4092110d5d81574f844fbfb</update_guid>
+        <update_guid_history>9e66c8a2a4092110d5d81574f844fbfb:-430640907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0a764ca207092110aad5f26d7c1ed0bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-19 00:01:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>1f4ef31842994873a3ef8a694c2d4d41</sys_id>
+        <sys_metadata>9e4648a207092110aad5f26d7c1ed051</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_scope_delete display_value="">40062bea1a784bfaa512b90dca68f624</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_9e4648a207092110aad5f26d7c1ed051</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_9e4648a207092110aad5f26d7c1ed051">9666c8a207092110aad5f26d7c1ed0fc</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

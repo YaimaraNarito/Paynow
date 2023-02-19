@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>kb_category</display_field>
+        <field_list/>
+        <filter table="kb_knowledge">kb_knowledge_base=7a27f3de07852110aad5f26d7c1ed063^EQ<item display_table="kb_knowledge_base" display_value="Paynow FAQs" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="7a27f3de07852110aad5f26d7c1ed063"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6496f0b515c56d107f44775c1b035ae7</sp_column>
+        <sp_page/>
+        <sp_widget display_value="KB Categories - KBv3">ee307070d7201200a9addd173e24d4da</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>yaimara.narito</sys_created_by>
+        <sys_created_on>2023-02-16 19:35:57</sys_created_on>
+        <sys_id>e896f0b515c56d107f44775c1b035aeb</sys_id>
+        <sys_name>Categories</sys_name>
+        <sys_package display_value="PayNow" source="x_cdltd_paynow">6d4e264315b8a1107f44775c1b035a06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PayNow">6d4e264315b8a1107f44775c1b035a06</sys_scope>
+        <sys_update_name>sp_instance_table_e896f0b515c56d107f44775c1b035aeb</sys_update_name>
+        <table>kb_knowledge</table>
+        <title>Categories</title>
+        <u_reference_1/>
+        <u_table_name_2/>
+        <u_url_1/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=e896f0b515c56d107f44775c1b035aeb"/>
+</record_update>
